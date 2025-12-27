@@ -1,0 +1,41 @@
+{
+  "confidence_levels": [
+    {
+      "id": "C1",
+      "label": "Alta",
+      "numeric_range": [
+        0.85,
+        1.0
+      ],
+      "criteria": [
+        "Fuente primaria cercana",
+        "Corroboración múltiple",
+        "Consenso académico"
+      ]
+    },
+    {
+      "id": "C2",
+      "label": "Media",
+      "numeric_range": [
+        0.6,
+        0.84
+      ],
+      "criteria": [
+        "Fuente primaria tardía",
+        "Corroboración parcial"
+      ]
+    },
+    {
+      "id": "C3",
+      "label": "Baja",
+      "numeric_range": [
+        0.35,
+        0.59
+      ],
+      "criteria": [
+        "Fuente tardía",
+        "Reconstrucción histórica"
+      ]
+    }
+  ]
+}

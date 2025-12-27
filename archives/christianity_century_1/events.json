@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "id": "EVT_0030_CRUCIFIXION",
+      "year": 30,
+      "century_id": "CENT_01_CE",
+      "title": "Crucifixión de Jesús",
+      "confidence_id": "C2",
+      "sources": [
+        "SRC_TACITUS_ANN"
+      ]
+    },
+    {
+      "id": "EVT_0048_PAUL_MISSION",
+      "year": 48,
+      "century_id": "CENT_01_CE",
+      "title": "Inicio de misiones paulinas",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_PAUL_AUTH"
+      ]
+    },
+    {
+      "id": "EVT_0050_JERUSALEM_COUNCIL",
+      "year": 50,
+      "century_id": "CENT_01_CE",
+      "title": "Acuerdo de Jerusalén sobre gentiles",
+      "confidence_id": "C2",
+      "sources": [
+        "SRC_PAUL_AUTH"
+      ]
+    },
+    {
+      "id": "EVT_0062_PAUL_DEATH",
+      "year": 62,
+      "century_id": "CENT_01_CE",
+      "title": "Muerte de Pablo",
+      "confidence_id": "C3",
+      "sources": [
+        "SRC_EHRMAN_NT"
+      ]
+    },
+    {
+      "id": "EVT_0070_TEMPLE",
+      "year": 70,
+      "century_id": "CENT_01_CE",
+      "title": "Destrucción del Segundo Templo",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_JOSEPHUS_WAR"
+      ]
+    },
+    {
+      "id": "EVT_0085_GOSPEL_MARK",
+      "year": 85,
+      "century_id": "CENT_01_CE",
+      "title": "Redacción del Evangelio de Marcos",
+      "confidence_id": "C2",
+      "sources": [
+        "SRC_EHRMAN_NT"
+      ]
+    },
+    {
+      "id": "EVT_0095_JOHANNINE",
+      "year": 95,
+      "century_id": "CENT_01_CE",
+      "title": "Tradición joánica tardía",
+      "confidence_id": "C2",
+      "sources": [
+        "SRC_EHRMAN_NT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "centuries": [
+    {
+      "id": "CENT_01_CE",
+      "century_range": [
+        1,
+        100
+      ],
+      "summary": "Origen y primera expansión del movimiento cristiano dentro del judaísmo del Segundo Templo.",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_EHRMAN_NT"
+      ]
+    }
+  ]
+}

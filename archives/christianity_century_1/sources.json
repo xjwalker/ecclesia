@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "id": "SRC_PAUL_AUTH",
+      "type": "primary",
+      "author": "Paul of Tarsus",
+      "work": "Authentic Epistles",
+      "date_written": "48–62 CE",
+      "language": "Greek"
+    },
+    {
+      "id": "SRC_JOSEPHUS_WAR",
+      "type": "primary",
+      "author": "Flavius Josephus",
+      "work": "The Jewish War",
+      "date_written": "75 CE",
+      "language": "Greek"
+    },
+    {
+      "id": "SRC_TACITUS_ANN",
+      "type": "primary",
+      "author": "Tacitus",
+      "work": "Annales",
+      "date_written": "c. 116 CE",
+      "language": "Latin"
+    },
+    {
+      "id": "SRC_EHRMAN_NT",
+      "type": "secondary",
+      "author": "Bart D. Ehrman",
+      "work": "The New Testament: A Historical Introduction",
+      "date_written": "2016"
+    }
+  ]
+}
