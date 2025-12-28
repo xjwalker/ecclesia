@@ -24,5 +24,13 @@ class DataLoader:
             if not file_path.exists():
                 raise FileNotFoundError(f"File not found: {file_path}")
             with open(file_path, "r", encoding="utf-8") as file:
-                data[file_name] = [model(item) for item in json.load(file)]
+                json_data = json.load(file)
+                # Handle wrapped JSON structure (e.g., {"events": [...]})
+                if isinstance(json_data, dict) and file_name in json_data:
+                    items = json_data[file_name]
+                elif isinstance(json_data, dict) and len(json_data) == 1:
+                    items = list(json_data.values())[0]
+                else:
+                    items = json_data
+                data[file_name] = [model(item) for item in items]
         return data

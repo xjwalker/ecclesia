@@ -4,70 +4,600 @@
       "id": "EVT_0030_CRUCIFIXION",
       "year": 30,
       "century_id": "CENT_01_CE",
-      "title": "Crucifixión de Jesús",
+      "title": {
+        "es": "Crucifixión de Jesús",
+        "en": "Crucifixion of Jesus"
+      },
+      "description": {
+        "es": "Ejecución de Jesús de Nazaret mediante crucifixión romana bajo autoridad de Poncio Pilato durante la Pascua judía en Jerusalén.",
+        "en": "Execution of Jesus of Nazareth by Roman crucifixion under the authority of Pontius Pilate during the Jewish Passover in Jerusalem."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Christ_at_the_Cross_-_Cristo_en_la_Cruz.jpg/800px-Christ_at_the_Cross_-_Cristo_en_la_Cruz.jpg",
       "confidence_id": "C2",
+      "context": {
+        "es": "Jesús de Nazaret fue ejecutado por crucifixión bajo el gobierno de Poncio Pilato, prefecto romano de Judea. La crucifixión era un método de ejecución romano reservado principalmente para esclavos y revolucionarios. Según las fuentes, Jesús fue arrestado por las autoridades del templo judío, juzgado ante el Sanedrín, y luego llevado ante Pilato quien ordenó su ejecución. El evento ocurrió durante la festividad de Pascua en Jerusalén, período de alta tensión política y religiosa. La crucifixión marcó el punto culminante de su ministerio público de aproximadamente 3 años.",
+        "en": "Jesus of Nazareth was executed by crucifixion under the rule of Pontius Pilate, Roman prefect of Judea. Crucifixion was a Roman execution method reserved primarily for slaves and revolutionaries. According to sources, Jesus was arrested by Jewish temple authorities, tried before the Sanhedrin, and then brought before Pilate who ordered his execution. The event occurred during the Passover festival in Jerusalem, a period of high political and religious tension. The crucifixion marked the culmination of his approximately 3-year public ministry."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Múltiples fuentes independientes confirman la crucifixión (Tácito, Josefo, fuentes cristianas), 2) El método de ejecución es consistente con prácticas romanas documentadas, 3) La fecha exacta varía ligeramente entre fuentes (27-33 CE), 4) Detalles específicos del juicio difieren entre evangelios, 5) No hay fuentes contemporáneas directas, las primeras son décadas posteriores. La crucifixión en sí es casi universalmente aceptada por historiadores, pero los detalles específicos tienen menor certeza.",
+        "en": "Medium Confidence (C2) because: 1) Multiple independent sources confirm the crucifixion (Tacitus, Josephus, Christian sources), 2) The execution method is consistent with documented Roman practices, 3) The exact date varies slightly among sources (27-33 CE), 4) Specific trial details differ between gospels, 5) There are no direct contemporary sources, the earliest are decades later. The crucifixion itself is almost universally accepted by historians, but specific details have less certainty."
+      },
+      "significance": {
+        "es": "Evento fundacional del cristianismo. La muerte y subsecuente creencia en la resurrección de Jesús se convirtió en el centro teológico del movimiento cristiano, diferenciándolo del judaísmo tradicional. Transformó a un movimiento local galileo en una religión mundial.",
+        "en": "Foundational event of Christianity. Jesus's death and subsequent belief in the resurrection became the theological center of the Christian movement, differentiating it from traditional Judaism. It transformed a local Galilean movement into a world religion."
+      },
+      "people_involved": [
+        {
+          "role_en": "executed",
+          "role_es": "ejecutado",
+          "name_en": "Jesús de Nazaret",
+          "name_es": "Jesús de Nazaret"
+        },
+        {
+          "role_en": "Roman prefect, ordered execution",
+          "role_es": "prefecto romano, ordenó ejecución",
+          "name_en": "Poncio Pilato",
+          "name_es": "Poncio Pilato"
+        },
+        {
+          "role_en": "High priest, Jewish authority",
+          "role_es": "sumo sacerdote, autoridad judía",
+          "name_en": "Caifás",
+          "name_es": "Caifás"
+        },
+        {
+          "role_en": "Tetrarch of Galilee, mentioned in trial",
+          "role_es": "tetrarca de Galilea, mencionado en juicio",
+          "name_en": "Herodes Antipas",
+          "name_es": "Herodes Antipas"
+        }
+      ],
+      "region": "Judea",
+      "event_type": "execution",
       "sources": [
-        "SRC_TACITUS_ANN"
+        "SRC_TACITUS_ANN",
+        "SRC_JOSEPHUS_ANT",
+        "SRC_GOSPELS_SYN",
+        "SRC_EHRMAN_JESUS",
+        "SRC_SANDERS",
+        "SRC_BROWN_DEATH",
+        "SRC_MEIER"
       ]
     },
     {
       "id": "EVT_0048_PAUL_MISSION",
       "year": 48,
       "century_id": "CENT_01_CE",
-      "title": "Inicio de misiones paulinas",
+      "title": {
+        "es": "Inicio de misiones paulinas",
+        "en": "Beginning of Pauline Missions"
+      },
+      "description": {
+        "es": "Pablo de Tarso inicia viajes misioneros sistemáticos estableciendo comunidades cristianas en ciudades principales del Imperio Romano.",
+        "en": "Paul of Tarsus begins systematic missionary journeys establishing Christian communities across the Roman Empire in major cities."
+      },
       "confidence_id": "C1",
+      "context": {
+        "es": "Pablo de Tarso (anteriormente Saulo) inició sus viajes misioneros sistemáticos a través del Imperio Romano, llevando el mensaje cristiano a comunidades gentiles (no judías). Viajó por Asia Menor, Grecia y eventualmente Roma, estableciendo comunidades cristianas en ciudades importantes como Corinto, Éfeso, Filipos y Tesalónica. Sus métodos incluían predicar en sinagogas, espacios públicos, y casas privadas. Pablo era ciudadano romano y fariseo educado, lo que le daba ventajas únicas para navegar tanto el mundo judío como greco-romano. Sus cartas a estas comunidades se convirtieron en parte del Nuevo Testamento.",
+        "en": "Paul of Tarsus (formerly Saul) began his systematic missionary journeys throughout the Roman Empire, bringing the Christian message to Gentile (non-Jewish) communities. He traveled through Asia Minor, Greece, and eventually Rome, establishing Christian communities in major cities like Corinth, Ephesus, Philippi, and Thessalonica. His methods included preaching in synagogues, public spaces, and private homes. Paul was a Roman citizen and educated Pharisee, giving him unique advantages for navigating both the Jewish and Greco-Roman worlds. His letters to these communities became part of the New Testament."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Alta (C1) debido a: 1) Tenemos cartas auténticas escritas por el propio Pablo (Romanos, Corintios, Gálatas, etc.), fuentes primarias directas, 2) Las cartas contienen detalles autobiográficos consistentes y verificables, 3) Referencias cruzadas con Hechos de los Apóstoles, aunque escrito por otro autor, 4) Evidencia arqueológica de comunidades cristianas en las ciudades mencionadas, 5) Cronología coherente con eventos históricos conocidos del Imperio Romano. Es uno de los eventos mejor documentados del cristianismo temprano.",
+        "en": "High Confidence (C1) because: 1) We have authentic letters written by Paul himself (Romans, Corinthians, Galatians, etc.), direct primary sources, 2) The letters contain consistent and verifiable autobiographical details, 3) Cross-references with Acts of the Apostles, though written by another author, 4) Archaeological evidence of Christian communities in mentioned cities, 5) Chronology consistent with known historical events of the Roman Empire. It is one of the best documented events of early Christianity."
+      },
+      "significance": {
+        "es": "Las misiones de Pablo fueron cruciales para la transformación del cristianismo de secta judía a religión universal. Su teología sobre la salvación por fe (no por ley judía) permitió la inclusión de gentiles sin requerir circuncisión ni cumplimiento de leyes dietéticas, abriendo el cristianismo al mundo greco-romano.",
+        "en": "Paul's missions were crucial for transforming Christianity from a Jewish sect to a universal religion. His theology of salvation by faith (not by Jewish law) allowed the inclusion of Gentiles without requiring circumcision or compliance with dietary laws, opening Christianity to the Greco-Roman world."
+      },
+      "people_involved": [
+        {
+          "role_en": "Apostle and missionary",
+          "role_es": "apóstol y misionero",
+          "name_en": "Paul of Tarsus",
+          "name_es": "Pablo de Tarso"
+        },
+        {
+          "role_en": "Companion on first journey",
+          "role_es": "compañero en primer viaje",
+          "name_en": "Barnabas",
+          "name_es": "Bernabé"
+        },
+        {
+          "role_en": "Companion on second journey",
+          "role_es": "compañero en segundo viaje",
+          "name_en": "Silas",
+          "name_es": "Silas"
+        },
+        {
+          "role_en": "Protégé and fellow worker",
+          "role_es": "protegido y colaborador",
+          "name_en": "Timothy",
+          "name_es": "Timoteo"
+        },
+        {
+          "role_en": "Physician and companion",
+          "role_es": "médico y compañero",
+          "name_en": "Luke",
+          "name_es": "Lucas"
+        }
+      ],
+      "region": "Asia Minor, Greece",
+      "event_type": "missionary_work",
       "sources": [
-        "SRC_PAUL_AUTH"
+        "SRC_PAUL_AUTH",
+        "SRC_ACTS",
+        "SRC_SANDERS_JUDAISM",
+        "SRC_DUNN",
+        "SRC_EHRMAN_NT"
       ]
     },
     {
       "id": "EVT_0050_JERUSALEM_COUNCIL",
       "year": 50,
       "century_id": "CENT_01_CE",
-      "title": "Acuerdo de Jerusalén sobre gentiles",
+      "title": {
+        "es": "Acuerdo de Jerusalén sobre gentiles",
+        "en": "Jerusalem Council on Gentiles"
+      },
+      "description": {
+        "es": "Líderes cristianos se reúnen en Jerusalén para decidir si los convertidos gentiles deben seguir la ley judía; acuerdan que la circuncisión no es requerida.",
+        "en": "Christian leaders meet in Jerusalem to decide whether Gentile converts must follow Jewish law; agree circumcision not required."
+      },
       "confidence_id": "C2",
+      "context": {
+        "es": "Reunión crucial entre líderes cristianos en Jerusalén para resolver el conflicto sobre si los gentiles convertidos debían seguir la ley mosaica (especialmente la circuncisión). Pablo y Bernabé, representando las misiones gentiles, se reunieron con Pedro, Santiago (hermano de Jesús) y otros líderes de la iglesia de Jerusalén. El debate central era si el cristianismo sería una rama del judaísmo o una religión independiente. Se decidió que los gentiles no necesitaban circuncidarse ni seguir todas las leyes judías, solo abstinencia de idolatría, sangre, carne estrangulada y fornicación. Este compromiso permitió dos formas de cristianismo: judeo-cristiana y gentil-cristiana.",
+        "en": "Crucial meeting among Christian leaders in Jerusalem to resolve the conflict over whether converted Gentiles should follow Mosaic law (especially circumcision). Paul and Barnabas, representing Gentile missions, met with Peter, James (brother of Jesus), and other leaders of the Jerusalem church. The central debate was whether Christianity would be a branch of Judaism or an independent religion. It was decided that Gentiles did not need to be circumcised or follow all Jewish laws, only abstain from idolatry, blood, strangled meat, and fornication. This compromise allowed two forms of Christianity: Jewish-Christian and Gentile-Christian."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) porque: 1) Pablo describe el evento en Gálatas 2, una fuente primaria confiable, 2) Hechos 15 también lo describe, pero fue escrito décadas después y tiene discrepancias con la versión de Pablo, 3) La fecha exacta es aproximada (48-51 CE), 4) Los detalles específicos del acuerdo difieren entre fuentes, 5) No hay documentos del acuerdo mismo, solo descripciones retrospectivas. El evento en sí es altamente probable, pero los detalles específicos son menos ciertos.",
+        "en": "Medium Confidence (C2) because: 1) Paul describes the event in Galatians 2, a reliable primary source, 2) Acts 15 also describes it, but was written decades later and has discrepancies with Paul's version, 3) The exact date is approximate (48-51 CE), 4) Specific details of the agreement differ between sources, 5) There are no documents of the agreement itself, only retrospective descriptions. The event itself is highly probable, but specific details are less certain."
+      },
+      "significance": {
+        "es": "Momento decisivo en la historia cristiana. Al liberar a los gentiles de la ley judía, el Concilio permitió la expansión global del cristianismo. Sin esta decisión, el cristianismo probablemente habría permanecido como una secta judía minoritaria.",
+        "en": "Decisive moment in Christian history. By freeing Gentiles from Jewish law, the Council enabled the global expansion of Christianity. Without this decision, Christianity would likely have remained a minority Jewish sect."
+      },
+      "people_involved": [
+        {
+          "role_en": "Leader of Jerusalem church",
+          "role_es": "líder de iglesia de Jerusalén",
+          "name_en": "James (brother of Jesus)",
+          "name_es": "Santiago (hermano de Jesús)"
+        },
+        {
+          "role_en": "Apostle, advocate for Gentiles",
+          "role_es": "apóstol, defensor de gentiles",
+          "name_en": "Peter (Simon)",
+          "name_es": "Pedro (Simón)"
+        },
+        {
+          "role_en": "Apostle to Gentiles",
+          "role_es": "apóstol a los gentiles",
+          "name_en": "Paul of Tarsus",
+          "name_es": "Pablo de Tarso"
+        },
+        {
+          "role_en": "Paul's companion",
+          "role_es": "compañero de Pablo",
+          "name_en": "Barnabas",
+          "name_es": "Bernabé"
+        }
+      ],
+      "region": "Jerusalem",
+      "event_type": "council",
       "sources": [
-        "SRC_PAUL_AUTH"
+        "SRC_PAUL_AUTH",
+        "SRC_ACTS",
+        "SRC_SANDERS_JUDAISM",
+        "SRC_DUNN",
+        "SRC_EHRMAN_NT"
       ]
     },
     {
       "id": "EVT_0062_PAUL_DEATH",
       "year": 62,
       "century_id": "CENT_01_CE",
-      "title": "Muerte de Pablo",
+      "title": {
+        "es": "Muerte de Pablo",
+        "en": "Death of Paul"
+      },
+      "description": {
+        "es": "El apóstol Pablo ejecutado en Roma, probablemente por decapitación; marca el fin de la primera generación de liderazgo cristiano.",
+        "en": "Paul the Apostle executed in Rome, likely by beheading; marks end of the first generation of Christian leadership."
+      },
       "confidence_id": "C3",
+      "context": {
+        "es": "Pablo fue probablemente ejecutado en Roma durante el reinado de Nerón. Según la tradición, fue decapitado (privilegio de ciudadanos romanos) en lugar de crucificado. Pablo había sido arrestado en Jerusalén y, ejerciendo su derecho como ciudadano romano, apeló a César, siendo transportado a Roma para juicio. Las circunstancias exactas de su muerte son inciertas. La tradición sostiene que murió durante las persecuciones neronianas tras el Gran Incendio de Roma (64 CE), pero evidencia temprana sugiere una fecha anterior. Su muerte marcó el fin de la primera generación de liderazgo cristiano.",
+        "en": "Paul was probably executed in Rome during Nero's reign. According to tradition, he was beheaded (a privilege of Roman citizens) rather than crucified. Paul had been arrested in Jerusalem and, exercising his right as a Roman citizen, appealed to Caesar, being transported to Rome for trial. The exact circumstances of his death are uncertain. Tradition holds he died during the Neronian persecutions after the Great Fire of Rome (64 CE), but early evidence suggests an earlier date. His death marked the end of the first generation of Christian leadership."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Baja (C3) debido a: 1) No tenemos fuentes contemporáneas de su muerte, 2) Las cartas auténticas de Pablo terminan abruptamente sin mencionar su muerte, 3) Hechos termina con Pablo bajo arresto domiciliario, no con su ejecución, 4) La fecha varía entre fuentes (62-67 CE), 5) Las tradiciones sobre el lugar y método de ejecución son del siglo II, no contemporáneas, 6) Clemente Romano (95 CE) alude a su muerte pero sin detalles. Es altamente probable que murió ejecutado en Roma, pero los detalles específicos son tradicionales más que históricos.",
+        "en": "Low Confidence (C3) because: 1) We have no contemporary sources of his death, 2) Paul's authentic letters end abruptly without mentioning his death, 3) Acts ends with Paul under house arrest, not with his execution, 4) The date varies among sources (62-67 CE), 5) Traditions about the place and method of execution are from the 2nd century, not contemporary, 6) Clement of Rome (95 CE) alludes to his death but without details. It is highly probable he died executed in Rome, but specific details are traditional rather than historical."
+      },
+      "significance": {
+        "es": "La muerte de Pablo cerró la era apostólica directa. Sus cartas y legado teológico continuaron moldeando el cristianismo durante siglos, convirtiéndose en aproximadamente la mitad del Nuevo Testamento.",
+        "en": "Paul's death closed the direct apostolic era. His letters and theological legacy continued shaping Christianity for centuries, becoming approximately half of the New Testament."
+      },
+      "people_involved": [
+        {
+          "role_en": "Apostle, executed",
+          "role_es": "apóstol, ejecutado",
+          "name_en": "Paul of Tarsus",
+          "name_es": "Pablo de Tarso"
+        },
+        {
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano",
+          "name_en": "Nero",
+          "name_es": "Nerón"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "martyrdom",
       "sources": [
-        "SRC_EHRMAN_NT"
+        "SRC_EHRMAN_NT",
+        "SRC_DUNN",
+        "SRC_ACTS"
       ]
     },
     {
       "id": "EVT_0070_TEMPLE",
       "year": 70,
       "century_id": "CENT_01_CE",
-      "title": "Destrucción del Segundo Templo",
+      "title": {
+        "es": "Destrucción del Segundo Templo",
+        "en": "Destruction of the Second Temple"
+      },
+      "description": {
+        "es": "Fuerzas romanas bajo Tito destruyen el Segundo Templo en Jerusalén durante la Revuelta Judía, terminando el sistema de sacrificios.",
+        "en": "Roman forces under Titus destroy the Second Temple in Jerusalem during the Jewish Revolt, ending the sacrificial system."
+      },
       "confidence_id": "C1",
+      "context": {
+        "es": "Durante la Gran Revuelta Judía contra Roma (66-73 CE), las fuerzas romanas bajo el mando del general Tito (hijo del emperador Vespasiano) sitiaron Jerusalén. Después de meses de asedio y hambruna, las legiones romanas penetraron las murallas. El Segundo Templo, centro de la vida religiosa judía, fue incendiado y destruido en agosto del año 70. Solo quedó el Muro Occidental (Muro de los Lamentos). Cientos de miles murieron, y la ciudad fue arrasada. Este evento cataclísmico terminó con el sistema de sacrificios del templo y transformó permanentemente el judaísmo. Para los cristianos, la destrucción fue vista como cumplimiento de profecías de Jesús sobre el templo.",
+        "en": "During the Great Jewish Revolt against Rome (66-73 CE), Roman forces under General Titus (son of Emperor Vespasian) besieged Jerusalem. After months of siege and famine, Roman legions breached the walls. The Second Temple, center of Jewish religious life, was burned and destroyed in August of year 70. Only the Western Wall (Wailing Wall) remained. Hundreds of thousands died, and the city was razed. This cataclysmic event ended the temple sacrifice system and permanently transformed Judaism. For Christians, the destruction was seen as fulfillment of Jesus's prophecies about the temple."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Alta (C1) debido a: 1) Descripción detallada y contemporánea de Josefo, testigo ocular que estuvo presente, 2) Registros romanos que documentan la campaña de Tito, 3) Evidencia arqueológica extensa de la destrucción en Jerusalén, 4) Referencias en literatura judía y cristiana temprana, 5) El evento es uno de los más documentados de la antigüedad. La fecha, circunstancias y consecuencias son extremadamente bien atestiguadas.",
+        "en": "High Confidence (C1) because: 1) Detailed contemporary description by Josephus, an eyewitness who was present, 2) Roman records documenting Titus's campaign, 3) Extensive archaeological evidence of destruction in Jerusalem, 4) References in early Jewish and Christian literature, 5) The event is one of the most documented in antiquity. The date, circumstances, and consequences are extremely well attested."
+      },
+      "significance": {
+        "es": "Momento transformador para judaísmo y cristianismo. Para el judaísmo, forzó la transición del judaísmo del templo al judaísmo rabínico. Para el cristianismo, separó definitivamente a las comunidades cristianas del judaísmo centrado en el templo y validó las profecías de Jesús sobre el templo, fortaleciendo la identidad cristiana como movimiento independiente.",
+        "en": "Transformative moment for Judaism and Christianity. For Judaism, it forced the transition from Temple Judaism to Rabbinic Judaism. For Christianity, it definitively separated Christian communities from Temple-centered Judaism and validated Jesus's prophecies about the temple, strengthening Christian identity as an independent movement."
+      },
+      "people_involved": [
+        {
+          "role_en": "Roman general, led siege",
+          "role_es": "general romano, lideró asedio",
+          "name_en": "Titus",
+          "name_es": "Tito"
+        },
+        {
+          "role_en": "Roman Emperor, father of Titus",
+          "role_es": "emperador romano, padre de Tito",
+          "name_en": "Vespasian",
+          "name_es": "Vespasiano"
+        },
+        {
+          "role_en": "Jewish historian, eyewitness",
+          "role_es": "historiador judío, testigo ocular",
+          "name_en": "Josephus",
+          "name_es": "Josefo"
+        }
+      ],
+      "region": "Jerusalem",
+      "event_type": "destruction",
       "sources": [
-        "SRC_JOSEPHUS_WAR"
+        "SRC_JOSEPHUS_WAR",
+        "SRC_TACITUS_ANN",
+        "SRC_GOSPELS_SYN",
+        "SRC_EHRMAN_NT",
+        "SRC_SANDERS"
       ]
     },
     {
-      "id": "EVT_0085_GOSPEL_MARK",
+      "id": "EVT_0064_NERO_PERSECUTION",
+      "year": 64,
+      "century_id": "CENT_01_CE",
+      "title": {
+        "es": "Persecución neroniana de cristianos",
+        "en": "Neronian Persecution of Christians"
+      },
+      "description": {
+        "es": "Primera persecución imperial de cristianos tras el Gran Incendio de Roma; Nerón culpa y ejecuta cristianos en espectáculos brutales.",
+        "en": "First imperial persecution of Christians after Great Fire of Rome; Nero blames and executes Christians in brutal spectacles."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Tras el Gran Incendio de Roma en julio del 64 CE, que destruyó gran parte de la ciudad, el emperador Nerón fue acusado por rumores de haber iniciado el fuego. Para desviar las sospechas, Nerón culpó a los cristianos, una pequeña secta vista con sospecha por los romanos. Según Tácito, los cristianos fueron arrestados en masa, torturados y ejecutados de formas crueles: crucificados, cubiertos con pieles de animales y atacados por perros, o quemados vivos como antorchas humanas en los jardines de Nerón. Esta fue la primera persecución imperial documentada contra cristianos. La tradición sostiene que tanto Pedro como Pablo murieron durante esta persecución, aunque las fechas exactas son inciertas.",
+        "en": "After the Great Fire of Rome in July 64 CE, which destroyed much of the city, Emperor Nero was accused by rumors of having started the fire. To deflect suspicion, Nero blamed Christians, a small sect viewed with suspicion by Romans. According to Tacitus, Christians were arrested en masse, tortured and executed in cruel ways: crucified, covered with animal skins and attacked by dogs, or burned alive as human torches in Nero's gardens. This was the first documented imperial persecution against Christians. Tradition holds that both Peter and Paul died during this persecution, though exact dates are uncertain."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Tácito proporciona un relato contemporáneo detallado escrito c. 116 CE sobre eventos que ocurrieron 52 años antes, 2) Suetonius también menciona acciones de Nerón contra cristianos, 3) No hay fuentes cristianas contemporáneas que describan la persecución en detalle, 4) La extensión y duración de la persecución es debatida, 5) Las muertes específicas de Pedro y Pablo durante esta persecución son tradición posterior (siglo II), no documentadas contemporáneamente. La persecución en sí es bien atestiguada, pero detalles específicos tienen menos certeza.",
+        "en": "Medium Confidence (C2) because: 1) Tacitus provides a detailed contemporary account written c. 116 CE about events that occurred 52 years earlier, 2) Suetonius also mentions Nero's actions against Christians, 3) There are no contemporary Christian sources describing the persecution in detail, 4) The extent and duration of the persecution is debated, 5) The specific deaths of Peter and Paul during this persecution are later tradition (2nd century), not contemporaneously documented. The persecution itself is well attested, but specific details have less certainty."
+      },
+      "significance": {
+        "es": "Primera persecución imperial sistemática de cristianos. Estableció un precedente legal para la persecución cristiana que continuaría intermitentemente durante tres siglos. Marcó a los cristianos como grupo distinto y potencialmente subversivo en el Imperio Romano. La tradición de los martirios fortaleció la identidad cristiana y la narrativa de persecución heroica.",
+        "en": "First systematic imperial persecution of Christians. It established a legal precedent for Christian persecution that would continue intermittently for three centuries. It marked Christians as a distinct and potentially subversive group in the Roman Empire. The tradition of martyrdoms strengthened Christian identity and the narrative of heroic persecution."
+      },
+      "people_involved": [
+        {
+          "role_en": "Roman Emperor, ordered persecution",
+          "role_es": "emperador romano, ordenó persecución",
+          "name_en": "Nero",
+          "name_es": "Nerón"
+        },
+        {
+          "role_en": "Apostle, traditionally martyred",
+          "role_es": "apóstol, tradicionalmente martirizado",
+          "name_en": "Peter",
+          "name_es": "Pedro"
+        },
+        {
+          "role_en": "Apostle, traditionally martyred",
+          "role_es": "apóstol, tradicionalmente martirizado",
+          "name_en": "Paul",
+          "name_es": "Paul"
+        },
+        {
+          "role_en": "Historian who recorded events",
+          "role_es": "historiador que registró eventos",
+          "name_en": "Tacitus",
+          "name_es": "Tácito"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "persecution",
+      "sources": [
+        "SRC_TACITUS_ANN",
+        "SRC_SUETONIUS",
+        "SRC_EHRMAN_NT",
+        "SRC_CROSSAN"
+      ]
+    },
+    {
+      "id": "EVT_0049_CLAUDIUS_EXPULSION",
+      "year": 49,
+      "century_id": "CENT_01_CE",
+      "title": {
+        "es": "Expulsión de judíos de Roma por Claudio",
+        "en": "Expulsion of Jews from Rome by Claudius"
+      },
+      "description": {
+        "es": "El emperador Claudio expulsa judíos de Roma debido a disputas sobre 'Chrestus' (probablemente Cristo), afectando tanto a judíos como a judeo-cristianos.",
+        "en": "Emperor Claudius expels Jews from Rome due to disputes about 'Chrestus' (likely Christ), affecting both Jews and Jewish Christians."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "El emperador Claudio expulsó a judíos de Roma debido a disturbios relacionados con 'Chrestus' (probablemente Cristo), según Suetonius. Este evento refleja tensiones entre judíos que aceptaban a Jesús como mesías y los que no. Las disputas sobre Jesús dentro de las sinagogas romanas causaron suficiente perturbación para provocar intervención imperial. El edicto afectó tanto a judíos como a judeo-cristianos, ya que Roma aún no distinguía entre ambos grupos. Hechos 18:2 menciona que Aquila y Priscila, colaboradores de Pablo, llegaron a Corinto desde Roma debido a este edicto. La expulsión fue temporal; muchos judíos regresaron tras la muerte de Claudio (54 CE).",
+        "en": "Emperor Claudius expelled Jews from Rome due to disturbances related to 'Chrestus' (probably Christ), according to Suetonius. This event reflects tensions between Jews who accepted Jesus as messiah and those who did not. Disputes about Jesus within Roman synagogues caused sufficient disturbance to provoke imperial intervention. The edict affected both Jews and Jewish Christians, as Rome did not yet distinguish between the two groups. Acts 18:2 mentions that Aquila and Priscilla, collaborators of Paul, came to Corinth from Rome due to this edict. The expulsion was temporary; many Jews returned after Claudius's death (54 CE)."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Suetonius menciona explícitamente el edicto en su Vida de Claudio (25.4), escrito c. 121 CE, 2) Hechos de los Apóstoles (18:2) corrobora la expulsión, aunque escrito décadas después, 3) El historiador Cassius Dio menciona restricciones de Claudio sobre judíos pero no expulsión total, sugiriendo fuentes contradictorias, 4) La identificación de 'Chrestus' con Cristo es probable pero no explícita en Suetonius, 5) La fecha exacta varía (49-52 CE). El evento es bien atestiguado pero detalles sobre su extensión y causa precisa son debatidos.",
+        "en": "Medium Confidence (C2) because: 1) Suetonius explicitly mentions the edict in his Life of Claudius (25.4), written c. 121 CE, 2) Acts of the Apostles (18:2) corroborates the expulsion, though written decades later, 3) Historian Cassius Dio mentions Claudius's restrictions on Jews but not total expulsion, suggesting contradictory sources, 4) The identification of 'Chrestus' with Christ is probable but not explicit in Suetonius, 5) The exact date varies (49-52 CE). The event is well attested but details about its extent and precise cause are debated."
+      },
+      "significance": {
+        "es": "Evidencia temprana de conflictos entre judíos y cristianos en Roma. Muestra que el cristianismo había llegado a Roma antes de la visita de Pablo. Demuestra que las autoridades romanas inicialmente veían el cristianismo como disputa interna judía, no como religión separada. El evento afectó el desarrollo del cristianismo paulino al traer a Aquila y Priscila a Corinto donde conocieron a Pablo.",
+        "en": "Early evidence of conflicts between Jews and Christians in Rome. Shows that Christianity had reached Rome before Paul's visit. Demonstrates that Roman authorities initially viewed Christianity as an internal Jewish dispute, not as a separate religion. The event affected the development of Pauline Christianity by bringing Aquila and Priscilla to Corinth where they met Paul."
+      },
+      "people_involved": [
+        {
+          "role_en": "Roman Emperor, issued edict",
+          "role_es": "emperador romano, emitió edicto",
+          "name_en": "Claudius",
+          "name_es": "Claudio"
+        },
+        {
+          "role_en": "Jewish Christian expelled from Rome",
+          "role_es": "cristiano judío expulsado de Roma",
+          "name_en": "Aquila",
+          "name_es": "Áquila"
+        },
+        {
+          "role_en": "Jewish Christian expelled from Rome",
+          "role_es": "cristiano judío expulsado de Roma",
+          "name_en": "Priscilla (Prisca)",
+          "name_es": "Priscila (Prisca)"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "persecution",
+      "sources": [
+        "SRC_SUETONIUS",
+        "SRC_ACTS",
+        "SRC_EHRMAN_NT",
+        "SRC_DUNN"
+      ]
+    },
+    {
+      "id": "EVT_0070_GOSPEL_MARK",
+      "year": 70,
+      "century_id": "CENT_01_CE",
+      "title": {
+        "es": "Redacción del Evangelio de Marcos",
+        "en": "Composition of the Gospel of Mark"
+      },
+      "description": {
+        "es": "Primer evangelio escrito compuesto, creando el género literario de 'evangelio' y organizando tradiciones orales sobre Jesús en narrativa coherente.",
+        "en": "First written gospel composed, creating the literary genre of 'gospel' and organizing oral traditions about Jesus into coherent narrative."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "El Evangelio de Marcos es considerado el primer evangelio escrito, creando el género literario de 'evangelio'. Escrito en griego, probablemente en Roma o Siria, después de la destrucción del templo. Marcos representa el cambio de tradición oral a texto escrito. El autor (anónimo, atribuido tradicionalmente a Juan Marcos, compañero de Pedro) organizó historias sobre Jesús en una narrativa coherente: ministerio galileo, viaje a Jerusalén, pasión y resurrección. Enfatiza el sufrimiento y el secreto mesiánico. Mateo y Lucas posteriormente usaron Marcos como fuente principal.",
+        "en": "The Gospel of Mark is considered the first written gospel, creating the literary genre of 'gospel'. Written in Greek, probably in Rome or Syria, after the destruction of the temple. Mark represents the shift from oral tradition to written text. The author (anonymous, traditionally attributed to John Mark, companion of Peter) organized stories about Jesus into a coherent narrative: Galilean ministry, journey to Jerusalem, passion and resurrection. It emphasizes suffering and the messianic secret. Matthew and Luke later used Mark as their primary source."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) No tenemos el manuscrito original, las copias más antiguas son del siglo II-III, 2) El texto es anónimo, la atribución a Marcos viene de tradición posterior (Papias, ~130 CE), 3) La datación se basa en pistas internas (referencia a destrucción del templo) y consenso académico, rango entre 65-75 CE, 4) El lugar de composición es debatido (Roma, Siria, Galilea), 5) Análisis literario muestra que es el evangelio más antiguo, usado por Mateo y Lucas.",
+        "en": "Medium Confidence (C2) because: 1) We don't have the original manuscript, the oldest copies are from 2nd-3rd century, 2) The text is anonymous, the attribution to Mark comes from later tradition (Papias, ~130 CE), 3) Dating is based on internal clues (reference to temple destruction) and academic consensus, range between 65-75 CE, 4) The place of composition is debated (Rome, Syria, Galilee), 5) Literary analysis shows it is the oldest gospel, used by Matthew and Luke."
+      },
+      "significance": {
+        "es": "Creación del género evangelio, influyendo en toda la literatura cristiana posterior. Preservó tradiciones sobre Jesús en forma escrita permanente. Se convirtió en fuente principal para los otros evangelios sinópticos. Representa la transición del cristianismo oral al cristianismo textual.",
+        "en": "Creation of the gospel genre, influencing all subsequent Christian literature. It preserved traditions about Jesus in permanent written form. It became the primary source for the other synoptic gospels. It represents the transition from oral to textual Christianity."
+      },
+      "people_involved": [
+        {
+          "role_en": "Traditionally attributed author",
+          "role_es": "autor tradicionalmente atribuido",
+          "name_en": "Mark (John Mark)",
+          "name_es": "Marcos (Juan Marcos)"
+        },
+        {
+          "role_en": "Tradition says Mark's source",
+          "role_es": "tradición dice fuente de Marcos",
+          "name_en": "Peter",
+          "name_es": "Pedro"
+        }
+      ],
+      "region": "Rome or Syria",
+      "event_type": "writing",
+      "sources": [
+        "SRC_GOSPELS_SYN",
+        "SRC_EHRMAN_NT",
+        "SRC_BAUCKHAM",
+        "SRC_HENGEL"
+      ]
+    },
+    {
+      "id": "EVT_0085_GOSPEL_MATTHEW",
       "year": 85,
       "century_id": "CENT_01_CE",
-      "title": "Redacción del Evangelio de Marcos",
+      "title": {
+        "es": "Redacción del Evangelio de Mateo",
+        "en": "Composition of the Gospel of Matthew"
+      },
+      "description": {
+        "es": "Evangelio de Mateo escrito, expandiendo Marcos con material de enseñanzas y enfoque judío, presentando a Jesús como cumplimiento de profecía.",
+        "en": "Gospel of Matthew written, expanding Mark with teachings material and Jewish focus, presenting Jesus as fulfillment of prophecy."
+      },
       "confidence_id": "C2",
+      "context": {
+        "es": "El Evangelio de Mateo expande el Evangelio de Marcos añadiendo extensas enseñanzas de Jesús (Sermón del Monte, parábolas) y genealogía que conecta a Jesús con Abraham y David. Escrito probablemente en Antioquía de Siria para comunidad judeo-cristiana. Enfatiza que Jesús cumple profecías del Antiguo Testamento, citándolas frecuentemente con fórmulas de cumplimiento ('para que se cumpliese'). Incluye material único como la visita de los magos, la huida a Egipto, y la Gran Comisión. Mateo presenta a Jesús como nuevo Moisés que trae nueva ley.",
+        "en": "The Gospel of Matthew expands the Gospel of Mark by adding extensive teachings of Jesus (Sermon on the Mount, parables) and a genealogy connecting Jesus to Abraham and David. Probably written in Antioch, Syria for a Jewish-Christian community. It emphasizes that Jesus fulfills Old Testament prophecies, frequently citing them with fulfillment formulas ('that it might be fulfilled'). It includes unique material such as the visit of the magi, the flight to Egypt, and the Great Commission. Matthew presents Jesus as a new Moses bringing a new law."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Manuscritos más antiguos del siglo II, 2) Texto anónimo, atribución a Mateo el apóstol es tradición posterior (Papías), 3) Claramente usa Marcos como fuente (~90% de Marcos está en Mateo), 4) Datación 80-90 CE basada en desarrollo teológico y referencias históricas, 5) Lugar de composición probable Antioquía basado en análisis interno. La existencia y datación aproximada son sólidas, detalles de autoría son tradicionales.",
+        "en": "Medium Confidence (C2) because: 1) Oldest manuscripts from 2nd century, 2) Anonymous text, attribution to Matthew the apostle is later tradition (Papias), 3) Clearly uses Mark as source (~90% of Mark is in Matthew), 4) Dating 80-90 CE based on theological development and historical references, 5) Probable place of composition Antioch based on internal analysis. The existence and approximate dating are solid, authorship details are traditional."
+      },
+      "significance": {
+        "es": "Evangelio más usado en iglesia primitiva. Estructura en cinco discursos influyó en catequesis cristiana. Su énfasis en cumplimiento profético ayudó a legitimar el cristianismo ante audiencia judía. La Gran Comisión ('haced discípulos de todas las naciones') se convirtió en fundamento de misión cristiana global.",
+        "en": "Most used gospel in the early church. Its structure in five discourses influenced Christian catechesis. Its emphasis on prophetic fulfillment helped legitimize Christianity before a Jewish audience. The Great Commission ('make disciples of all nations') became the foundation of global Christian mission."
+      },
+      "people_involved": [
+        {
+          "role_en": "Traditionally attributed author",
+          "role_es": "autor tradicionalmente atribuido",
+          "name_en": "Matthew (trad.)",
+          "name_es": "Mateo (trad.)"
+        },
+        {
+          "role_en": "Subject of the gospel",
+          "role_es": "sujeto del evangelio",
+          "name_en": "Jesus",
+          "name_es": "Jesús"
+        }
+      ],
+      "region": "Antioch, Syria",
+      "event_type": "writing",
       "sources": [
-        "SRC_EHRMAN_NT"
+        "SRC_GOSPELS_SYN",
+        "SRC_EHRMAN_NT",
+        "SRC_DUNN",
+        "SRC_ALLISON"
       ]
     },
     {
-      "id": "EVT_0095_JOHANNINE",
+      "id": "EVT_0085_GOSPEL_LUKE",
+      "year": 85,
+      "century_id": "CENT_01_CE",
+      "title": {
+        "es": "Redacción del Evangelio de Lucas",
+        "en": "Composition of the Gospel of Luke"
+      },
+      "description": {
+        "es": "Evangelio de Lucas escrito con Hechos como obra de dos volúmenes, presentando la historia de Jesús para audiencia gentil con énfasis en salvación universal.",
+        "en": "Gospel of Luke written with Acts as two-volume work, presenting Jesus's story for Gentile audience with emphasis on universal salvation."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "El Evangelio de Lucas es parte de obra de dos volúmenes (Lucas-Hechos), escrita para audiencia gentil educada. Lucas expande Marcos añadiendo material único: parábolas del buen samaritano y del hijo pródigo, relato detallado de la infancia de Jesús, mayor énfasis en mujeres y marginados. Escrito en griego elegante, muestra interés en historia ordenada ('investigué con diligencia'). Enfatiza misericordia de Dios, oración, Espíritu Santo, y universalidad de la salvación. El autor muestra conocimiento de geografía mediterránea y costumbres romanas.",
+        "en": "The Gospel of Luke is part of a two-volume work (Luke-Acts), written for an educated Gentile audience. Luke expands Mark by adding unique material: parables of the good Samaritan and the prodigal son, detailed account of Jesus's infancy, greater emphasis on women and the marginalized. Written in elegant Greek, it shows interest in orderly history ('I investigated carefully'). It emphasizes God's mercy, prayer, the Holy Spirit, and the universality of salvation. The author shows knowledge of Mediterranean geography and Roman customs."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Manuscritos del siglo II-III, 2) Texto anónimo, atribución a Lucas el médico y compañero de Pablo es tradición del siglo II, 3) Claramente usa Marcos y fuente Q, 4) Datación 80-90 CE basada en teología desarrollada y posible uso de Josefo, 5) Unidad literaria con Hechos es consenso académico. Algunos fechan más tarde (90-100 CE). La existencia del texto y datación general son sólidas.",
+        "en": "Medium Confidence (C2) because: 1) Manuscripts from 2nd-3rd century, 2) Anonymous text, attribution to Luke the physician and companion of Paul is 2nd century tradition, 3) Clearly uses Mark and Q source, 4) Dating 80-90 CE based on developed theology and possible use of Josephus, 5) Literary unity with Acts is academic consensus. Some date later (90-100 CE). The existence of the text and general dating are solid."
+      },
+      "significance": {
+        "es": "Presenta el cristianismo como movimiento universal, no sectario judío. Su retrato de Jesús como salvador de pobres y marginados influyó en ética social cristiana. Como obra historiográfica helenística, hizo el cristianismo más accesible al mundo greco-romano. La conexión con Hechos proporciona narrativa continua única en el Nuevo Testamento.",
+        "en": "It presents Christianity as a universal movement, not a Jewish sect. Its portrait of Jesus as savior of the poor and marginalized influenced Christian social ethics. As a Hellenistic historiographic work, it made Christianity more accessible to the Greco-Roman world. The connection with Acts provides a continuous narrative unique in the New Testament."
+      },
+      "people_involved": [
+        {
+          "role_en": "Traditionally attributed author",
+          "role_es": "autor tradicionalmente atribuido",
+          "name_en": "Luke (trad.)",
+          "name_es": "Lucas (trad.)"
+        },
+        {
+          "role_en": "Dedicatee of work",
+          "role_es": "dedicatario de la obra",
+          "name_en": "Theophilus",
+          "name_es": "Teófilo"
+        }
+      ],
+      "region": "Greece or Asia Minor",
+      "event_type": "writing",
+      "sources": [
+        "SRC_GOSPELS_SYN",
+        "SRC_ACTS",
+        "SRC_EHRMAN_NT",
+        "SRC_DUNN"
+      ]
+    },
+    {
+      "id": "EVT_0095_GOSPEL_JOHN",
       "year": 95,
       "century_id": "CENT_01_CE",
-      "title": "Tradición joánica tardía",
+      "title": {
+        "es": "Redacción del Evangelio de Juan",
+        "en": "Composition of the Gospel of John"
+      },
+      "description": {
+        "es": "Evangelio de Juan compuesto con alta cristología y perspectiva teológica única, enfatizando a Jesús como Logos divino.",
+        "en": "Gospel of John composed with high Christology and unique theological perspective, emphasizing Jesus as divine Logos."
+      },
       "confidence_id": "C2",
+      "context": {
+        "es": "El Evangelio de Juan difiere radicalmente de los sinópticos. Comienza con prólogo filosófico sobre el Logos eterno ('En el principio era el Verbo'). Jesús habla en largos discursos teológicos, no en parábolas breves. Contiene material único: bodas de Caná, conversación con Nicodemo, mujer samaritana, Lázaro, diálogo extenso con Pilato. Énfasis en 'señales' (milagros) que revelan identidad divina de Jesús. Cristología alta explícita: 'Yo soy' declaraciones, igualdad con Dios. Escrito probablemente en Éfeso por 'comunidad joánica' con tradiciones independientes.",
+        "en": "The Gospel of John differs radically from the synoptics. It begins with a philosophical prologue about the eternal Logos ('In the beginning was the Word'). Jesus speaks in long theological discourses, not in brief parables. It contains unique material: wedding at Cana, conversation with Nicodemus, Samaritan woman, Lazarus, extensive dialogue with Pilate. Emphasis on 'signs' (miracles) that reveal Jesus's divine identity. Explicit high Christology: 'I am' declarations, equality with God. Probably written in Ephesus by 'Johannine community' with independent traditions."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Manuscritos del siglo II (p52, ~125 CE, fragmento más antiguo del NT), 2) Claramente diferente de sinópticos, independiente literariamente, 3) Datación 90-110 CE basada en teología desarrollada y expulsión de sinagogas mencionada, 4) Autoría debatida: Juan el apóstol vs Juan el anciano vs escuela joánica, 5) Lugar probable Éfeso por tradición temprana (Ireneo). La existencia y datación tardía del siglo I son sólidas.",
+        "en": "Medium Confidence (C2) because: 1) Manuscripts from 2nd century (p52, ~125 CE, oldest NT fragment), 2) Clearly different from synoptics, literarily independent, 3) Dating 90-110 CE based on developed theology and mentioned expulsion from synagogues, 4) Debated authorship: John the apostle vs John the elder vs Johannine school, 5) Probable place Ephesus from early tradition (Irenaeus). The existence and late 1st century dating are solid."
+      },
+      "significance": {
+        "es": "Influyó profundamente en desarrollo de doctrina trinitaria y cristología alta. Su énfasis en divinidad plena de Jesús ('el Verbo era Dios') se volvió central en ortodoxia cristiana. Material único sobre Espíritu Santo (Paracleto) moldeó pneumatología. Su estilo meditativo influyó en misticismo cristiano. Tensión con judaísmo reflejada en el texto marcó separación definitiva cristianismo-judaísmo.",
+        "en": "It deeply influenced the development of Trinitarian doctrine and high Christology. Its emphasis on Jesus's full divinity ('the Word was God') became central to Christian orthodoxy. Unique material about the Holy Spirit (Paraclete) shaped pneumatology. Its meditative style influenced Christian mysticism. Tension with Judaism reflected in the text marked the definitive Christianity-Judaism separation."
+      },
+      "people_involved": [
+        {
+          "role_en": "Possible author",
+          "role_es": "posible autor",
+          "name_en": "John (the Elder)",
+          "name_es": "Juan (el Anciano)"
+        },
+        {
+          "role_en": "Christian group, likely authors",
+          "role_es": "grupo cristiano, probables autores",
+          "name_en": "Johannine community",
+          "name_es": "comunidad joánica"
+        }
+      ],
+      "region": "Ephesus",
+      "event_type": "writing",
       "sources": [
-        "SRC_EHRMAN_NT"
+        "SRC_GOSPEL_JOHN",
+        "SRC_EHRMAN_NT",
+        "SRC_BAUCKHAM",
+        "SRC_HURTADO"
       ]
     }
   ]

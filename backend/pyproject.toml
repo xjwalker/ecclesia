@@ -1,7 +1,47 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "backend"
+name = "ecclesia-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ecclesia Timeline Backend - Historical Christianity timeline API"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "sqlalchemy>=2.0.0"
+]
+
+[project.optional-dependencies]
+flask = [
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0"
+]
+fastapi = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0"
+]
+postgres = [
+    "psycopg2-binary>=2.9.0"
+]
+mysql = [
+    "pymysql>=1.1.0"
+]
+dev = [
+    "alembic>=1.13.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0"
+]
+
+[tool.setuptools]
+packages = ["api", "models", "database", "services"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = ["-v", "--tb=short"]

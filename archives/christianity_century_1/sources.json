@@ -2,34 +2,439 @@
   "sources": [
     {
       "id": "SRC_PAUL_AUTH",
-      "type": "primary",
-      "author": "Paul of Tarsus",
-      "work": "Authentic Epistles",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Paul of Tarsus",
+        "es": "Pablo de Tarso"
+      },
+      "work": "Authentic Epistles (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon)",
       "date_written": "48–62 CE",
-      "language": "Greek"
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Direct primary sources written by Paul himself. Universally accepted as authentic by scholars."
     },
     {
       "id": "SRC_JOSEPHUS_WAR",
-      "type": "primary",
-      "author": "Flavius Josephus",
-      "work": "The Jewish War",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Flavius Josephus",
+        "es": "Flavio Josefo"
+      },
+      "work": "The Jewish War (Bellum Judaicum)",
       "date_written": "75 CE",
-      "language": "Greek"
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Eyewitness account of the Jewish-Roman War and destruction of Jerusalem. Josephus was present during the siege.",
+      "citation_info": "Book 6, Chapters 4-5: Detailed description of the siege and destruction of the Temple. Book 6, Chapter 5, Section 1: 'the sanctuary was burned' in the month of August"
+    },
+    {
+      "id": "SRC_JOSEPHUS_ANT",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Flavius Josephus",
+        "es": "Flavio Josefo"
+      },
+      "work": "Antiquities of the Jews",
+      "date_written": "93–94 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Contains the Testimonium Flavianum, earliest non-Christian reference to Jesus. Scholarly debate on interpolations.",
+      "citation_info": "Book 18, Chapter 3, Section 3 (18.3.3): The Testimonium Flavianum passage about Jesus. Also Book 20, Chapter 9, Section 1 (20.9.1): mentions 'James, the brother of Jesus who was called Christ'"
     },
     {
       "id": "SRC_TACITUS_ANN",
-      "type": "primary",
-      "author": "Tacitus",
-      "work": "Annales",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Tacitus",
+        "es": "Tácito"
+      },
+      "work": "Annales (Annals)",
       "date_written": "c. 116 CE",
-      "language": "Latin"
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Roman historian's account of Nero's persecution. Independent confirmation of Jesus's execution under Pontius Pilate.",
+      "citation_info": "Book 15, Chapter 44: 'Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus'"
+    },
+    {
+      "id": "SRC_PLINY_LETTERS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Pliny the Younger",
+        "es": "Plinio el Joven"
+      },
+      "work": "Letters (Book 10, Letter 96)",
+      "date_written": "c. 112 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Governor's correspondence with Emperor Trajan about Christians. Describes early Christian worship practices.",
+      "citation_info": "Book 10, Letter 96: Correspondence with Emperor Trajan asking how to handle Christians in Bithynia. Describes Christians meeting before dawn, singing hymns to Christ 'as to a god'"
+    },
+    {
+      "id": "SRC_SUETONIUS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Suetonius",
+        "es": "Suetonio"
+      },
+      "work": "Life of Claudius (25.4)",
+      "date_written": "c. 121 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Mentions expulsion of Jews from Rome due to disturbances over 'Chrestus' (likely Christ). Corroborates Acts 18:2.",
+      "citation_info": "Life of Claudius 25.4: 'Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome'. Also Life of Nero 16.2 mentions punishment of Christians"
+    },
+    {
+      "id": "SRC_ACTS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous (trad. Luke)",
+        "es": "Anónimo (trad. Lucas)"
+      },
+      "work": "Acts of the Apostles",
+      "date_written": "80–90 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Early Christian narrative of apostolic period. Historical reliability debated but contains valuable traditions.",
+      "citation_info": "Chapter 15: Jerusalem Council. Chapter 18:2: Aquila and Priscilla expelled from Rome by Claudius. Chapters 13-28: Paul's missionary journeys and arrest"
+    },
+    {
+      "id": "SRC_GOSPELS_SYN",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous authors",
+        "es": "Anonymous authors"
+      },
+      "work": "Synoptic Gospels (Mark, Matthew, Luke)",
+      "date_written": "70–90 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Earliest Gospel narratives. Mark written c. 70, Matthew and Luke c. 80-90, using Mark as source.",
+      "citation_info": "Mark 13:1-2, 14-23: Prophecy of Temple destruction. Mark 14-15: Passion narrative. Matthew 27, Luke 23: Trial and crucifixion accounts with variations"
+    },
+    {
+      "id": "SRC_GOSPEL_JOHN",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous (trad. John)",
+        "es": "Anonymous (trad. John)"
+      },
+      "work": "Gospel of John",
+      "date_written": "90–110 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Latest canonical Gospel with distinct theological perspective and unique material.",
+      "citation_info": "Chapter 1:1-18: Logos prologue. Chapters 18-19: Passion narrative with unique details (Pilate dialogue). Chapter 20:28: 'My Lord and my God' - high Christology"
     },
     {
       "id": "SRC_EHRMAN_NT",
-      "type": "secondary",
-      "author": "Bart D. Ehrman",
-      "work": "The New Testament: A Historical Introduction",
-      "date_written": "2016"
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Bart D. Ehrman",
+        "es": "Bart D. Ehrman"
+      },
+      "work": "The New Testament: A Historical Introduction to the Early Christian Writings",
+      "date_written": "2016 (6th ed.)",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Standard academic textbook on NT historical criticism. Ehrman is James A. Gray Distinguished Professor at UNC Chapel Hill.",
+      "citation_info": "Chapter 10 (pp. 139-157): Paul's life and letters. Chapter 15 (pp. 222-239): Gospel of Mark composition and dating. Chapter 17 (pp. 260-278): Gospel of John. See pp. 229-231 for dating Mark to post-70 CE"
+    },
+    {
+      "id": "SRC_EHRMAN_JESUS",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Bart D. Ehrman",
+        "es": "Bart D. Ehrman"
+      },
+      "work": "Did Jesus Exist? The Historical Argument for Jesus of Nazareth",
+      "date_written": "2012",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Scholarly defense of Jesus's historicity against mythicism. Examines all ancient sources.",
+      "citation_info": "Chapter 2 (pp. 43-94): 'Non-Christian Sources for the Life of Jesus' covers Tacitus, Pliny, Josephus. Chapter 3 (pp. 95-142): Paul as earliest witness. Chapter 4 (pp. 143-205): Gospel sources and dating"
+    },
+    {
+      "id": "SRC_SANDERS",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "E.P. Sanders",
+        "es": "E.P. Sanders"
+      },
+      "work": "The Historical Figure of Jesus",
+      "date_written": "1993",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Influential historical reconstruction by Arts and Sciences Professor of Religion at Duke University.",
+      "citation_info": "Chapter 10 (pp. 249-269): 'The Last Days in Jerusalem' covers the crucifixion. Chapter 11 (pp. 270-281): discusses the evidence for Jesus's death. See also pp. 10-11 for methodology on historical sources"
+    },
+    {
+      "id": "SRC_SANDERS_JUDAISM",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "E.P. Sanders",
+        "es": "E.P. Sanders"
+      },
+      "work": "Paul and Palestinian Judaism",
+      "date_written": "1977",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Groundbreaking work on Paul's theology and relationship to Judaism. Changed scholarly understanding of 'New Perspective on Paul'.",
+      "citation_info": "Part III (pp. 431-556): 'Paul' - detailed analysis of Pauline theology. Chapter on 'The Solution and the Plight' (pp. 474-497) is particularly influential"
+    },
+    {
+      "id": "SRC_BAUCKHAM",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Richard Bauckham",
+        "es": "Richard Bauckham"
+      },
+      "work": "Jesus and the Eyewitnesses: The Gospels as Eyewitness Testimony",
+      "date_written": "2006",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Argues for Gospel reliability based on eyewitness testimony patterns. Bauckham is Professor Emeritus at University of St Andrews.",
+      "citation_info": "Chapter 2 (pp. 39-66): 'Eyewitness Testimony and Gospel Traditions'. Chapter 18 (pp. 471-508): 'The Johannine Community'"
+    },
+    {
+      "id": "SRC_WRIGHT_NT",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "N.T. Wright",
+        "es": "N.T. Wright"
+      },
+      "work": "The New Testament and the People of God",
+      "date_written": "1992",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "First volume of Christian Origins series. Wright is former Bishop of Durham and Research Professor at St Mary's College.",
+      "citation_info": "Part II (pp. 145-338): 'Tools for the Task' - methodology for historical study. Part III (pp. 339-443): 'First-Century Judaism within the Greco-Roman World'"
+    },
+    {
+      "id": "SRC_WRIGHT_RESURRECTION",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "N.T. Wright",
+        "es": "N.T. Wright"
+      },
+      "work": "The Resurrection of the Son of God",
+      "date_written": "2003",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Comprehensive 800-page scholarly treatment of resurrection in historical context.",
+      "citation_info": "Part III (pp. 319-552): 'The Resurrection of Jesus' - historical argument. Chapter 18 (pp. 587-683): 'Easter and History'"
+    },
+    {
+      "id": "SRC_DUNN",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "James D.G. Dunn",
+        "es": "James D.G. Dunn"
+      },
+      "work": "Jesus Remembered (Christianity in the Making, Vol. 1)",
+      "date_written": "2003",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Examines oral tradition and memory in Gospel formation. Dunn is Emeritus Lightfoot Professor at Durham University.",
+      "citation_info": "Chapter 8 (pp. 239-280): 'The Characteristic Jesus' - oral tradition analysis. Chapter 18 (pp. 775-876): 'Remember Jesus' - passion narrative"
+    },
+    {
+      "id": "SRC_CROSSAN",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "John Dominic Crossan",
+        "es": "John Dominic Crossan"
+      },
+      "work": "The Historical Jesus: The Life of a Mediterranean Jewish Peasant",
+      "date_written": "1991",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Influential Jesus Seminar scholar's reconstruction. Crossan is Professor Emeritus at DePaul University.",
+      "citation_info": "Part III (pp. 225-394): 'Brokerless Kingdom' - Jesus's social program. Chapter 17 (pp. 354-394): 'Open Healing' discusses crucifixion"
+    },
+    {
+      "id": "SRC_MEIER",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "John P. Meier",
+        "es": "John P. Meier"
+      },
+      "work": "A Marginal Jew: Rethinking the Historical Jesus (5 volumes)",
+      "date_written": "1991–2016",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Comprehensive scholarly series examining Jesus historically. Meier is Professor Emeritus at Notre Dame.",
+      "citation_info": "Volume 1, Chapter 3 (pp. 68-111): 'Jesus in Josephus'. Volume 1, Chapter 5 (pp. 140-166): 'Jesus in the Pagan Sources'. Volume 1, Chapter 11: 'The Death of Jesus'"
+    },
+    {
+      "id": "SRC_HENGEL",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Martin Hengel",
+        "es": "Martin Hengel"
+      },
+      "work": "The Four Gospels and the One Gospel of Jesus Christ",
+      "date_written": "2000",
+      "language": {
+        "en": "English (German orig.)",
+        "es": "English (German orig.)"
+      },
+      "notes": "Leading German scholar on Gospel origins and early Christianity. Hengel taught at Tübingen University.",
+      "citation_info": "Chapter 2 (pp. 64-115): 'The Titles of the Gospels and the Gospel of Mark'. Chapter 3 (pp. 116-168): 'Problems of Priority and Date'"
+    },
+    {
+      "id": "SRC_ALLISON",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Dale C. Allison Jr.",
+        "es": "Dale C. Allison Jr."
+      },
+      "work": "Constructing Jesus: Memory, Imagination, and History",
+      "date_written": "2010",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Methodological approach to historical Jesus research. Allison is Professor of New Testament at Princeton Theological Seminary.",
+      "citation_info": "Chapter 1 (pp. 1-59): 'Problems and Methods' - historiographical approach. Chapter 10 (pp. 397-424): 'Conclusion: Jesus in the Gospels'"
+    },
+    {
+      "id": "SRC_BROWN_DEATH",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Raymond E. Brown",
+        "es": "Raymond E. Brown"
+      },
+      "work": "The Death of the Messiah (2 volumes)",
+      "date_written": "1994",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Exhaustive commentary on Passion narratives. Brown was Distinguished Professor at Union Theological Seminary.",
+      "citation_info": "Volume 1: covers Mark 14:1-15:47, Matthew 26:1-27:66. Volume 2: covers Luke 22:1-23:56, John 18:1-19:42. See especially Vol. 1, pp. 373-397 on the historicity of the Jewish trial; Vol. 2, pp. 863-877 on crucifixion practices"
+    },
+    {
+      "id": "SRC_HURTADO",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Larry W. Hurtado",
+        "es": "Larry W. Hurtado"
+      },
+      "work": "Lord Jesus Christ: Devotion to Jesus in Earliest Christianity",
+      "date_written": "2003",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Examines origins of Christology and worship of Jesus. Hurtado was Professor Emeritus at University of Edinburgh.",
+      "citation_info": "Chapter 2 (pp. 64-153): 'Early Pauline Christianity' - worship practices. Chapter 7 (pp. 619-649): 'The Fourth Gospel' - Johannine Christology"
     }
   ]
 }

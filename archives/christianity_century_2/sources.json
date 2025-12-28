@@ -1,0 +1,251 @@
+{
+  "sources": [
+    {
+      "id": "SRC_IGNATIUS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Ignatius of Antioch",
+        "es": "Ignacio de Antioquía"
+      },
+      "work": "Letters to the Churches",
+      "date_written": "c. 110 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Seven authentic letters written en route to martyrdom. Earliest evidence of episcopal church structure.",
+      "citation_info": "Letter to the Ephesians, Letter to the Romans, Letter to the Smyrnaeans. See especially Romans 4:1: 'I am the wheat of God'"
+    },
+    {
+      "id": "SRC_PLINY_LETTERS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Pliny the Younger",
+        "es": "Plinio el Joven"
+      },
+      "work": "Letters (Book 10, Letter 96)",
+      "date_written": "c. 112 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Governor's correspondence with Emperor Trajan about Christians. Describes early Christian worship practices.",
+      "citation_info": "Book 10, Letter 96: Correspondence with Emperor Trajan asking how to handle Christians in Bithynia. Describes Christians meeting before dawn, singing hymns to Christ 'as to a god'"
+    },
+    {
+      "id": "SRC_JUSTIN_MARTYR",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Justin Martyr",
+        "es": "Justino Mártir"
+      },
+      "work": "First Apology and Dialogue with Trypho",
+      "date_written": "c. 150-160 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Philosophical defense of Christianity to Roman authorities. Describes baptism and Eucharist practices.",
+      "citation_info": "First Apology, Chapters 61-67: Detailed description of Christian worship, baptism, and Eucharist. Dialogue with Trypho: Jewish-Christian debate"
+    },
+    {
+      "id": "SRC_IRENAEUS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Irenaeus of Lyons",
+        "es": "Ireneo de Lyon"
+      },
+      "work": "Against Heresies (Adversus Haereses)",
+      "date_written": "c. 180 CE",
+      "language": {
+        "en": "Greek (Latin translation survives)",
+        "es": "Greek (Latin translation survives)"
+      },
+      "notes": "Systematic refutation of Gnosticism. Establishes four-gospel canon and apostolic succession.",
+      "citation_info": "Book 3, Chapter 3, Section 2: Famous passage on apostolic succession and Roman church. Book 3, Chapter 11: Defense of four gospels as divinely ordained number"
+    },
+    {
+      "id": "SRC_TERTULLIAN",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Tertullian",
+        "es": "Tertuliano"
+      },
+      "work": "Apologeticum and other writings",
+      "date_written": "c. 197-220 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Brilliant Latin apologist, coined term 'Trinity.' Later joined Montanist movement.",
+      "citation_info": "Apologeticum, Chapter 39: 'See how these Christians love one another.' De Spectaculis: Against pagan entertainment"
+    },
+    {
+      "id": "SRC_MARTYRDOM_POLYCARP",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Church of Smyrna",
+        "es": "Iglesia de Esmirna"
+      },
+      "work": "Martyrdom of Polycarp",
+      "date_written": "c. 156-160 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Earliest Christian martyrdom account outside New Testament. Letter from Smyrna church.",
+      "citation_info": "Chapters 9-15: Account of Polycarp's arrest, trial, and death by burning. Chapter 9: 'Eighty-six years I have served Him'"
+    },
+    {
+      "id": "SRC_GOSPEL_THOMAS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous",
+        "es": "Anonymous"
+      },
+      "work": "Gospel of Thomas",
+      "date_written": "c. 140-180 CE",
+      "language": {
+        "en": "Coptic (Greek original lost)",
+        "es": "Coptic (Greek original lost)"
+      },
+      "notes": "Gnostic gospel containing 114 sayings of Jesus. Discovered at Nag Hammadi 1945.",
+      "citation_info": "Saying 1: 'Whoever finds the interpretation of these sayings will not experience death.' Sayings 13-14, 77, 114"
+    },
+    {
+      "id": "SRC_DIDACHE",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous",
+        "es": "Anonymous"
+      },
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "date_written": "c. 100-120 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Early church manual on ethics, rituals, and church organization. Nearly made it into NT canon.",
+      "citation_info": "Chapters 7-10: Instructions on baptism, fasting, and Eucharist. Chapters 11-13: On traveling prophets and apostles"
+    },
+    {
+      "id": "SRC_SHEPHERD_HERMAS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Hermas",
+        "es": "Hermas"
+      },
+      "work": "The Shepherd",
+      "date_written": "c. 140-155 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Apocalyptic work popular in early church. Contains visions, mandates, and parables.",
+      "citation_info": "Vision 3: The church as an old woman. Mandate 4: On repentance. Widely read, considered scriptural by some churches"
+    },
+    {
+      "id": "SRC_EHRMAN_LOST",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Bart D. Ehrman",
+        "es": "Bart D. Ehrman"
+      },
+      "work": "Lost Christianities: The Battles for Scripture and the Faiths We Never Knew",
+      "date_written": "2003",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Examines diversity of early Christianity and texts excluded from canon.",
+      "citation_info": "Chapter 1: 'The Ancient Discovery of a Forgery.' Chapters 4-6: On Gnostic texts, Ebionites, and Marcionites"
+    },
+    {
+      "id": "SRC_BAUER",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Walter Bauer",
+        "es": "Walter Bauer"
+      },
+      "work": "Orthodoxy and Heresy in Earliest Christianity",
+      "date_written": "1934 (English 1971)",
+      "language": {
+        "en": "English (German orig.)",
+        "es": "English (German orig.)"
+      },
+      "notes": "Revolutionary thesis that 'heresy' often preceded 'orthodoxy' in many regions.",
+      "citation_info": "Chapter 1: 'Edessa.' Chapter 2: 'Egypt.' Challenged traditional narrative of unified early orthodoxy"
+    },
+    {
+      "id": "SRC_GRANT",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Robert M. Grant",
+        "es": "Robert M. Grant"
+      },
+      "work": "Augustus to Constantine: The Rise and Triumph of Christianity in the Roman World",
+      "date_written": "1970",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Classic study of Christianity's growth in Roman Empire through Constantine.",
+      "citation_info": "Chapters 5-8: On 2nd century development, martyrdoms, and apologetics"
+    },
+    {
+      "id": "SRC_FREND",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "W.H.C. Frend",
+        "es": "W.H.C. Frend"
+      },
+      "work": "Martyrdom and Persecution in the Early Church",
+      "date_written": "1965",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Comprehensive study of persecution from Jesus to Constantine.",
+      "citation_info": "Part 2, Chapters 6-12: Detailed analysis of 2nd century persecutions under Trajan, Marcus Aurelius, and Severus"
+    }
+  ]
+}

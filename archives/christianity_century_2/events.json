@@ -1,0 +1,340 @@
+{
+  "events": [
+    {
+      "id": "EVT_0110_IGNATIUS",
+      "year": 110,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Martirio de Ignacio de Antioquía",
+        "en": "Martyrdom of Ignatius of Antioch"
+      },
+      "description": {
+        "es": "Obispo Ignacio de Antioquía martirizado en Roma; sus siete cartas en ruta revelan estructura episcopal temprana y teología eucarística.",
+        "en": "Bishop Ignatius of Antioch martyred in Rome; his seven letters en route reveal early episcopal structure and eucharistic theology."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Ignacio, obispo de Antioquía, fue arrestado y transportado a Roma para ser ejecutado. Durante el viaje escribió siete cartas a iglesias en Asia Menor y Roma, que son documentos cruciales del cristianismo primitivo. Las cartas revelan una estructura episcopal ya establecida (obispo, presbíteros, diáconos), enfatizan la unidad de la iglesia, y contienen la primera clara referencia a 'cristianismo' como término (vs. 'judaísmo'). Ignacio insistió en ser martirizado, escribiendo a los romanos que no intervinieran: 'Soy el trigo de Dios, y seré molido por los dientes de las fieras.' Sus cartas también combaten docetismo (la idea de que Jesús no tuvo cuerpo real) y enfatizan la realidad de la Eucaristía como 'carne de Cristo.'",
+        "en": "Ignatius, bishop of Antioch, was arrested and transported to Rome for execution. During the journey he wrote seven letters to churches in Asia Minor and Rome, which are crucial documents of early Christianity. The letters reveal an already established episcopal structure (bishop, presbyters, deacons), emphasize church unity, and contain the first clear reference to 'Christianity' as a term (vs. 'Judaism'). Ignatius insisted on being martyred, writing to the Romans not to intervene: 'I am God's wheat, and I shall be ground by the teeth of beasts.' His letters also combat docetism (the idea that Jesus had no real body) and emphasize the reality of the Eucharist as 'flesh of Christ.'"
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Las siete cartas auténticas existen en manuscritos del siglo IV, 2) Eusebio (siglo IV) cita a Ignacio extensamente, confirmando tradición temprana, 3) La fecha ~110 CE se basa en referencias al reinado de Trajano y correlación con Policarpo, 4) No hay fuentes contemporáneas directas del martirio mismo, solo las cartas de Ignacio, 5) Algunos detalles de su muerte son legendarios (añadidos posteriores). Las cartas son auténticas y el martirio histórico, pero detalles específicos tienen incertidumbre.",
+        "en": "Medium Confidence (C2) because: 1) The seven authentic letters exist in 4th century manuscripts, 2) Eusebius (4th century) quotes Ignatius extensively, confirming early tradition, 3) The date ~110 CE is based on references to Trajan's reign and correlation with Polycarp, 4) There are no direct contemporary sources of the martyrdom itself, only Ignatius's letters, 5) Some details of his death are legendary (later additions). The letters are authentic and the martyrdom historical, but specific details have uncertainty."
+      },
+      "significance": {
+        "es": "Las cartas de Ignacio son evidencia temprana crucial de la estructura episcopal jerárquica (obispo monárquico), que se convertiría en modelo estándar de organización eclesiástica. Su énfasis en unidad visible de la iglesia bajo el obispo influyó en eclesiología católica. Su teología eucarística (presencia real) anticipó doctrinas posteriores. El martirio de Ignacio ejemplifica la teología del martirio como imitación de Cristo.",
+        "en": "Ignatius's letters are crucial early evidence of hierarchical episcopal structure (monarchical bishop), which would become the standard model of ecclesiastical organization. His emphasis on visible church unity under the bishop influenced Catholic ecclesiology. His eucharistic theology (real presence) anticipated later doctrines. Ignatius's martyrdom exemplifies the theology of martyrdom as imitation of Christ."
+      },
+      "people_involved": [
+        {
+          "role_en": "Bishop, martyr, author",
+          "role_es": "obispo, mártir, autor",
+          "name_en": "Ignatius of Antioch",
+          "name_es": "Ignacio de Antioquía"
+        },
+        {
+          "role_en": "Roman Emperor during persecution",
+          "role_es": "emperador romano durante persecución",
+          "name_en": "Trajan",
+          "name_es": "Trajano"
+        },
+        {
+          "role_en": "Bishop of Smyrna, recipient of letter",
+          "role_es": "obispo de Esmirna, destinatario de carta",
+          "name_en": "Polycarp",
+          "name_es": "Policarpo"
+        }
+      ],
+      "region": "Antioch to Rome",
+      "event_type": "martyrdom",
+      "sources": [
+        "SRC_IGNATIUS",
+        "SRC_EHRMAN_LOST",
+        "SRC_FREND",
+        "SRC_GRANT"
+      ]
+    },
+    {
+      "id": "EVT_0144_MARCION",
+      "year": 144,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Excomunión de Marción y el marcionismo",
+        "en": "Excommunication of Marcion and Marcionism"
+      },
+      "description": {
+        "es": "Marción excomulgado de Roma por teología radical rechazando el Antiguo Testamento; su canon impulsa a la iglesia ortodoxa a formalizar la Escritura.",
+        "en": "Marcion excommunicated from Rome for radical theology rejecting Old Testament; his canon prompts orthodox church to formalize Scripture."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Marción, un rico armador de Sinope (Mar Negro), llegó a Roma y presentó una teología radical: el Dios del Antiguo Testamento (Creador, justo, colérico) era diferente del Dios del Nuevo Testamento (Padre de Jesús, amor, misericordia). Rechazó todo el AT y la mayoría del NT, aceptando solo Lucas editado y 10 cartas de Pablo. Según Marción, el mundo material fue creado por el Dios inferior del AT, y Jesús vino a revelar al Dios superior. La iglesia de Roma lo excomulgó en 144 CE, pero su movimiento creció rápidamente, estableciendo iglesias paralelas por todo el imperio. El desafío marcionita forzó a la iglesia ortodoxa a definir su propio canon de Escrituras y articular la relación entre AT y NT.",
+        "en": "Marcion, a wealthy shipowner from Sinope (Black Sea), came to Rome and presented a radical theology: the God of the Old Testament (Creator, just, wrathful) was different from the God of the New Testament (Father of Jesus, love, mercy). He rejected the entire OT and most of the NT, accepting only an edited Luke and 10 letters of Paul. According to Marcion, the material world was created by the inferior God of the OT, and Jesus came to reveal the superior God. The church of Rome excommunicated him in 144 CE, but his movement grew rapidly, establishing parallel churches throughout the empire. The Marcionite challenge forced the orthodox church to define its own canon of Scriptures and articulate the relationship between OT and NT."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Múltiples fuentes patrísticas (Ireneo, Tertuliano, Epifanio) describen a Marción, aunque escritas décadas después, 2) No sobreviven escritos directos de Marción, solo citas de oponentes, 3) La fecha de 144 CE es tradicional pero aproximada, 4) La influencia marcionita es indiscutible (iglesias marcionitas existieron hasta el siglo V), 5) Algunos detalles pueden ser polémicos/exagerados. La existencia de Marción y su movimiento es cierta, pero reconstruir su teología precisa es difícil.",
+        "en": "Medium Confidence (C2) because: 1) Multiple patristic sources (Irenaeus, Tertullian, Epiphanius) describe Marcion, though written decades later, 2) No direct writings of Marcion survive, only quotations from opponents, 3) The date of 144 CE is traditional but approximate, 4) Marcionite influence is indisputable (Marcionite churches existed until the 5th century), 5) Some details may be polemic/exaggerated. The existence of Marcion and his movement is certain, but reconstructing his precise theology is difficult."
+      },
+      "significance": {
+        "es": "El marcionismo fue el catalizador más importante para la formación del canon del NT. Al proponer su propio canon restringido, forzó a la iglesia a articular qué libros eran autoritativos. También obligó a la ortodoxia a desarrollar teología de la unidad de AT y NT, y la continuidad del plan salvífico de un único Dios. Ireneo y Tertuliano escribieron extensamente contra Marción, desarrollando herramientas hermenéuticas que moldearon la teología cristiana. El marcionismo demostró que el cristianismo podía desarrollarse en direcciones radicalmente diferentes si no había autoridad centralizada.",
+        "en": "Marcionism was the most important catalyst for the formation of the NT canon. By proposing his own restricted canon, he forced the church to articulate which books were authoritative. It also compelled orthodoxy to develop theology of OT and NT unity, and the continuity of God's salvific plan. Irenaeus and Tertullian wrote extensively against Marcion, developing hermeneutical tools that shaped Christian theology. Marcionism demonstrated that Christianity could develop in radically different directions without centralized authority."
+      },
+      "people_involved": [
+        {
+          "role_en": "Heresiarch, proposed radical canon",
+          "role_es": "heresiarca, propuso canon radical",
+          "name_en": "Marcion of Sinope",
+          "name_es": "Marción de Sinope"
+        },
+        {
+          "role_en": "Bishop of Lyons, refuted Marcion",
+          "role_es": "obispo de Lyon, refutó a Marción",
+          "name_en": "Irenaeus",
+          "name_es": "Ireneo"
+        },
+        {
+          "role_en": "Apologist, wrote Against Marcion",
+          "role_es": "apologista, escribió Contra Marción",
+          "name_en": "Tertullian",
+          "name_es": "Tertuliano"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "doctrinal_conflict",
+      "sources": [
+        "SRC_IRENAEUS",
+        "SRC_TERTULLIAN",
+        "SRC_EHRMAN_LOST",
+        "SRC_BAUER",
+        "SRC_GRANT"
+      ]
+    },
+    {
+      "id": "EVT_0155_POLYCARP",
+      "year": 155,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Martirio de Policarpo de Esmirna",
+        "en": "Martyrdom of Polycarp of Smyrna"
+      },
+      "description": {
+        "es": "Policarpo, discípulo de Juan, martirizado a los 86 años; su relato de muerte se convierte en modelo para literatura de martirio cristiano.",
+        "en": "Polycarp, disciple of John, martyred at 86 years old; his death account becomes model for Christian martyrdom literature."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Policarpo, obispo de Esmirna y supuesto discípulo del apóstol Juan, fue arrestado durante persecuciones locales. A sus 86 años, se negó a negar a Cristo ante el procónsul romano. Cuando le ofrecieron salvar su vida maldiciendo a Cristo, respondió: 'Ochenta y seis años le he servido, y nunca me ha hecho mal. ¿Cómo puedo blasfemar a mi Rey que me salvó?' Fue quemado en la hoguera, y la carta de la iglesia de Esmirna describe su muerte con lenguaje que imita la pasión de Cristo. El relato incluye elementos milagrosos: fuego que no lo quema, fragancia de incienso, paloma saliendo del cuerpo. Es el más antiguo relato de martirio cristiano fuera del NT.",
+        "en": "Polycarp, bishop of Smyrna and alleged disciple of the apostle John, was arrested during local persecutions. At 86 years old, he refused to deny Christ before the Roman proconsul. When offered to save his life by cursing Christ, he responded: 'Eighty-six years I have served him, and he never did me wrong. How can I blaspheme my King who saved me?' He was burned at the stake, and the letter from the church of Smyrna describes his death with language imitating Christ's passion. The account includes miraculous elements: fire that doesn't burn him, fragrance of incense, dove emerging from his body. It is the oldest Christian martyrdom account outside the NT."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) La carta (Martyrium Polycarpi) existe en manuscritos del siglo IV, 2) Ireneo, quien conoció a Policarpo, confirma su existencia y conexión con Juan, 3) Eusebio preserva tradiciones sobre Policarpo, 4) La fecha varía (155, 156, o 167 CE dependiendo de cálculos cronológicos), 5) Elementos milagrosos del relato son claramente teológicos/litúrgicos, 6) El núcleo histórico (un obispo anciano martirizado en Esmirna) es sólido, pero detalles específicos están embellecidos.",
+        "en": "Medium Confidence (C2) because: 1) The letter (Martyrium Polycarpi) exists in 4th century manuscripts, 2) Irenaeus, who knew Polycarp, confirms his existence and connection with John, 3) Eusebius preserves traditions about Polycarp, 4) The date varies (155, 156, or 167 CE depending on chronological calculations), 5) Miraculous elements of the account are clearly theological/liturgical, 6) The historical core (an elderly bishop martyred in Smyrna) is solid, but specific details are embellished."
+      },
+      "significance": {
+        "es": "El Martirio de Policarpo estableció el género de acta martyrum (actas de mártires) que proliferó en los siglos siguientes. Presentó el martirio como imitatio Christi (imitación de Cristo), usando lenguaje pasional deliberado. La conexión de Policarpo con el apóstol Juan lo convirtió en enlace crucial entre era apostólica y postapostólica, legitimando tradición de Asia Menor. Su negativa a comprometer estableció el estándar para resistencia cristiana a autoridad imperial. El culto de mártires que surgió después se basó parcialmente en este relato.",
+        "en": "The Martyrdom of Polycarp established the genre of acta martyrum (acts of martyrs) that proliferated in subsequent centuries. It presented martyrdom as imitatio Christi (imitation of Christ), using deliberate passion language. Polycarp's connection with the apostle John made him a crucial link between the apostolic and post-apostolic era, legitimizing the tradition of Asia Minor. His refusal to compromise established the standard for Christian resistance to imperial authority. The cult of martyrs that emerged afterward was based partially on this account."
+      },
+      "people_involved": [
+        {
+          "role_en": "Bishop, martyr, disciple of John",
+          "role_es": "obispo, mártir, discípulo de Juan",
+          "name_en": "Polycarp of Smyrna",
+          "name_es": "Policarpo de Esmirna"
+        },
+        {
+          "role_en": "Proconsul who condemned him",
+          "role_es": "procónsul que lo condenó",
+          "name_en": "Philip of Tralles",
+          "name_es": "Felipe de Tralles"
+        },
+        {
+          "role_en": "Wrote martyrdom account",
+          "role_es": "escribió relato de martirio",
+          "name_en": "Church of Smyrna",
+          "name_es": "Iglesia de Esmirna"
+        }
+      ],
+      "region": "Smyrna (modern Izmir)",
+      "event_type": "martyrdom",
+      "sources": [
+        "SRC_MARTYRDOM_POLYCARP",
+        "SRC_IRENAEUS",
+        "SRC_FREND",
+        "SRC_GRANT"
+      ]
+    },
+    {
+      "id": "EVT_0165_JUSTIN_MARTYR",
+      "year": 165,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Martirio de Justino Mártir",
+        "en": "Martyrdom of Justin Martyr"
+      },
+      "description": {
+        "es": "Justino Mártir, filósofo y apologista cristiano, ejecutado en Roma; sus escritos unen filosofía griega y teología cristiana.",
+        "en": "Justin Martyr, Christian philosopher and apologist, executed in Rome; his writings bridge Greek philosophy and Christian theology."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Justino, filósofo convertido al cristianismo, estableció escuela cristiana en Roma donde enseñaba que el cristianismo era la 'verdadera filosofía.' Escribió apologías (defensas) dirigidas al emperador Antonino Pío y su sucesor Marco Aurelio, argumentando que los cristianos eran ciudadanos leales injustamente perseguidos. Sus obras describen prácticas cristianas (bautismo, Eucaristía) en detalle único para el siglo II. Su teología del Logos intentó reconciliar filosofía griega con Escritura: el Logos (Razón divina) que iluminó a Sócrates y Platón se encarnó plenamente en Cristo. Fue arrestado junto con seis discípulos y ejecutado por decapitación tras negarse a sacrificar a los dioses.",
+        "en": "Justin, a philosopher converted to Christianity, established a Christian school in Rome where he taught that Christianity was the 'true philosophy.' He wrote apologies (defenses) addressed to Emperor Antoninus Pius and his successor Marcus Aurelius, arguing that Christians were loyal citizens unjustly persecuted. His works describe Christian practices (baptism, Eucharist) in unique detail for the 2nd century. His Logos theology attempted to reconcile Greek philosophy with Scripture: the Logos (divine Reason) that illuminated Socrates and Plato was fully incarnated in Christ. He was arrested along with six disciples and executed by beheading after refusing to sacrifice to the gods."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Sus dos Apologías y Diálogo con Trifón sobreviven en manuscritos medievales, 2) Las Actas de su martirio existen pero son de autenticidad debatida (posible embellecimiento posterior), 3) Eusebio lo menciona y cita extensamente, 4) La fecha ~165 CE es aproximada, basada en referencias a emperadores, 5) Su existencia y obra son indiscutibles, pero detalles de su muerte menos ciertos. Los escritos son evidencia primaria sólida.",
+        "en": "Medium Confidence (C2) because: 1) His two Apologies and Dialogue with Trypho survive in medieval manuscripts, 2) The Acts of his martyrdom exist but are of debated authenticity (possible later embellishment), 3) Eusebius mentions and quotes him extensively, 4) The date ~165 CE is approximate, based on references to emperors, 5) His existence and work are indisputable, but details of his death less certain. The writings are solid primary evidence."
+      },
+      "significance": {
+        "es": "Justino fue el primer gran intelectual cristiano que intentó síntesis entre filosofía griega y fe cristiana, estableciendo patrón para teología cristiana posterior. Su apologética demostró que el cristianismo podía competir intelectualmente con filosofías paganas. Su descripción de liturgia cristiana (bautismo dominical, lectura de 'memorias de apóstoles,' Eucaristía) es evidencia invaluable de prácticas del siglo II. Su teología del Logos influyó en desarrollo de cristología. Su martirio subrayó la tensión entre lealtad al imperio y lealtad a Cristo.",
+        "en": "Justin was the first great Christian intellectual to attempt synthesis between Greek philosophy and Christian faith, establishing a pattern for later Christian theology. His apologetics demonstrated that Christianity could compete intellectually with pagan philosophies. His description of Christian liturgy (Sunday baptism, reading of 'memoirs of apostles,' Eucharist) is invaluable evidence of 2nd century practices. His Logos theology influenced the development of Christology. His martyrdom underscored the tension between loyalty to the empire and loyalty to Christ."
+      },
+      "people_involved": [
+        {
+          "role_en": "Philosopher, apologist, martyr",
+          "role_es": "filósofo, apologista, mártir",
+          "name_en": "Justin Martyr",
+          "name_es": "Justino Mártir"
+        },
+        {
+          "role_en": "Prefect of Rome who condemned him",
+          "role_es": "prefecto de Roma que lo condenó",
+          "name_en": "Rusticus",
+          "name_es": "Rústico"
+        },
+        {
+          "role_en": "Emperor, addressee of First Apology",
+          "role_es": "emperador, destinatario de Primera Apología",
+          "name_en": "Antoninus Pius",
+          "name_es": "Antonino Pío"
+        },
+        {
+          "role_en": "Emperor during his martyrdom",
+          "role_es": "emperador durante su martirio",
+          "name_en": "Marcus Aurelius",
+          "name_es": "Marco Aurelio"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "martyrdom",
+      "sources": [
+        "SRC_JUSTIN_MARTYR",
+        "SRC_EHRMAN_LOST",
+        "SRC_GRANT",
+        "SRC_FREND"
+      ]
+    },
+    {
+      "id": "EVT_0180_IRENAEUS",
+      "year": 180,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Ireneo escribe Contra las Herejías",
+        "en": "Irenaeus Writes Against Heresies"
+      },
+      "description": {
+        "es": "Ireneo escribe Contra las Herejías, refutando sistemáticamente el gnosticismo y estableciendo criterios ortodoxos: cuatro evangelios, sucesión apostólica.",
+        "en": "Irenaeus writes Against Heresies, systematically refuting Gnosticism and establishing orthodox criteria: four gospels, apostolic succession."
+      },
+      "confidence_id": "C1",
+      "context": {
+        "es": "Ireneo, obispo de Lyon (Galia), escribió masiva refutación de cinco volúmenes del gnosticismo, especialmente el sistema valentiniano. Conectó con la era apostólica a través de Policarpo, quien conoció a Juan. Su obra establece criterios de ortodoxia: 1) Cuatro evangelios canónicos (no más, no menos), 2) Sucesión apostólica (obispos en línea ininterrumpida desde apóstoles), 3) Regla de fe (credo básico compartido), 4) Unidad del AT y NT (contra marcionitas). Argumentó que el cristianismo gnóstico era innovación tardía, no tradición secreta apostólica. Defendió la bondad de la creación material contra dualismo gnóstico. Su lista de obispos de Roma hasta su tiempo es evidencia histórica crucial.",
+        "en": "Irenaeus, bishop of Lyons (Gaul), wrote a massive five-volume refutation of Gnosticism, especially the Valentinian system. He connected with the apostolic era through Polycarp, who knew John. His work establishes criteria of orthodoxy: 1) Four canonical gospels (no more, no less), 2) Apostolic succession (bishops in uninterrupted line from apostles), 3) Rule of faith (basic shared creed), 4) Unity of OT and NT (against Marcionites). He argued that Gnostic Christianity was a late innovation, not secret apostolic tradition. He defended the goodness of material creation against Gnostic dualism. His list of bishops of Rome up to his time is crucial historical evidence."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Alta (C1) debido a: 1) Contra las Herejías sobrevive casi completo en traducción latina (original griego parcial), 2) Múltiples manuscritos medievales confirman el texto, 3) Eusebio cita extensamente a Ireneo, confirmando autenticidad, 4) Datación ~180 CE es sólida basada en referencias a emperadores y contexto histórico, 5) Su influencia inmediata en Tertuliano y Hipólito confirma circulación temprana. Es una de las fuentes patrísticas más confiables del siglo II.",
+        "en": "High Confidence (C1) because: 1) Against Heresies survives almost complete in Latin translation (partial Greek original), 2) Multiple medieval manuscripts confirm the text, 3) Eusebius quotes Irenaeus extensively, confirming authenticity, 4) Dating ~180 CE is solid based on references to emperors and historical context, 5) His immediate influence on Tertullian and Hippolytus confirms early circulation. It is one of the most reliable patristic sources of the 2nd century."
+      },
+      "significance": {
+        "es": "Ireneo estableció el marco de ortodoxia cristiana por siglos: canon de cuatro evangelios, apostolic succession como criterio de autoridad, y unidad de Testamentos. Su refutación del gnosticismo salvó información sobre sistemas gnósticos que de otro modo se habrían perdido. Su teología de recapitulación (Cristo recapitula la historia humana) influyó en soteriología oriental. Su lista de obispos romanos es evidencia histórica crucial para estudiar desarrollo institucional. Su obra marcó transición de cristianismo carismático a cristianismo institucional.",
+        "en": "Irenaeus established the framework of Christian orthodoxy for centuries: canon of four gospels, apostolic succession as criterion of authority, and unity of Testaments. His refutation of Gnosticism preserved information about Gnostic systems that would otherwise have been lost. His theology of recapitulation (Christ recapitulates human history) influenced Eastern soteriology. His list of Roman bishops is crucial historical evidence for studying institutional development. His work marked the transition from charismatic to institutional Christianity."
+      },
+      "people_involved": [
+        {
+          "role_en": "Bishop, theologian, author",
+          "role_es": "obispo, teólogo, autor",
+          "name_en": "Irenaeus of Lyons",
+          "name_es": "Ireneo de Lyon"
+        },
+        {
+          "role_en": "Irenaeus' teacher, link to apostles",
+          "role_es": "maestro de Ireneo, enlace con apóstoles",
+          "name_en": "Polycarp",
+          "name_es": "Policarpo"
+        },
+        {
+          "role_en": "Gnostic teacher refuted by Irenaeus",
+          "role_es": "maestro gnóstico refutado por Ireneo",
+          "name_en": "Valentinus",
+          "name_es": "Valentín"
+        }
+      ],
+      "region": "Lyons (Gaul)",
+      "event_type": "writing",
+      "sources": [
+        "SRC_IRENAEUS",
+        "SRC_EHRMAN_LOST",
+        "SRC_BAUER",
+        "SRC_GRANT"
+      ]
+    },
+    {
+      "id": "EVT_0177_LYON_MARTYRS",
+      "year": 177,
+      "century_id": "CENT_02_CE",
+      "title": {
+        "es": "Martirios de Lyon y Vienne",
+        "en": "Martyrdoms of Lyons and Vienne"
+      },
+      "description": {
+        "es": "Persecución masiva en Galia resulta en martirios horrificos incluyendo Blandina y Potino; carta preservada por Eusebio.",
+        "en": "Mass persecution in Gaul results in horrific martyrdoms including Blandina and Pothinus; letter preserved by Eusebius."
+      },
+      "confidence_id": "C2",
+      "context": {
+        "es": "Durante el reinado de Marco Aurelio, estalló persecución violenta contra cristianos en Lyon y Vienne (Galia). La turba pagana atacó a cristianos, prohibiéndoles acceso a espacios públicos, mercados, y baños. Siguieron arrestos masivos. Las torturas fueron extremas: Blandina, una esclava, fue torturada repetidamente pero se negó a apostatar, diciendo solo 'Soy cristiana, no hacemos nada malo.' Pothinus, obispo de 90 años, murió en prisión tras golpiza. Cristianos fueron exhibidos en anfiteatro, azotados, atacados por bestias, asados en silla de hierro. Blandina finalmente fue envuelta en red y lanzada a toro. La carta de las iglesias de Lyon y Vienne a Asia Menor, preservada por Eusebio, es documento excepcional de martirio.",
+        "en": "During the reign of Marcus Aurelius, violent persecution erupted against Christians in Lyons and Vienne (Gaul). The pagan mob attacked Christians, prohibiting them access to public spaces, markets, and baths. Mass arrests followed. Tortures were extreme: Blandina, a slave woman, was tortured repeatedly but refused to apostatize, saying only 'I am a Christian, we do nothing wrong.' Pothinus, a 90-year-old bishop, died in prison after a beating. Christians were displayed in the amphitheater, scourged, attacked by beasts, roasted on an iron chair. Blandina was finally wrapped in a net and thrown to a bull. The letter from the churches of Lyons and Vienne to Asia Minor, preserved by Eusebius, is an exceptional martyrdom document."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) debido a: 1) Eusebio (siglo IV) preserva la carta, citándola extensamente en su Historia Eclesiástica, 2) No tenemos el texto original, solo la versión de Eusebio, 3) La fecha 177 CE es sólida basada en reinado de Marco Aurelio, 4) Algunos detalles (milagros, discursos de mártires) pueden ser embellecidos, 5) El núcleo histórico (persecución severa en Galia con múltiples mártires) es indiscutible, 6) Marco Aurelio, filósofo estoico, efectivamente permitió persecuciones locales de cristianos.",
+        "en": "Medium Confidence (C2) because: 1) Eusebius (4th century) preserves the letter, quoting it extensively in his Ecclesiastical History, 2) We don't have the original text, only Eusebius's version, 3) The date 177 CE is solid based on Marcus Aurelius's reign, 4) Some details (miracles, martyrs' speeches) may be embellished, 5) The historical core (severe persecution in Gaul with multiple martyrs) is indisputable, 6) Marcus Aurelius, Stoic philosopher, effectively allowed local persecutions of Christians."
+      },
+      "significance": {
+        "es": "Los martirios de Lyon demostraron que el cristianismo había penetrado hasta las regiones más occidentales del imperio. La figura de Blandina, una esclava que superó a nobles en resistencia, ejemplificó el igualitarismo cristiano y el poder invertido del reino de Dios. La carta influyó en literatura de martirio posterior, estableciendo tropos: cristianos como atletas de Dios, martirio como renacimiento, tortura como prueba divina. La preservación por Eusebio aseguró su impacto en memoria eclesiástica. Mostró tensión entre filosofía imperial (Marco Aurelio) y persecución cristiana.",
+        "en": "The martyrdoms of Lyons demonstrated that Christianity had penetrated to the westernmost regions of the empire. The figure of Blandina, a slave who surpassed nobles in resistance, exemplified Christian egalitarianism and the inverted power of God's kingdom. The letter influenced later martyrdom literature, establishing tropes: Christians as athletes of God, martyrdom as rebirth, torture as divine test. Preservation by Eusebius ensured its impact on ecclesiastical memory. It showed tension between imperial philosophy (Marcus Aurelius) and Christian persecution."
+      },
+      "people_involved": [
+        {
+          "role_en": "Slave woman, martyr",
+          "role_es": "mujer esclava, mártir",
+          "name_en": "Blandina",
+          "name_es": "Blandina"
+        },
+        {
+          "role_en": "Bishop of Lyons, martyr",
+          "role_es": "obispo de Lyon, mártir",
+          "name_en": "Pothinus",
+          "name_es": "Potino"
+        },
+        {
+          "role_en": "Deacon, martyr",
+          "role_es": "diácono, mártir",
+          "name_en": "Sanctus",
+          "name_es": "Sancto"
+        },
+        {
+          "role_en": "Roman Emperor during persecution",
+          "role_es": "emperador romano durante persecución",
+          "name_en": "Marcus Aurelius",
+          "name_es": "Marco Aurelio"
+        }
+      ],
+      "region": "Lyons and Vienne (Gaul)",
+      "event_type": "persecution",
+      "sources": [
+        "SRC_FREND",
+        "SRC_GRANT",
+        "SRC_IRENAEUS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "centuries": [
+    {
+      "id": "CENT_02_CE",
+      "century_range": [
+        100,
+        200
+      ],
+      "summary": "Consolidación institucional, desarrollo doctrinal, y enfrentamiento con herejías y persecuciones imperiales.",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_EHRMAN_NT",
+        "SRC_BAUER"
+      ]
+    }
+  ]
+}
