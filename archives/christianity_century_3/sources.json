@@ -1,0 +1,256 @@
+{
+  "sources": [
+    {
+      "id": "SRC_EUSEBIUS_HE",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Eusebius of Caesarea",
+        "es": "Eusebio de Cesarea"
+      },
+      "work": "Ecclesiastical History (Historia Ecclesiastica)",
+      "date_written": "~324 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "First comprehensive history of early Christianity from apostolic era to Constantine. Eusebius was eyewitness to Diocletian persecution. Books VI-VIII cover 3rd century extensively."
+    },
+    {
+      "id": "SRC_ORIGEN_WORKS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Origen of Alexandria",
+        "es": "Orígenes de Alejandría"
+      },
+      "work": "Collected Works (De Principiis, Contra Celsum, Hexapla, Commentaries)",
+      "date_written": "~230-254 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Most important theologian before Augustine. His works reveal intellectual climate of 3rd century Alexandria and response to pagan critics."
+    },
+    {
+      "id": "SRC_CYPRIAN_LETTERS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Cyprian of Carthage",
+        "es": "Cipriano de Cartago"
+      },
+      "work": "Letters (Epistulae)",
+      "date_written": "~248-258 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "81 surviving letters documenting Decian persecution, lapsi controversy, episcopal authority, and sacramental theology. Contemporary primary source."
+    },
+    {
+      "id": "SRC_CYPRIAN_LAPSIS",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Cyprian of Carthage",
+        "es": "Cipriano de Cartago"
+      },
+      "work": "De Lapsis (On the Lapsed)",
+      "date_written": "~251 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Theological treatise on Christians who apostatized during Decian persecution. Advocates moderate position of readmission after penance."
+    },
+    {
+      "id": "SRC_LIBELLI_PAPYRI",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Various",
+        "es": "Varios"
+      },
+      "work": "Libelli (Sacrifice Certificates from Egyptian Papyri)",
+      "date_written": "250-251 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Actual surviving certificates issued to those who sacrificed during Decian persecution. Direct archaeological evidence."
+    },
+    {
+      "id": "SRC_ACTA_CYPRIANI",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Anonymous",
+        "es": "Anónimo"
+      },
+      "work": "Acta Proconsularia Sancti Cypriani",
+      "date_written": "~258 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Authentic judicial records of Cyprian's trial and execution. One of the most reliable martyrdom documents."
+    },
+    {
+      "id": "SRC_PONTIUS_VITA",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Pontius the Deacon",
+        "es": "Poncio el Diácono"
+      },
+      "work": "Vita Cypriani (Life of Cyprian)",
+      "date_written": "~260 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "First Christian biography written by someone who knew the subject personally. Pontius was Cyprian's deacon."
+    },
+    {
+      "id": "SRC_ATHANASIUS_VITA",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Athanasius of Alexandria",
+        "es": "Atanasio de Alejandría"
+      },
+      "work": "Vita Antonii (Life of Antony)",
+      "date_written": "~360 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Foundational hagiography of Christian monasticism. Athanasius knew Antony personally. Became bestseller of 4th century, inspiring Augustine's conversion."
+    },
+    {
+      "id": "SRC_LACTANTIUS_MORT",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Lactantius",
+        "es": "Lactancio"
+      },
+      "work": "De Mortibus Persecutorum (On the Deaths of the Persecutors)",
+      "date_written": "~313-315 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Polemical history of persecutors from Nero to Galerius. Detailed account of Diocletian persecution. Written by Christian apologist who witnessed events."
+    },
+    {
+      "id": "SRC_ACTA_MARTYRUM",
+      "type": {
+        "en": "primary",
+        "es": "primaria"
+      },
+      "author": {
+        "en": "Various",
+        "es": "Varios"
+      },
+      "work": "Acta Martyrum (Acts of the Martyrs, 3rd century collection)",
+      "date_written": "250-311 CE",
+      "language": {
+        "en": "Greek and Latin",
+        "es": "Griego y Latín"
+      },
+      "notes": "Collection of martyrdom accounts from Decian, Valerian, and Diocletian persecutions. Variable reliability; some authentic judicial records, others hagiographical."
+    },
+    {
+      "id": "SRC_JEROME_DESERT",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Jerome",
+        "es": "Jerónimo"
+      },
+      "work": "Vita Pauli (Life of Paul the Hermit)",
+      "date_written": "~376 CE",
+      "language": {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      "notes": "Biography of Paul of Thebes, allegedly the first hermit. Jerome also wrote extensively on desert monasticism and knew Egyptian monks."
+    },
+    {
+      "id": "SRC_PALLADIUS_HISTORIA",
+      "type": {
+        "en": "secondary",
+        "es": "secundaria"
+      },
+      "author": {
+        "en": "Palladius",
+        "es": "Paladio"
+      },
+      "work": "Historia Lausiaca (Lausiac History)",
+      "date_written": "~419-420 CE",
+      "language": {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      "notes": "Collection of biographies of Egyptian and Palestinian monks. Palladius visited Egyptian desert and interviewed monks. Important source for early monasticism."
+    },
+    {
+      "id": "SRC_TRIGG_ORIGEN",
+      "type": {
+        "en": "scholarly",
+        "es": "académica"
+      },
+      "author": {
+        "en": "Joseph W. Trigg",
+        "es": "Joseph W. Trigg"
+      },
+      "work": "Origen: The Bible and Philosophy in the Third-Century Church",
+      "date_written": "1983",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Comprehensive modern biography of Origen integrating historical context, theology, and intellectual milieu of 3rd century Alexandria."
+    },
+    {
+      "id": "SRC_FREND_MARTYRDOM",
+      "type": {
+        "en": "scholarly",
+        "es": "académica"
+      },
+      "author": {
+        "en": "W.H.C. Frend",
+        "es": "W.H.C. Frend"
+      },
+      "work": "Martyrdom and Persecution in the Early Church",
+      "date_written": "1965",
+      "language": {
+        "en": "English",
+        "es": "Inglés"
+      },
+      "notes": "Standard scholarly work on Christian persecution from Jesus to Constantine. Comprehensive analysis of Decian and Diocletian persecutions."
+    }
+  ]
+}

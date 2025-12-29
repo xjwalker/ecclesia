@@ -3,18 +3,29 @@ import { useLanguage } from '../i18n/LanguageContext';
 import apiService from '../services/api';
 import './EventSidebar.css';
 
-const EventSidebar = ({ event, isOpen, onClose }) => {
+const EventSidebar = ({ event, isOpen, onClose, orientation = 'vertical', width = 450 }) => {
   const { t, language } = useLanguage();
   const [sources, setSources] = useState([]);
   const [confidence, setConfidence] = useState(null);
   const [century, setCentury] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [expanded, setExpanded] = useState(true);
+  const [fontSize, setFontSize] = useState('medium'); // small, medium, large
 
   useEffect(() => {
     if (event && isOpen) {
       loadEventDetails();
+      setExpanded(true);
     }
   }, [event, isOpen, language]);
+
+  const toggleFontSize = () => {
+    setFontSize(current => {
+      if (current === 'small') return 'medium';
+      if (current === 'medium') return 'large';
+      return 'small';
+    });
+  };
 
   const loadEventDetails = async () => {
     if (!event) return;
@@ -48,7 +59,11 @@ const EventSidebar = ({ event, isOpen, onClose }) => {
     }
   };
 
-  if (!event) return null;
+  const toggleExpanded = () => {
+    if (event) {
+      setExpanded(!expanded);
+    }
+  };
 
   // Helper function to format text with paragraphs and bullet points
   const formatText = (text) => {
@@ -105,14 +120,32 @@ const EventSidebar = ({ event, isOpen, onClose }) => {
   };
 
   return (
-    <>
-      <div className={`sidebar-overlay ${isOpen ? 'open' : ''}`} onClick={onClose} />
-      <div className={`event-sidebar ${isOpen ? 'open' : ''}`}>
-        <div className="sidebar-header">
-          <button className="close-button" onClick={onClose}>✕</button>
-          <h2>{t.eventDetails}</h2>
-        </div>
+    <div 
+      className={`event-sidebar ${orientation} ${expanded && event ? 'open' : ''} font-${fontSize}`}
+      style={orientation === 'vertical' && isOpen ? { width: `${width}px`, minWidth: `${width}px` } : {}}
+    >
+      <div className="sidebar-header" onClick={toggleExpanded}>
+        {event ? (
+          <>
+            <h2>{event.title}</h2>
+            <button 
+              className="font-size-btn"
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleFontSize();
+              }}
+              title="Change font size"
+            >
+              {fontSize === 'small' ? 'A' : fontSize === 'medium' ? 'A+' : 'A++'}
+            </button>
+            <span className="toggle-indicator">{expanded ? '▼' : '▲'}</span>
+          </>
+        ) : (
+          <h2>{t.clickEventToView || 'Click an event to view details'}</h2>
+        )}
+      </div>
 
+      {event && expanded && (
         <div className="sidebar-content">
           {/* Main Event Info */}
           <div className="detail-section">
@@ -307,8 +340,8 @@ const EventSidebar = ({ event, isOpen, onClose }) => {
             </div>
           )}
         </div>
-      </div>
-    </>
+      )}
+    </div>
   );
 };
 

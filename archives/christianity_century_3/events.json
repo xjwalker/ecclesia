@@ -1,0 +1,278 @@
+{
+  "events": [
+    {
+      "id": "EVT_0203_ORIGEN_YOUTH",
+      "year": 203,
+      "year_approx": "~203",
+      "century_id": "CENT_3",
+      "title": {
+        "es": "Orígenes Testigo del Martirio de su Padre",
+        "en": "Origen Witnesses His Father's Martyrdom"
+      },
+      "description": {
+        "es": "El joven Orígenes, de 17 años, es testigo del martirio de su padre Leonidas durante la persecución de Septimio Severo en Alejandría; su madre esconde su ropa para evitar que se entregue a las autoridades.",
+        "en": "Young Origen, age 17, witnesses the martyrdom of his father Leonidas during Septimius Severus's persecution in Alexandria; his mother hides his clothes to prevent him from turning himself in to authorities."
+      },
+      "context": {
+        "es": "Orígenes de Alejandría nació en una familia cristiana educada alrededor del 185 EC. Su padre Leonidas le enseñó las Escrituras y filosofía griega. Durante la persecución del emperador Septimio Severo (202-203 EC), que prohibió conversiones al cristianismo, Leonidas fue arrestado. Eusebio relata que el joven Orígenes quería entregarse voluntariamente al martirio junto a su padre, pero su madre escondió toda su ropa, impidiéndole salir de casa. Después de la ejecución de su padre, la propiedad familiar fue confiscada, dejando a Orígenes, el mayor de siete hermanos, como sostén económico. Comenzó a enseñar gramática y literatura, pero pronto fue reconocido por su genio intelectual y tomó la dirección de la escuela catequética de Alejandría a los 18 años. Este evento traumático moldeó su teología ascética y su voluntad de sufrir por Cristo. Orígenes se castró a sí mismo (literalmente interpretando Mateo 19:12), vendió su biblioteca de textos clásicos, y vivió en extrema pobreza voluntaria.",
+        "en": "Origen of Alexandria was born into an educated Christian family around 185 CE. His father Leonidas taught him Scripture and Greek philosophy. During Emperor Septimius Severus's persecution (202-203 CE), which prohibited conversions to Christianity, Leonidas was arrested. Eusebius recounts that young Origen wanted to voluntarily surrender to martyrdom alongside his father, but his mother hid all his clothes, preventing him from leaving the house. After his father's execution, the family property was confiscated, leaving Origen, the eldest of seven children, as the economic provider. He began teaching grammar and literature, but soon was recognized for his intellectual genius and took over direction of Alexandria's catechetical school at age 18. This traumatic event shaped his ascetic theology and willingness to suffer for Christ. Origen castrated himself (literally interpreting Matthew 19:12), sold his library of classical texts, and lived in extreme voluntary poverty."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) porque: 1) Eusebio (Historia Eclesiástica VI.2) relata el evento detalladamente, escribiendo aproximadamente un siglo después, 2) Eusebio tuvo acceso a la biblioteca de Cesarea que contenía cartas y escritos de Orígenes, 3) Los escritos posteriores de Orígenes reflejan la influencia de este trauma (teología del martirio, ascetismo extremo), 4) La persecución de Septimio Severo en Alejandría está bien documentada, 5) No hay fuentes contemporáneas directas del evento específico, solo el relato de Eusebio. El evento es históricamente plausible y bien atestiguado por fuentes secundarias tempranas.",
+        "en": "Medium Confidence (C2) because: 1) Eusebius (Ecclesiastical History VI.2) recounts the event in detail, writing approximately a century later, 2) Eusebius had access to the Caesarea library which contained Origen's letters and writings, 3) Origen's later writings reflect the influence of this trauma (martyrdom theology, extreme asceticism), 4) Septimius Severus's persecution in Alexandria is well-documented, 5) There are no direct contemporary sources of the specific event, only Eusebius's account. The event is historically plausible and well-attested by early secondary sources."
+      },
+      "significance": {
+        "es": "El martirio de Leonidas y la reacción de Orígenes ilustran la intensidad de la persecución de Septimio Severo y la cultura del martirio en el cristianismo temprano. El evento catalizó la carrera intelectual de Orígenes, quien se convertiría en el teólogo más influyente antes de Agustín. Su trabajo en crítica textual (Hexapla), alegoría bíblica, y teología sistemática (De Principiis) moldeó el pensamiento cristiano por siglos. Su método alegórico de interpretación bíblica se volvió dominante en Alejandría y Antioquía. Aunque algunas de sus doctrinas fueron condenadas póstumamente (apocatástasis - salvación universal, preexistencia de almas), su influencia en la teología cristiana es incalculable. Este evento también demuestra la participación activa de las familias cristianas, incluidas las mujeres, en la formación de los jóvenes creyentes.",
+        "en": "Leonidas's martyrdom and Origen's reaction illustrate the intensity of Septimius Severus's persecution and the culture of martyrdom in early Christianity. The event catalyzed Origen's intellectual career, who would become the most influential theologian before Augustine. His work in textual criticism (Hexapla), biblical allegory, and systematic theology (De Principiis) shaped Christian thought for centuries. His allegorical method of biblical interpretation became dominant in Alexandria and Antioch. Although some of his doctrines were posthumously condemned (apokatastasis - universal salvation, preexistence of souls), his influence on Christian theology is incalculable. This event also demonstrates the active participation of Christian families, including women, in the formation of young believers."
+      },
+      "people_involved": [
+        {
+          "name_en": "Origen of Alexandria",
+          "name_es": "Orígenes de Alejandría",
+          "role_en": "young scholar, later Church Father",
+          "role_es": "joven erudito, luego Padre de la Iglesia"
+        },
+        {
+          "name_en": "Leonidas",
+          "name_es": "Leónidas",
+          "role_en": "father of Origen, martyr",
+          "role_es": "padre de Orígenes, mártir"
+        },
+        {
+          "name_en": "Septimius Severus",
+          "name_es": "Septimio Severo",
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano"
+        }
+      ],
+      "region": "Alexandria, Egypt",
+      "event_type": "Martyrdom",
+      "confidence_id": "C2",
+      "sources": ["SRC_EUSEBIUS_HE", "SRC_ORIGEN_WORKS", "SRC_TRIGG_ORIGEN"]
+    },
+    {
+      "id": "EVT_0250_DECIAN_PERSECUTION",
+      "year": 250,
+      "year_approx": "250-251",
+      "century_id": "CENT_3",
+      "title": {
+        "es": "Persecución de Decio: Primera Persecución Imperial Sistemática",
+        "en": "Decian Persecution: First Systematic Imperial Persecution"
+      },
+      "description": {
+        "es": "El emperador Decio ordena la primera persecución sistemática y universal del cristianismo, requiriendo que todos los ciudadanos ofrezcan sacrificios a los dioses romanos y obtengan certificados (libelli); miles apostatan, creando la crisis de los 'lapsi'.",
+        "en": "Emperor Decius orders the first systematic and universal persecution of Christianity, requiring all citizens to offer sacrifices to Roman gods and obtain certificates (libelli); thousands apostatize, creating the crisis of the 'lapsi'."
+      },
+      "context": {
+        "es": "El emperador Decio (249-251 EC) enfrentó crisis militares en las fronteras y buscó restaurar la cohesión del imperio mediante la religión tradicional romana. A diferencia de persecuciones locales anteriores, Decio emitió un edicto imperial universal (250 EC) que requería que todos los habitantes del imperio ofrecieran sacrificios a los dioses romanos ante magistrados locales. Quienes cumplían recibían un certificado (libellus) como prueba. El edicto no mencionaba específicamente a los cristianos, pero su efecto fue devastador para la Iglesia. Miles de cristianos ('lapsi' = caídos) sacrificaron bajo presión: algunos ofrecieron incienso (thurificati), otros compraron certificados falsos (libellatici), otros renunciaron a las Escrituras (traditores). Líderes como el obispo Fabián de Roma fueron ejecutados. Otros, como Cipriano de Cartago, huyeron al exilio. La persecución terminó con la muerte de Decio en batalla (251 EC), pero dejó una crisis teológica: ¿podían los lapsi ser readmitidos a la Iglesia? ¿Con qué penitencia? Cipriano y el papa Cornelio adoptaron una posición moderada de readmisión tras penitencia, pero rigoristas como Novaciano rechazaron cualquier reconciliación, causando el cisma novaciano.",
+        "en": "Emperor Decius (249-251 CE) faced military crises on the frontiers and sought to restore the empire's cohesion through traditional Roman religion. Unlike previous local persecutions, Decius issued a universal imperial edict (250 CE) requiring all inhabitants of the empire to offer sacrifices to Roman gods before local magistrates. Those who complied received a certificate (libellus) as proof. The edict didn't specifically mention Christians, but its effect was devastating for the Church. Thousands of Christians ('lapsi' = fallen) sacrificed under pressure: some offered incense (thurificati), others bought false certificates (libellatici), others surrendered the Scriptures (traditores). Leaders like Bishop Fabian of Rome were executed. Others, like Cyprian of Carthage, fled into exile. The persecution ended with Decius's death in battle (251 CE), but left a theological crisis: could the lapsi be readmitted to the Church? With what penance? Cyprian and Pope Cornelius adopted a moderate position of readmission after penance, but rigorists like Novatian rejected any reconciliation, causing the Novatian schism."
+      },
+      "confidence_rationale": {
+        "es": "Alta Confianza (C1) porque: 1) Múltiples fuentes contemporáneas (Cipriano escribió extensamente sobre la persecución en cartas y De Lapsis), 2) Sobreviven libelli reales (certificados de sacrificio) de papiros egipcios, 3) Eusebio preserva relatos detallados, 4) Fuentes paganas (Aurelio Víctor, Lactancio) confirman el edicto de Decio, 5) La crisis de los lapsi está documentada en actas conciliares africanas. Es uno de los eventos del siglo III mejor documentados.",
+        "en": "High Confidence (C1) because: 1) Multiple contemporary sources (Cyprian wrote extensively about the persecution in letters and De Lapsis), 2) Actual libelli (sacrifice certificates) survive from Egyptian papyri, 3) Eusebius preserves detailed accounts, 4) Pagan sources (Aurelius Victor, Lactantius) confirm Decius's edict, 5) The lapsi crisis is documented in African conciliar acts. It is one of the best-documented events of the 3rd century."
+      },
+      "significance": {
+        "es": "La persecución de Decio marcó un punto de inflexión: la primera vez que el Imperio Romano intentó erradicar sistemáticamente el cristianismo a nivel universal. A diferencia de persecuciones locales esporádicas, esta fue organizada, burocrática y obligatoria. El alto número de apostasías reveló que el cristianismo, a pesar de su crecimiento, no había penetrado profundamente en muchos conversos. La crisis de los lapsi forzó a la Iglesia a desarrollar teología y práctica de penitencia: ¿puede la Iglesia perdonar pecados post-bautismales graves? Cipriano articuló la doctrina de que los obispos, como sucesores de los apóstoles, tienen poder para absolver. El cisma novaciano (rigoristas que rechazaban readmisión de lapsi) demostró tensiones entre pureza eclesiástica y misericordia pastoral. Este conflicto se repetiría en el donatismo del siglo IV. La persecución también impulsó el desarrollo de la teología del martirio como 'segundo bautismo' y veneración de mártires.",
+        "en": "The Decian persecution marked a turning point: the first time the Roman Empire attempted to systematically eradicate Christianity at a universal level. Unlike sporadic local persecutions, this was organized, bureaucratic, and mandatory. The high number of apostasies revealed that Christianity, despite its growth, had not deeply penetrated many converts. The lapsi crisis forced the Church to develop theology and practice of penance: can the Church forgive grave post-baptismal sins? Cyprian articulated the doctrine that bishops, as successors of the apostles, have power to absolve. The Novatian schism (rigorists who rejected readmission of lapsi) demonstrated tensions between ecclesiastical purity and pastoral mercy. This conflict would repeat in 4th century Donatism. The persecution also spurred the development of martyrdom theology as 'second baptism' and veneration of martyrs."
+      },
+      "people_involved": [
+        {
+          "name_en": "Decius",
+          "name_es": "Decio",
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano"
+        },
+        {
+          "name_en": "Cyprian of Carthage",
+          "name_es": "Cipriano de Cartago",
+          "role_en": "bishop and theologian",
+          "role_es": "obispo y teólogo"
+        },
+        {
+          "name_en": "Fabian",
+          "name_es": "Fabián",
+          "role_en": "Pope, martyr",
+          "role_es": "papa, mártir"
+        },
+        {
+          "name_en": "Novatian",
+          "name_es": "Novaciano",
+          "role_en": "rigorist antipope",
+          "role_es": "antipapa rigorista"
+        },
+        {
+          "name_en": "Cornelius",
+          "name_es": "Cornelio",
+          "role_en": "Pope",
+          "role_es": "papa"
+        }
+      ],
+      "region": "Roman Empire (universal)",
+      "event_type": "Persecution",
+      "confidence_id": "C1",
+      "sources": ["SRC_CYPRIAN_LETTERS", "SRC_CYPRIAN_LAPSIS", "SRC_EUSEBIUS_HE", "SRC_LIBELLI_PAPYRI", "SRC_FREND_MARTYRDOM"]
+    },
+    {
+      "id": "EVT_0258_CYPRIAN_MARTYRDOM",
+      "year": 258,
+      "year_approx": "258",
+      "century_id": "CENT_3",
+      "title": {
+        "es": "Martirio de Cipriano de Cartago",
+        "en": "Martyrdom of Cyprian of Carthage"
+      },
+      "description": {
+        "es": "Cipriano, obispo de Cartago y prominente teólogo, es ejecutado por decapitación durante la persecución de Valeriano; sus últimas palabras incluyen una propina de 25 monedas de oro para el verdugo.",
+        "en": "Cyprian, bishop of Carthage and prominent theologian, is executed by beheading during Valerian's persecution; his final words include a tip of 25 gold coins for the executioner."
+      },
+      "context": {
+        "es": "Cipriano (Thascius Caecilius Cyprianus, ~200-258 EC) era un retórico aristocrático de Cartago que se convirtió al cristianismo alrededor de 246 EC. Rápidamente ascendió a obispo de Cartago (248/249 EC), justo antes de la persecución de Decio. Durante esa persecución huyó al exilio, dirigiendo su diócesis mediante cartas, lo que provocó críticas. Escribió extensamente sobre los lapsi, defendiendo una posición moderada: readmisión tras penitencia adecuada. Su obra De Unitate Ecclesiae articuló la doctrina de unidad episcopal: 'La Iglesia es una, aunque se extienda en muchos miembros... No puede haber salvación fuera de la Iglesia.' También desarrolló teología sacramental: el bautismo herético es inválido (oponiéndose a Roma). Durante la persecución del emperador Valeriano (257-258 EC), que específicamente perseguía al clero cristiano, Cipriano fue arrestado. En su juicio, el procónsul Galerio Máximo le ordenó sacrificar a los dioses. Cipriano respondió: 'No lo haré.' Fue sentenciado a decapitación. En el lugar de ejecución, vendó sus propios ojos y dio 25 monedas de oro (aureos) al verdugo como propina. Miles de cristianos presenciaron su muerte. Sus actas de martirio (Acta Proconsularia) son auténticas actas judiciales.",
+        "en": "Cyprian (Thascius Caecilius Cyprianus, ~200-258 CE) was an aristocratic rhetorician from Carthage who converted to Christianity around 246 CE. He quickly rose to bishop of Carthage (248/249 CE), just before the Decian persecution. During that persecution he fled into exile, directing his diocese through letters, which provoked criticism. He wrote extensively on the lapsi, defending a moderate position: readmission after appropriate penance. His work De Unitate Ecclesiae articulated the doctrine of episcopal unity: 'The Church is one, though it extends in many members... There can be no salvation outside the Church.' He also developed sacramental theology: heretical baptism is invalid (opposing Rome). During Emperor Valerian's persecution (257-258 CE), which specifically targeted Christian clergy, Cyprian was arrested. At his trial, proconsul Galerius Maximus ordered him to sacrifice to the gods. Cyprian responded: 'I will not.' He was sentenced to beheading. At the execution site, he blindfolded himself and gave 25 gold coins (aurei) to the executioner as a tip. Thousands of Christians witnessed his death. His acts of martyrdom (Acta Proconsularia) are authentic judicial records."
+      },
+      "confidence_rationale": {
+        "es": "Alta Confianza (C1) porque: 1) Las Acta Proconsularia Sancti Cypriani son actas judiciales auténticas contemporáneas, 2) Sobreviven 81 cartas de Cipriano que documentan los eventos previos, 3) La Vita Cypriani de Poncio (diácono de Cipriano) es una biografía casi contemporánea, 4) Eusebio confirma el martirio, 5) Jerónimo y Agustín preservan tradiciones sobre Cipriano. Es uno de los martirios mejor documentados de la antigüedad cristiana.",
+        "en": "High Confidence (C1) because: 1) The Acta Proconsularia Sancti Cypriani are authentic contemporary judicial records, 2) 81 letters from Cyprian survive documenting preceding events, 3) The Vita Cypriani by Pontius (Cyprian's deacon) is a nearly contemporary biography, 4) Eusebius confirms the martyrdom, 5) Jerome and Augustine preserve traditions about Cyprian. It is one of the best-documented martyrdoms of Christian antiquity."
+      },
+      "significance": {
+        "es": "El martirio de Cipriano consolidó su autoridad teológica póstumamente. Sus escritos sobre eclesiología (unidad episcopal, extra ecclesiam nulla salus) moldearon el catolicismo medieval. Su doctrina sacramental (invalidez del bautismo herético) creó tensión con Roma, pero su principio ('el obispo no tiene obispo sobre él excepto en concilio') influyó en el desarrollo del episcopado africano independiente. La crisis donatista del siglo IV reactivó sus argumentos sobre pureza de ministros. Su combinación de fuga durante la persecución de Decio y martirio posterior durante Valeriano mostró evolución personal y complejidad del liderazgo cristiano bajo persecución. El detalle de la propina al verdugo (preservado en las actas) humaniza el martirio y muestra la compostura aristocrática de Cipriano. Su muerte inspiró el culto de mártires en África del Norte, con basílicas construidas sobre su tumba.",
+        "en": "Cyprian's martyrdom posthumously consolidated his theological authority. His writings on ecclesiology (episcopal unity, extra ecclesiam nulla salus) shaped medieval Catholicism. His sacramental doctrine (invalidity of heretical baptism) created tension with Rome, but his principle ('the bishop has no bishop over him except in council') influenced the development of independent African episcopate. The 4th century Donatist crisis reactivated his arguments about ministerial purity. His combination of flight during the Decian persecution and martyrdom during Valerian showed personal evolution and complexity of Christian leadership under persecution. The detail of the tip to the executioner (preserved in the acts) humanizes the martyrdom and shows Cyprian's aristocratic composure. His death inspired the cult of martyrs in North Africa, with basilicas built over his tomb."
+      },
+      "people_involved": [
+        {
+          "name_en": "Cyprian of Carthage",
+          "name_es": "Cipriano de Cartago",
+          "role_en": "bishop, theologian, martyr",
+          "role_es": "obispo, teólogo, mártir"
+        },
+        {
+          "name_en": "Valerian",
+          "name_es": "Valeriano",
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano"
+        },
+        {
+          "name_en": "Galerius Maximus",
+          "name_es": "Galerio Máximo",
+          "role_en": "proconsul of Africa",
+          "role_es": "procónsul de África"
+        },
+        {
+          "name_en": "Pontius",
+          "name_es": "Poncio",
+          "role_en": "deacon and biographer",
+          "role_es": "diácono y biógrafo"
+        }
+      ],
+      "region": "Carthage, North Africa",
+      "event_type": "Martyrdom",
+      "confidence_id": "C1",
+      "sources": ["SRC_ACTA_CYPRIANI", "SRC_PONTIUS_VITA", "SRC_CYPRIAN_LETTERS", "SRC_EUSEBIUS_HE"]
+    },
+    {
+      "id": "EVT_0270_ANTONY_DESERT",
+      "year": 270,
+      "year_approx": "~270",
+      "century_id": "CENT_3",
+      "title": {
+        "es": "Antonio el Grande Se Retira al Desierto: Nacimiento del Monasticismo",
+        "en": "Anthony the Great Withdraws to the Desert: Birth of Monasticism"
+      },
+      "description": {
+        "es": "Antonio, un joven cristiano egipcio, vende todas sus posesiones y se retira al desierto egipcio en búsqueda de perfección espiritual, iniciando el movimiento monástico cristiano.",
+        "en": "Anthony, a young Egyptian Christian, sells all his possessions and withdraws to the Egyptian desert in search of spiritual perfection, initiating the Christian monastic movement."
+      },
+      "context": {
+        "es": "Antonio (Antonius, ~251-356 EC) nació en una familia cristiana acomodada en Egipto. Alrededor de los 20 años, al escuchar Mateo 19:21 ('Si quieres ser perfecto, ve, vende lo que tienes y dalo a los pobres... y ven, sígueme'), interpretó el pasaje literalmente. Distribuyó su herencia a los pobres, dejó a su hermana al cuidado de vírgenes cristianas, y comenzó una vida ascética cerca de su pueblo. Progresivamente se retiró más profundamente al desierto, primero a tumbas abandonadas, luego a un fuerte militar en ruinas en Pispir (monte Colzim). Pasó 20 años en completo aislamiento (285-305 EC), durante los cuales, según Atanasio, enfrentó tentaciones demoníacas dramáticas: visiones de oro, ataques físicos de demonios con forma de bestias, tentaciones sexuales. Cuando finalmente sus discípulos rompieron la puerta, lo encontraron sereno y sin envejecer. Antonio no inventó el ascetismo cristiano (los anacoretas ya existían), pero estableció el patrón: retiro total del mundo, pobreza radical, trabajo manual, oración perpetua. A diferencia de ascetas paganos, Antonio enfatizó la lucha espiritual contra demonios (no mera filosofía) y obediencia a la Iglesia.",
+        "en": "Anthony (Antonius, ~251-356 CE) was born into a well-off Christian family in Egypt. Around age 20, upon hearing Matthew 19:21 ('If you want to be perfect, go, sell what you have and give to the poor... and come, follow me'), he interpreted the passage literally. He distributed his inheritance to the poor, left his sister in the care of Christian virgins, and began an ascetic life near his village. Progressively he withdrew more deeply into the desert, first to abandoned tombs, then to a ruined military fort at Pispir (Mount Colzim). He spent 20 years in complete isolation (285-305 CE), during which, according to Athanasius, he faced dramatic demonic temptations: visions of gold, physical attacks by demons in the form of beasts, sexual temptations. When his disciples finally broke down the door, they found him serene and unaged. Anthony didn't invent Christian asceticism (anchorites already existed), but established the pattern: total withdrawal from the world, radical poverty, manual labor, perpetual prayer. Unlike pagan ascetics, Anthony emphasized spiritual warfare against demons (not mere philosophy) and obedience to the Church."
+      },
+      "confidence_rationale": {
+        "es": "Confianza Media (C2) porque: 1) La Vida de Antonio de Atanasio (escrita ~360 EC) es la fuente principal, pero hagiográfica con elementos milagrosos, 2) Atanasio conoció personalmente a Antonio, 3) Jerónimo, Paladio y otros confirman la existencia y influencia de Antonio, 4) La fecha exacta de su retiro (~270 EC) es aproximada, basada en cálculos retroactivos de Atanasio, 5) La historicidad del núcleo (un eremita llamado Antonio que influyó en el monasticismo) es sólida, pero los detalles específicos (tentaciones demoníacas, 20 años sin ver a nadie) son teológicos más que históricos. Es similar a los evangelios: núcleo histórico con elaboración teológica.",
+        "en": "Medium Confidence (C2) because: 1) The Life of Antony by Athanasius (written ~360 CE) is the main source, but hagiographical with miraculous elements, 2) Athanasius personally knew Anthony, 3) Jerome, Palladius and others confirm Anthony's existence and influence, 4) The exact date of his withdrawal (~270 CE) is approximate, based on Athanasius's backward calculations, 5) The historicity of the core (a hermit named Anthony who influenced monasticism) is solid, but specific details (demonic temptations, 20 years without seeing anyone) are theological rather than historical. It's similar to the gospels: historical core with theological elaboration."
+      },
+      "significance": {
+        "es": "Antonio se convirtió en el paradigma del monje cristiano y padre del monasticismo. Su retiro al desierto estableció el desierto como espacio de encuentro con Dios y batalla espiritual, inspirando miles de imitadores. El monasticismo egipcio se expandió explosivamente: primero eremitas solitarios (anacoretas), luego comunidades semi-organizadas (cenobitas bajo Pacomio). La Vida de Antonio de Atanasio se convirtió en el bestseller cristiano del siglo IV, traducido al latín y difundido en todo el imperio. Inspiró las conversiones de Agustín y Martín de Tours. El ideal monástico que Antonio representó — renuncia al mundo, castidad, pobreza, obediencia — se convirtió en el estándar de santidad cristiana, competiendo con (y eventualmente superando) el ideal del martirio después del fin de las persecuciones. El monasticismo preservó la erudición clásica en la Edad Media, misionó Europa, y moldeó la espiritualidad católica y ortodoxa.",
+        "en": "Anthony became the paradigm of the Christian monk and father of monasticism. His withdrawal to the desert established the desert as a space of encounter with God and spiritual battle, inspiring thousands of imitators. Egyptian monasticism expanded explosively: first solitary hermits (anchorites), then semi-organized communities (cenobites under Pachomius). Athanasius's Life of Antony became the Christian bestseller of the 4th century, translated into Latin and spread throughout the empire. It inspired the conversions of Augustine and Martin of Tours. The monastic ideal that Anthony represented — renunciation of the world, chastity, poverty, obedience — became the standard of Christian holiness, competing with (and eventually surpassing) the ideal of martyrdom after the end of persecutions. Monasticism preserved classical scholarship in the Middle Ages, missionized Europe, and shaped Catholic and Orthodox spirituality."
+      },
+      "people_involved": [
+        {
+          "name_en": "Anthony the Great",
+          "name_es": "Antonio el Grande",
+          "role_en": "hermit, founder of monasticism",
+          "role_es": "ermitaño, fundador del monasticismo"
+        },
+        {
+          "name_en": "Athanasius of Alexandria",
+          "name_es": "Atanasio de Alejandría",
+          "role_en": "bishop, biographer",
+          "role_es": "obispo, biógrafo"
+        }
+      ],
+      "region": "Egyptian Desert",
+      "event_type": "Monasticism",
+      "confidence_id": "C2",
+      "sources": ["SRC_ATHANASIUS_VITA", "SRC_JEROME_DESERT", "SRC_PALLADIUS_HISTORIA"]
+    },
+    {
+      "id": "EVT_0303_DIOCLETIAN_PERSECUTION",
+      "year": 303,
+      "year_approx": "303-311",
+      "century_id": "CENT_3",
+      "title": {
+        "es": "Gran Persecución de Diocleciano: Última y Más Severa Persecución Imperial",
+        "en": "Great Persecution of Diocletian: Last and Most Severe Imperial Persecution"
+      },
+      "description": {
+        "es": "El emperador Diocleciano lanza la persecución más sistemática y violenta contra el cristianismo: destrucción de iglesias, quema de escrituras, destitución de funcionarios cristianos, y ejecuciones masivas que duran hasta 311 EC.",
+        "en": "Emperor Diocletian launches the most systematic and violent persecution against Christianity: destruction of churches, burning of scriptures, removal of Christian officials, and mass executions lasting until 311 CE."
+      },
+      "context": {
+        "es": "Diocleciano (emperador 284-305 EC) había reorganizado el imperio mediante la Tetrarquía (cuatro gobernantes: dos Augusti y dos Césares). Durante sus primeros 18 años toleró el cristianismo, pero alrededor de 303 EC, influenciado por su César Galerio (un pagano ferviente) y por temor a que el cristianismo debilitara la unidad imperial, emitió una serie de edictos persecutorios: 1) Primer Edicto (23 de febrero 303): destrucción de iglesias y escrituras cristianas, prohibición de reuniones cristianas, 2) Segundo Edicto: arresto de clero, 3) Tercer Edicto: tortura de clero para forzar apostasía, 4) Cuarto Edicto (304): sacrificio obligatorio universal (como Decio). La persecución fue desigual: brutal en el Este (bajo Galerio y Maximino Daia), leve en el Oeste (bajo Constancio Cloro, padre de Constantino). Miles fueron ejecutados, incluidos Pedro de Alejandría, Agatha, Agnes, Sebastián. Las iglesias y libros sagrados fueron destruidos sistemáticamente. Los que entregaron escrituras ('traditores') causaron el cisma donatista posterior. La persecución terminó formalmente con el Edicto de Tolerancia de Galerio (311 EC), quien, moribundo por enfermedad, admitió el fracaso y pidió a los cristianos que oraran por él. Paradójicamente, esta persecución fortaleció al cristianismo: el heroísmo de los mártires impresionó a paganos, y la red eclesiástica demostró ser irrompible.",
+        "en": "Diocletian (emperor 284-305 CE) had reorganized the empire through the Tetrarchy (four rulers: two Augusti and two Caesars). During his first 18 years he tolerated Christianity, but around 303 CE, influenced by his Caesar Galerius (a fervent pagan) and fearing that Christianity weakened imperial unity, he issued a series of persecutory edicts: 1) First Edict (February 23, 303): destruction of churches and Christian scriptures, prohibition of Christian gatherings, 2) Second Edict: arrest of clergy, 3) Third Edict: torture of clergy to force apostasy, 4) Fourth Edict (304): universal obligatory sacrifice (like Decius). The persecution was uneven: brutal in the East (under Galerius and Maximinus Daia), mild in the West (under Constantius Chlorus, Constantine's father). Thousands were executed, including Peter of Alexandria, Agatha, Agnes, Sebastian. Churches and sacred books were systematically destroyed. Those who surrendered scriptures ('traditores') caused the later Donatist schism. The persecution formally ended with Galerius's Edict of Tolerance (311 CE), who, dying of illness, admitted failure and asked Christians to pray for him. Paradoxically, this persecution strengthened Christianity: the heroism of martyrs impressed pagans, and the ecclesiastical network proved unbreakable."
+      },
+      "confidence_rationale": {
+        "es": "Alta Confianza (C1) porque: 1) Múltiples fuentes contemporáneas (Eusebio, Historia Eclesiástica VII-VIII, fue testigo ocular), 2) Lactancio, De Mortibus Persecutorum, escribió inmediatamente después, 3) Los edictos imperiales están referenciados en fuentes legales y literarias, 4) Actas de mártires (Acta Sanctorum) documentan casos individuales, 5) Evidencia arqueológica de destrucción de iglesias y reconstrucción post-persecución, 6) Fuentes paganas (Aurelio Víctor) confirman la política de Diocleciano. Es el evento de persecución mejor documentado de la historia romana.",
+        "en": "High Confidence (C1) because: 1) Multiple contemporary sources (Eusebius, Ecclesiastical History VII-VIII, was an eyewitness), 2) Lactantius, De Mortibus Persecutorum, wrote immediately afterward, 3) Imperial edicts are referenced in legal and literary sources, 4) Acts of martyrs (Acta Sanctorum) document individual cases, 5) Archaeological evidence of church destruction and post-persecution reconstruction, 6) Pagan sources (Aurelius Victor) confirm Diocletian's policy. It is the best-documented persecution event in Roman history."
+      },
+      "significance": {
+        "es": "La Gran Persecución fue la última y más severa prueba del cristianismo en el Imperio Romano. Su fracaso demostró que el cristianismo era imparable: en menos de una década, Constantino legalizó el cristianismo (Edicto de Milán, 313 EC), y para fin del siglo IV era la religión oficial del imperio. La persecución produjo una generación masiva de mártires cuyo culto moldeó la piedad medieval (reliquias, santuarios, calendario de santos). El cisma donatista en África del Norte, causado por el debate sobre los 'traditores', duró siglos y reveló tensiones entre pureza y pragmatismo en la Iglesia. La experiencia traumática de la persecución influyó en la teología política cristiana: cuando los cristianos obtuvieron poder bajo Constantino, algunos argumentaron por persecución de herejes y paganos como retribución. El contraste entre la severa persecución en el Este y la tolerancia en el Oeste (donde Constancio Cloro gobernó) preparó el camino para el apoyo de Constantino al cristianismo.",
+        "en": "The Great Persecution was the last and most severe test of Christianity in the Roman Empire. Its failure demonstrated that Christianity was unstoppable: in less than a decade, Constantine legalized Christianity (Edict of Milan, 313 CE), and by the end of the 4th century it was the official religion of the empire. The persecution produced a massive generation of martyrs whose cult shaped medieval piety (relics, shrines, calendar of saints). The Donatist schism in North Africa, caused by the debate over the 'traditores,' lasted for centuries and revealed tensions between purity and pragmatism in the Church. The traumatic experience of persecution influenced Christian political theology: when Christians gained power under Constantine, some argued for persecution of heretics and pagans as retribution. The contrast between the severe persecution in the East and tolerance in the West (where Constantius Chlorus ruled) paved the way for Constantine's support of Christianity."
+      },
+      "people_involved": [
+        {
+          "name_en": "Diocletian",
+          "name_es": "Diocleciano",
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano"
+        },
+        {
+          "name_en": "Galerius",
+          "name_es": "Galerio",
+          "role_en": "Caesar, instigator of persecution",
+          "role_es": "César, instigador de la persecución"
+        },
+        {
+          "name_en": "Eusebius of Caesarea",
+          "name_es": "Eusebio de Cesarea",
+          "role_en": "historian, eyewitness",
+          "role_es": "historiador, testigo ocular"
+        },
+        {
+          "name_en": "Lactantius",
+          "name_es": "Lactancio",
+          "role_en": "Christian apologist",
+          "role_es": "apologista cristiano"
+        },
+        {
+          "name_en": "Peter of Alexandria",
+          "name_es": "Pedro de Alejandría",
+          "role_en": "bishop, martyr",
+          "role_es": "obispo, mártir"
+        }
+      ],
+      "region": "Roman Empire (especially East)",
+      "event_type": "Persecution",
+      "confidence_id": "C1",
+      "sources": ["SRC_EUSEBIUS_HE", "SRC_LACTANTIUS_MORT", "SRC_ACTA_MARTYRUM", "SRC_FREND_MARTYRDOM"]
+    }
+  ]
+}

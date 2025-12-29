@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import './TimelineEvent.css';
 
-const TimelineEvent = ({ event, isLeft, onClick }) => {
+const TimelineEvent = ({ event, isLeft, onClick, orientation = 'vertical' }) => {
   const { t } = useLanguage();
   
   const confidenceColors = {
@@ -13,7 +13,7 @@ const TimelineEvent = ({ event, isLeft, onClick }) => {
 
   return (
     <div 
-      className={`timeline-event ${isLeft ? 'left' : 'right'}`}
+      className={`timeline-event ${orientation === 'vertical' ? (isLeft ? 'left' : 'right') : 'horizontal'}`}
       onClick={() => onClick(event)}
     >
       <div className="timeline-content">

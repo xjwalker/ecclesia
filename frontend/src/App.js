@@ -1,75 +1,30 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from './i18n/LanguageContext';
-import apiService from './services/api';
-import TimelineEvent from './components/TimelineEvent';
+import { useTimelineData } from './hooks/useTimelineData';
+import Timeline from './components/Timeline';
+import Filters from './components/Filters';
 import EventSidebar from './components/EventSidebar';
 import './App.css';
 
 function App() {
   const { t, language, changeLanguage } = useLanguage();
-  const [events, setEvents] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [summary, setSummary] = useState(null);
+  const { 
+    events, 
+    summary, 
+    loading, 
+    error, 
+    filters, 
+    setFilters, 
+    applyFilters, 
+    clearFilters,
+    reload 
+  } = useTimelineData(language);
+  
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [filters, setFilters] = useState({
-    yearFrom: '',
-    yearTo: '',
-    confidenceId: '',
-  });
-
-  useEffect(() => {
-    loadData();
-  }, [language]);
-
-  const loadData = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-
-      // Load summary
-      const summaryResponse = await apiService.getSummary();
-      setSummary(summaryResponse.data);
-
-      // Load events
-      const eventsResponse = await apiService.getEvents({}, language);
-      // Handle both wrapped and unwrapped data formats
-      const eventsData = eventsResponse.data.data || eventsResponse.data;
-      setEvents(eventsData);
-    } catch (err) {
-      setError(t.error);
-      console.error('API Error:', err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const applyFilters = async () => {
-    try {
-      setLoading(true);
-      const params = {};
-      
-      if (filters.yearFrom) params.year_from = parseInt(filters.yearFrom);
-      if (filters.yearTo) params.year_to = parseInt(filters.yearTo);
-      if (filters.confidenceId) params.confidence_id = filters.confidenceId;
-
-      const response = await apiService.getEvents(params, language);
-      // Handle both wrapped and unwrapped data formats
-      const eventsData = response.data.data || response.data;
-      setEvents(eventsData);
-    } catch (err) {
-      setError('Error filtering events');
-      console.error('Filter Error:', err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const clearFilters = () => {
-    setFilters({ yearFrom: '', yearTo: '', confidenceId: '' });
-    loadData();
-  };
+  const [timelineOrientation, setTimelineOrientation] = useState('vertical');
+  const [sidebarWidth, setSidebarWidth] = useState(450);
+  const [isDragging, setIsDragging] = useState(false);
 
   const handleEventClick = (event) => {
     setSelectedEvent(event);
@@ -81,25 +36,75 @@ function App() {
     setTimeout(() => setSelectedEvent(null), 300);
   };
 
+  const handleMouseDown = (e) => {
+    if (timelineOrientation === 'vertical') {
+      setIsDragging(true);
+      e.preventDefault();
+    }
+  };
+
+  const handleMouseMove = (e) => {
+    if (isDragging && timelineOrientation === 'vertical') {
+      const newWidth = window.innerWidth - e.clientX;
+      const maxWidth = Math.floor(window.innerWidth * 0.6); // Up to 60% of screen
+      if (newWidth >= 300 && newWidth <= maxWidth) {
+        setSidebarWidth(newWidth);
+      }
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  React.useEffect(() => {
+    if (isDragging) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+      return () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+      };
+    }
+  }, [isDragging]);
+
   return (
     <div className="App">
       <header className="app-header">
         <div className="header-content">
           <div className="header-top">
             <h1>{t.appTitle}</h1>
-            <div className="language-switcher">
-              <button 
-                className={`lang-btn ${language === 'en' ? 'active' : ''}`}
-                onClick={() => changeLanguage('en')}
-              >
-                EN
-              </button>
-              <button 
-                className={`lang-btn ${language === 'es' ? 'active' : ''}`}
-                onClick={() => changeLanguage('es')}
-              >
-                ES
-              </button>
+            <div className="header-controls">
+              <div className="language-switcher">
+                <button 
+                  className={`lang-btn ${language === 'en' ? 'active' : ''}`}
+                  onClick={() => changeLanguage('en')}
+                >
+                  EN
+                </button>
+                <button 
+                  className={`lang-btn ${language === 'es' ? 'active' : ''}`}
+                  onClick={() => changeLanguage('es')}
+                >
+                  ES
+                </button>
+              </div>
+              <div className="view-switcher">
+                <button 
+                  className={`view-btn ${timelineOrientation === 'vertical' ? 'active' : ''}`}
+                  onClick={() => setTimelineOrientation('vertical')}
+                  title="Vertical timeline"
+                >
+                  ⬍
+                </button>
+                <button 
+                  className={`view-btn ${timelineOrientation === 'horizontal' ? 'active' : ''}`}
+                  onClick={() => setTimelineOrientation('horizontal')}
+                  title="Horizontal timeline"
+                >
+                  ⬌
+                </button>
+              </div>
             </div>
           </div>
           <p className="subtitle">{t.subtitle}</p>
@@ -115,82 +120,42 @@ function App() {
         </div>
       </header>
 
-      <div className="filters-section">
-        <div className="filters-container">
-          <input
-            type="number"
-            placeholder={t.yearFrom}
-            value={filters.yearFrom}
-            onChange={(e) => setFilters({ ...filters, yearFrom: e.target.value })}
-            className="filter-input"
-          />
-          <input
-            type="number"
-            placeholder={t.yearTo}
-            value={filters.yearTo}
-            onChange={(e) => setFilters({ ...filters, yearTo: e.target.value })}
-            className="filter-input"
-          />
-          <select
-            value={filters.confidenceId}
-            onChange={(e) => setFilters({ ...filters, confidenceId: e.target.value })}
-            className="filter-select"
-          >
-            <option value="">{t.allConfidenceLevels}</option>
-            <option value="C1">{t.highConfidence}</option>
-            <option value="C2">{t.mediumConfidence}</option>
-            <option value="C3">{t.lowConfidence}</option>
-          </select>
-          <button onClick={applyFilters} className="filter-button apply">
-            {t.applyFilters}
-          </button>
-          <button onClick={clearFilters} className="filter-button clear">
-            {t.clear}
-          </button>
-        </div>
-      </div>
-
-      <main className="timeline-container">
-        {loading && (
-          <div className="loading">
-            <div className="spinner"></div>
-            <p>{t.loading}</p>
-          </div>
-        )}
-
-        {error && (
-          <div className="error">
-            <p>{error}</p>
-            <button onClick={loadData} className="retry-button">{t.retry}</button>
-          </div>
-        )}
-
-        {!loading && !error && events.length === 0 && (
-          <div className="no-data">
-            <p>{t.noEvents}</p>
-          </div>
-        )}
-
-        {!loading && !error && events.length > 0 && (
-          <div className="timeline">
-            <div className="timeline-line"></div>
-            {events.map((event, index) => (
-              <TimelineEvent
-                key={event.id}
-                event={event}
-                isLeft={index % 2 === 0}
-                onClick={handleEventClick}
-              />
-            ))}
-          </div>
-        )}
-      </main>
-
-      <EventSidebar
-        event={selectedEvent}
-        isOpen={sidebarOpen}
-        onClose={handleCloseSidebar}
+      <Filters
+        filters={filters}
+        onChange={setFilters}
+        onApply={() => applyFilters(filters)}
+        onClear={clearFilters}
+        translations={t}
       />
+
+      <div className={`main-content ${timelineOrientation}`}>
+        <main className={`timeline-container ${timelineOrientation}`}>
+          <Timeline
+            events={events}
+            onEventClick={handleEventClick}
+            loading={loading}
+            error={error}
+            orientation={timelineOrientation}
+          />
+        </main>
+
+        {timelineOrientation === 'vertical' && sidebarOpen && (
+          <div 
+            className="resize-divider"
+            onMouseDown={handleMouseDown}
+          >
+            <div className="resize-handle"></div>
+          </div>
+        )}
+
+        <EventSidebar
+          event={selectedEvent}
+          isOpen={sidebarOpen}
+          onClose={handleCloseSidebar}
+          orientation={timelineOrientation}
+          width={sidebarWidth}
+        />
+      </div>
 
       <footer className="app-footer">
         <p>{t.footerText}</p>

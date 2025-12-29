@@ -10,13 +10,19 @@
         "en": "Paul of Tarsus",
         "es": "Pablo de Tarso"
       },
-      "work": "Authentic Epistles (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon)",
+      "work": {
+        "en": "Authentic Epistles (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon)",
+        "es": "Epístolas Auténticas (Romanos, 1-2 Corintios, Gálatas, Filipenses, 1 Tesalonicenses, Filemón)"
+      },
       "date_written": "48–62 CE",
       "language": {
         "en": "Greek",
         "es": "Griego"
       },
-      "notes": "Direct primary sources written by Paul himself. Universally accepted as authentic by scholars."
+      "notes": {
+        "en": "Direct primary sources written by Paul himself. Universally accepted as authentic by scholars.",
+        "es": "Fuentes primarias directas escritas por el propio Pablo. Universalmente aceptadas como auténticas por los estudiosos."
+      }
     },
     {
       "id": "SRC_JOSEPHUS_WAR",
@@ -28,14 +34,23 @@
         "en": "Flavius Josephus",
         "es": "Flavio Josefo"
       },
-      "work": "The Jewish War (Bellum Judaicum)",
+      "work": {
+        "en": "The Jewish War (Bellum Judaicum)",
+        "es": "La Guerra de los Judíos (Bellum Judaicum)"
+      },
       "date_written": "75 CE",
       "language": {
         "en": "Greek",
         "es": "Griego"
       },
-      "notes": "Eyewitness account of the Jewish-Roman War and destruction of Jerusalem. Josephus was present during the siege.",
-      "citation_info": "Book 6, Chapters 4-5: Detailed description of the siege and destruction of the Temple. Book 6, Chapter 5, Section 1: 'the sanctuary was burned' in the month of August"
+      "notes": {
+        "en": "Eyewitness account of the Jewish-Roman War and destruction of Jerusalem. Josephus was present during the siege.",
+        "es": "Relato de testigo presencial de la Guerra Judeo-Romana y la destrucción de Jerusalén. Josefo estuvo presente durante el asedio."
+      },
+      "citation_info": {
+        "en": "Book 6, Chapters 4-5: Detailed description of the siege and destruction of the Temple. Book 6, Chapter 5, Section 1: 'the sanctuary was burned' in the month of August",
+        "es": "Libro 6, Capítulos 4-5: Descripción detallada del asedio y destrucción del Templo. Libro 6, Capítulo 5, Sección 1: 'el santuario fue quemado' en el mes de agosto"
+      }
     },
     {
       "id": "SRC_JOSEPHUS_ANT",
@@ -47,14 +62,23 @@
         "en": "Flavius Josephus",
         "es": "Flavio Josefo"
       },
-      "work": "Antiquities of the Jews",
+      "work": {
+        "en": "Antiquities of the Jews",
+        "es": "Antigüedades de los Judíos"
+      },
       "date_written": "93–94 CE",
       "language": {
         "en": "Greek",
         "es": "Griego"
       },
-      "notes": "Contains the Testimonium Flavianum, earliest non-Christian reference to Jesus. Scholarly debate on interpolations.",
-      "citation_info": "Book 18, Chapter 3, Section 3 (18.3.3): The Testimonium Flavianum passage about Jesus. Also Book 20, Chapter 9, Section 1 (20.9.1): mentions 'James, the brother of Jesus who was called Christ'"
+      "notes": {
+        "en": "Historical account from Creation to the outbreak of the Jewish-Roman War. Includes the Testimonium Flavianum about Jesus (controversial authenticity).",
+        "es": "Relato histórico desde la Creación hasta el estallido de la Guerra Judeo-Romana. Incluye el Testimonium Flavianum sobre Jesús (autenticidad controvertida)."
+      },
+      "citation_info": {
+        "en": "Book 18, Chapter 3, Section 3: 'At this time there appeared Jesus, a wise man' (Testimonium Flavianum). Book 20, Chapter 9, Section 1: Reference to 'James, brother of Jesus who was called Christ'",
+        "es": "Libro 18, Capítulo 3, Sección 3: 'En este tiempo apareció Jesús, un hombre sabio' (Testimonium Flavianum). Libro 20, Capítulo 9, Sección 1: Referencia a 'Santiago, hermano de Jesús llamado Cristo'"
+      }
     },
     {
       "id": "SRC_TACITUS_ANN",
@@ -104,14 +128,23 @@
         "en": "Suetonius",
         "es": "Suetonio"
       },
-      "work": "Life of Claudius (25.4)",
+      "work": {
+        "en": "The Twelve Caesars (De Vita Caesarum)",
+        "es": "Vida de los Doce Césares (De Vita Caesarum)"
+      },
       "date_written": "c. 121 CE",
       "language": {
         "en": "Latin",
         "es": "Latín"
       },
-      "notes": "Mentions expulsion of Jews from Rome due to disturbances over 'Chrestus' (likely Christ). Corroborates Acts 18:2.",
-      "citation_info": "Life of Claudius 25.4: 'Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome'. Also Life of Nero 16.2 mentions punishment of Christians"
+      "notes": {
+        "en": "Biographies of Julius Caesar through Domitian. Contains brief reference to Claudius expelling Jews from Rome.",
+        "es": "Biografías desde Julio César hasta Domiciano. Contiene breve referencia a Claudio expulsando judíos de Roma."
+      },
+      "citation_info": {
+        "en": "Life of Claudius 25.4: 'Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome'",
+        "es": "Vida de Claudio 25.4: 'Como los judíos causaban disturbios constantemente a instigación de Cresto, los expulsó de Roma'"
+      }
     },
     {
       "id": "SRC_ACTS",
@@ -123,14 +156,23 @@
         "en": "Anonymous (trad. Luke)",
         "es": "Anónimo (trad. Lucas)"
       },
-      "work": "Acts of the Apostles",
+      "work": {
+        "en": "Acts of the Apostles",
+        "es": "Hechos de los Apóstoles"
+      },
       "date_written": "80–90 CE",
       "language": {
         "en": "Greek",
         "es": "Griego"
       },
-      "notes": "Early Christian narrative of apostolic period. Historical reliability debated but contains valuable traditions.",
-      "citation_info": "Chapter 15: Jerusalem Council. Chapter 18:2: Aquila and Priscilla expelled from Rome by Claudius. Chapters 13-28: Paul's missionary journeys and arrest"
+      "notes": {
+        "en": "Continuation of Luke's Gospel narrating early church history. Historical reliability debated, especially regarding Paul's journeys.",
+        "es": "Continuación del Evangelio de Lucas narrando la historia de la iglesia primitiva. Fiabilidad histórica debatida, especialmente sobre los viajes de Pablo."
+      },
+      "citation_info": {
+        "en": "Chapter 15: Jerusalem Council. Chapter 18:2: Aquila and Priscilla expelled from Rome by Claudius. Chapters 13-28: Paul's missionary journeys and arrest",
+        "es": "Capítulo 15: Concilio de Jerusalén. Capítulo 18:2: Aquila y Priscila expulsados de Roma por Claudio. Capítulos 13-28: Viajes misioneros de Pablo y arresto"
+      }
     },
     {
       "id": "SRC_GOSPELS_SYN",
@@ -180,14 +222,23 @@
         "en": "Bart D. Ehrman",
         "es": "Bart D. Ehrman"
       },
-      "work": "The New Testament: A Historical Introduction to the Early Christian Writings",
+      "work": {
+        "en": "The New Testament: A Historical Introduction to the Early Christian Writings",
+        "es": "El Nuevo Testamento: Una Introducción Histórica a los Escritos Cristianos Primitivos"
+      },
       "date_written": "2016 (6th ed.)",
       "language": {
         "en": "English",
         "es": "Inglés"
       },
-      "notes": "Standard academic textbook on NT historical criticism. Ehrman is James A. Gray Distinguished Professor at UNC Chapel Hill.",
-      "citation_info": "Chapter 10 (pp. 139-157): Paul's life and letters. Chapter 15 (pp. 222-239): Gospel of Mark composition and dating. Chapter 17 (pp. 260-278): Gospel of John. See pp. 229-231 for dating Mark to post-70 CE"
+      "notes": {
+        "en": "Standard academic textbook on New Testament historical-critical scholarship.",
+        "es": "Libro de texto académico estándar sobre la erudición histórico-crítica del Nuevo Testamento."
+      },
+      "citation_info": {
+        "en": "Chapter 10 (pp. 139-157): Paul's life and letters. Chapter 15 (pp. 222-239): Gospel of Mark composition and dating. Chapter 17 (pp. 260-278): Gospel of John. See pp. 229-231 for dating Mark to post-70 CE",
+        "es": "Chapter 10 (pp. 139-157): Paul's life and letters. Chapter 15 (pp. 222-239): Gospel of Mark composition and dating. Chapter 17 (pp. 260-278): Gospel of John. See pp. 229-231 for dating Mark to post-70 CE"
+      }
     },
     {
       "id": "SRC_EHRMAN_JESUS",
@@ -294,14 +345,23 @@
         "en": "N.T. Wright",
         "es": "N.T. Wright"
       },
-      "work": "The Resurrection of the Son of God",
+      "work": {
+        "en": "The Resurrection of the Son of God",
+        "es": "La Resurrección del Hijo de Dios"
+      },
       "date_written": "2003",
       "language": {
         "en": "English",
         "es": "Inglés"
       },
-      "notes": "Comprehensive 800-page scholarly treatment of resurrection in historical context.",
-      "citation_info": "Part III (pp. 319-552): 'The Resurrection of Jesus' - historical argument. Chapter 18 (pp. 587-683): 'Easter and History'"
+      "notes": {
+        "en": "Defends historicity of bodily resurrection within Jewish context of Second Temple Judaism.",
+        "es": "Defiende la historicidad de la resurrección corporal dentro del contexto judío del Judaísmo del Segundo Templo."
+      },
+      "citation_info": {
+        "en": "Part III (pp. 319-552): 'The Resurrection of Jesus' - historical argument. Chapter 18 (pp. 587-683): 'Easter and History'",
+        "es": "Part III (pp. 319-552): 'The Resurrection of Jesus' - historical argument. Chapter 18 (pp. 587-683): 'Easter and History'"
+      }
     },
     {
       "id": "SRC_DUNN",
@@ -408,14 +468,23 @@
         "en": "Raymond E. Brown",
         "es": "Raymond E. Brown"
       },
-      "work": "The Death of the Messiah (2 volumes)",
+      "work": {
+        "en": "The Death of the Messiah",
+        "es": "La Muerte del Mesías"
+      },
       "date_written": "1994",
       "language": {
         "en": "English",
         "es": "Inglés"
       },
-      "notes": "Exhaustive commentary on Passion narratives. Brown was Distinguished Professor at Union Theological Seminary.",
-      "citation_info": "Volume 1: covers Mark 14:1-15:47, Matthew 26:1-27:66. Volume 2: covers Luke 22:1-23:56, John 18:1-19:42. See especially Vol. 1, pp. 373-397 on the historicity of the Jewish trial; Vol. 2, pp. 863-877 on crucifixion practices"
+      "notes": {
+        "en": "Magisterial two-volume commentary on Passion narratives across all four Gospels.",
+        "es": "Comentario magisterial de dos volúmenes sobre las narrativas de la Pasión en los cuatro Evangelios."
+      },
+      "citation_info": {
+        "en": "Volume 1: covers Mark 14:1-15:47, Matthew 26:1-27:66. Volume 2: covers Luke 22:1-23:56, John 18:1-19:42. See especially Vol. 1, pp. 373-397 on the historicity of the Jewish trial; Vol. 2, pp. 863-877 on crucifixion practices",
+        "es": "Volume 1: covers Mark 14:1-15:47, Matthew 26:1-27:66. Volume 2: covers Luke 22:1-23:56, John 18:1-19:42. See especially Vol. 1, pp. 373-397 on the historicity of the Jewish trial; Vol. 2, pp. 863-877 on crucifixion practices"
+      }
     },
     {
       "id": "SRC_HURTADO",

@@ -1,0 +1,183 @@
+/* Timeline component styles - supports both vertical and horizontal layouts */
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  background: linear-gradient(180deg, #3b82f6 0%, #8b5cf6 100%);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+/* Century Markers */
+.century-marker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.century-marker.vertical {
+  width: 100%;
+  margin: 60px 0 40px 0;
+}
+
+.century-marker.horizontal {
+  min-width: 200px;
+  flex-direction: column;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.century-badge {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 11;
+}
+
+.century-marker.vertical .century-badge {
+  animation: fadeInScale 0.6s ease-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Vertical timeline (default) */
+.timeline-vertical {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 40px 20px;
+}
+
+.timeline-vertical .timeline {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 100px;
+}
+
+.timeline-vertical .timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #3b82f6 0%, #8b5cf6 100%);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+/* Horizontal timeline */
+.timeline-horizontal {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 40px;
+  scroll-behavior: smooth;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.timeline-horizontal::-webkit-scrollbar {
+  height: 12px;
+}
+
+.timeline-horizontal::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin: 0 20px;
+}
+
+.timeline-horizontal::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+  border-radius: 6px;
+}
+
+.timeline-horizontal::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #7c3aed 100%);
+}
+
+.timeline-horizontal .timeline-line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Loading state */
+.timeline-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #94a3b8;
+}
+
+.timeline-loading .spinner {
+  margin: 0 auto 20px;
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(59, 130, 246, 0.1);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error state */
+.timeline-error {
+  text-align: center;
+  padding: 60px 20px;
+  color: #ef4444;
+  font-size: 1.1em;
+}
+
+/* Empty state */
+.timeline-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #94a3b8;
+  font-size: 1.1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline-vertical .timeline-line {
+    left: 30px;
+  }
+  
+  .timeline-horizontal {
+    padding: 20px 10px;
+  }
+}

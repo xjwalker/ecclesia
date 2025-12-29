@@ -1,7 +1,7 @@
 .timeline-event {
   position: relative;
   width: 45%;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   animation: fadeIn 0.5s ease-in;
   cursor: pointer;
 }
@@ -14,6 +14,26 @@
 .timeline-event.right {
   left: 55%;
   text-align: left;
+}
+
+/* Horizontal timeline event */
+.timeline-event.horizontal {
+  width: 350px;
+  min-width: 350px;
+  max-width: 350px;
+  margin: 0;
+  left: 0 !important;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.timeline-event.horizontal .timeline-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.timeline-event.horizontal .timeline-content::after {
+  display: none;
 }
 
 .timeline-content {

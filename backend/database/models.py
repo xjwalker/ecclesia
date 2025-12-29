@@ -113,11 +113,11 @@ class Source(Base):
     id = Column(String, primary_key=True)
     type = Column(JSON, index=False)  # {"en": "primary", "es": "primaria"}
     author = Column(JSON, nullable=True)  # {"en": "Author Name", "es": "Nombre del Autor"}
-    work = Column(String)  # Work titles usually not translated
+    work = Column(JSON)  # {"en": "Work Title", "es": "Título de la Obra"}
     date_written = Column(String, nullable=True)
     language = Column(JSON, nullable=True)  # {"en": "Greek", "es": "Griego"}
-    notes = Column(String, nullable=True)  # Keep as single language for now
-    citation_info = Column(Text, nullable=True)  # Specific pages, chapters, volumes
+    notes = Column(JSON, nullable=True)  # {"en": "Notes", "es": "Notas"}
+    citation_info = Column(JSON, nullable=True)  # {"en": "Citation", "es": "Cita"}
     
     # Relationships
     events = relationship("Event", secondary=event_sources, back_populates="sources")
@@ -135,11 +135,11 @@ class Source(Base):
             "id": self.id,
             "type": get_text(self.type),
             "author": get_text(self.author),
-            "work": self.work,
+            "work": get_text(self.work),
             "date_written": self.date_written,
             "language": get_text(self.language),
-            "notes": self.notes,
-            "citation_info": self.citation_info
+            "notes": get_text(self.notes),
+            "citation_info": get_text(self.citation_info)
         }
 
 
