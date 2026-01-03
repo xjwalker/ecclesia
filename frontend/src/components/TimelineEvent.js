@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
+import HighlightBadge from './HighlightBadge';
 import './TimelineEvent.css';
 
 const TimelineEvent = ({ event, isLeft, onClick, orientation = 'vertical' }) => {
@@ -17,11 +18,18 @@ const TimelineEvent = ({ event, isLeft, onClick, orientation = 'vertical' }) => 
       onClick={() => onClick(event)}
     >
       <div className="timeline-content">
-        <div 
-          className="confidence-badge"
-          style={{ backgroundColor: confidenceColors[event.confidence_id] || '#999' }}
-        >
-          {t.confidence[event.confidence_id] || event.confidence_id}
+        <div className="event-badges">
+          <HighlightBadge 
+            highlight={event.highlight} 
+            eventType={event.event_type}
+            compact={false}
+          />
+          <div 
+            className="confidence-badge"
+            style={{ backgroundColor: confidenceColors[event.confidence_id] || '#999' }}
+          >
+            {t.confidence[event.confidence_id] || event.confidence_id}
+          </div>
         </div>
         
         <div className="event-year">{event.year} CE</div>

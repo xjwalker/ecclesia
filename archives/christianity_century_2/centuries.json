@@ -6,7 +6,10 @@
         100,
         200
       ],
-      "summary": "Consolidación institucional, desarrollo doctrinal, y enfrentamiento con herejías y persecuciones imperiales.",
+      "summary": {
+        "en": "Institutional consolidation, doctrinal development, and confrontation with heresies and imperial persecutions.",
+        "es": "Consolidación institucional, desarrollo doctrinal, y enfrentamiento con herejías y persecuciones imperiales."
+      },
       "confidence_id": "C1",
       "sources": [
         "SRC_EHRMAN_NT",

@@ -1,0 +1,405 @@
+{
+  "events": [
+    {
+      "id": "EVT_0303_DIOCLETIAN_END",
+      "year": 311,
+      "year_approx": "303-311",
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "End of Great Persecution: Edict of Tolerance",
+        "es": "Fin de la Gran Persecución: Edicto de Tolerancia"
+      },
+      "description": {
+        "en": "Emperor Galerius issues Edict of Tolerance ending the Diocletian persecution, the last and most severe imperial persecution of Christians.",
+        "es": "El emperador Galerio emite el Edicto de Tolerancia finalizando la persecución de Diocleciano, la última y más severa persecución imperial de cristianos."
+      },
+      "context": {
+        "en": "The Great Persecution (303-311) under Diocletian and his successors was the most systematic attempt to eradicate Christianity. Churches were destroyed, Scriptures burned, clergy imprisoned and tortured, and Christians forced to sacrifice to Roman gods. In 311, Galerius, dying of a painful disease, issued an edict of tolerance, admitting the persecution had failed and allowing Christians to worship again. This marked the definitive end of imperial persecution.",
+        "es": "La Gran Persecución (303-311) bajo Diocleciano y sus sucesores fue el intento más sistemático de erradicar el cristianismo. Se destruyeron iglesias, se quemaron Escrituras, se encarceló y torturó al clero, y se obligó a los cristianos a sacrificar a los dioses romanos. En 311, Galerio, muriendo de una dolorosa enfermedad, emitió un edicto de tolerancia, admitiendo que la persecución había fallado y permitiendo que los cristianos volvieran a adorar. Esto marcó el fin definitivo de la persecución imperial."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): Eusebius preserves the text of Galerius's edict, multiple contemporary sources confirm the end of persecution, archaeological evidence shows church reconstruction began immediately after.",
+        "es": "Alta Confianza (C1): Eusebio preserva el texto del edicto de Galerio, múltiples fuentes contemporáneas confirman el fin de la persecución, evidencia arqueológica muestra que la reconstrucción de iglesias comenzó inmediatamente después."
+      },
+      "significance": {
+        "en": "The failure of the Great Persecution demonstrated Christianity's resilience and prepared the ground for Constantine's embrace of the faith. It marked the transition from persecution to tolerance to official favor.",
+        "es": "El fracaso de la Gran Persecución demostró la resistencia del cristianismo y preparó el terreno para que Constantino abrazara la fe. Marcó la transición de persecución a tolerancia a favor oficial."
+      },
+      "people_involved": [
+        {
+          "name_en": "Galerius",
+          "name_es": "Galerio",
+          "role_en": "Roman Emperor, issued edict",
+          "role_es": "emperador romano, emitió edicto"
+        },
+        {
+          "name_en": "Diocletian",
+          "name_es": "Diocleciano",
+          "role_en": "Former emperor, initiated persecution",
+          "role_es": "ex emperador, inició persecución"
+        }
+      ],
+      "region": "Roman Empire",
+      "event_type": "Legal/Political",
+      "highlight": "historical_event",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_LACTANTIUS"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Diocletian_argenteus_reverse.png/800px-Diocletian_argenteus_reverse.png"
+    },
+    {
+      "id": "EVT_0312_CONSTANTINE_CONVERSION",
+      "year": 312,
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Constantine's Conversion: Battle of Milvian Bridge",
+        "es": "Conversión de Constantino: Batalla del Puente Milvio"
+      },
+      "description": {
+        "en": "Constantine defeats Maxentius after reportedly seeing a vision of the Chi-Rho symbol with the words 'In this sign, conquer.' Marks the beginning of imperial patronage of Christianity.",
+        "es": "Constantino derrota a Majencio después de reportar haber visto una visión del símbolo Chi-Rho con las palabras 'Con este signo vencerás.' Marca el inicio del patronazgo imperial del cristianismo."
+      },
+      "context": {
+        "en": "On October 28, 312, Constantine faced Maxentius for control of the Western Empire at the Milvian Bridge outside Rome. According to Eusebius and Lactantius, Constantine saw a vision of a cross or Chi-Rho symbol (☧) in the sky with the words 'In Hoc Signo Vinces' (In this sign, conquer). He ordered his soldiers to paint the symbol on their shields. Constantine won decisively, and Maxentius drowned in the Tiber. Whether genuine religious experience, political calculation, or both, Constantine became Christianity's imperial patron, fundamentally changing the religion's status and trajectory.",
+        "es": "El 28 de octubre de 312, Constantino enfrentó a Majencio por el control del Imperio Occidental en el Puente Milvio fuera de Roma. Según Eusebio y Lactancio, Constantino vio una visión de una cruz o símbolo Chi-Rho (☧) en el cielo con las palabras 'In Hoc Signo Vinces' (Con este signo vencerás). Ordenó a sus soldados pintar el símbolo en sus escudos. Constantino ganó decisivamente y Majencio se ahogó en el Tíber. Ya sea experiencia religiosa genuina, cálculo político o ambos, Constantino se convirtió en patrón imperial del cristianismo, cambiando fundamentalmente el estatus y trayectoria de la religión."
+      },
+      "confidence_rationale": {
+        "en": "Medium Confidence (C2): The battle is historically certain, but the vision is reported only by Christian sources decades later (Eusebius, Lactantius). Constantine's conversion was gradual and politically strategic—he wasn't baptized until his deathbed in 337. Archaeological evidence (coins, inscriptions) shows his increasing Christian identification.",
+        "es": "Confianza Media (C2): La batalla es históricamente cierta, pero la visión solo es reportada por fuentes cristianas décadas después (Eusebio, Lactancio). La conversión de Constantino fue gradual y estratégicamente política—no fue bautizado hasta su lecho de muerte en 337. Evidencia arqueológica (monedas, inscripciones) muestra su creciente identificación cristiana."
+      },
+      "significance": {
+        "en": "Constantine's victory began Christianity's transformation from persecuted minority to imperial religion. Within a century, Christianity would be the sole official religion of the Roman Empire. This created the church-state alliance that defined medieval Christianity and raised questions about faith and power that persist today.",
+        "es": "La victoria de Constantino inició la transformación del cristianismo de minoría perseguida a religión imperial. En un siglo, el cristianismo sería la única religión oficial del Imperio Romano. Esto creó la alianza iglesia-estado que definió el cristianismo medieval y planteó preguntas sobre fe y poder que persisten hoy."
+      },
+      "people_involved": [
+        {
+          "name_en": "Constantine I",
+          "name_es": "Constantino I",
+          "role_en": "Roman Emperor, converted to Christianity",
+          "role_es": "emperador romano, convertido al cristianismo"
+        },
+        {
+          "name_en": "Maxentius",
+          "name_es": "Majencio",
+          "role_en": "Rival emperor, defeated",
+          "role_es": "emperador rival, derrotado"
+        }
+      ],
+      "region": "Rome",
+      "event_type": "Military/Conversion",
+      "highlight": "historical_event",
+      "confidence_id": "C2",
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_LACTANTIUS"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Constantine_Chiaramonti_Inv1749.jpg/800px-Constantine_Chiaramonti_Inv1749.jpg"
+    },
+    {
+      "id": "EVT_0313_EDICT_MILAN",
+      "year": 313,
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Edict of Milan: Legal Recognition of Christianity",
+        "es": "Edicto de Milán: Reconocimiento Legal del Cristianismo"
+      },
+      "description": {
+        "en": "Constantine and Licinius issue the Edict of Milan granting religious freedom throughout the empire and returning confiscated Christian property.",
+        "es": "Constantino y Licinio emiten el Edicto de Milán otorgando libertad religiosa en todo el imperio y devolviendo propiedades cristianas confiscadas."
+      },
+      "context": {
+        "en": "In February 313, Constantine (Western emperor) and Licinius (Eastern emperor) met in Milan and agreed to grant full religious freedom to all citizens, explicitly including Christians. The edict ordered the return of confiscated churches and property, provided compensation, and ended all discrimination against Christians. While technically granting universal religious freedom, it effectively marked Christianity's legal establishment. Churches could now own property, receive bequests, and operate openly. Bishops gained legal privileges equivalent to pagan priests.",
+        "es": "En febrero de 313, Constantino (emperador occidental) y Licinio (emperador oriental) se reunieron en Milán y acordaron otorgar plena libertad religiosa a todos los ciudadanos, incluidos explícitamente los cristianos. El edicto ordenó la devolución de iglesias y propiedades confiscadas, proporcionó compensación y terminó toda discriminación contra los cristianos. Aunque técnicamente otorgó libertad religiosa universal, efectivamente marcó el establecimiento legal del cristianismo. Las iglesias ahora podían poseer propiedades, recibir legados y operar abiertamente. Los obispos ganaron privilegios legales equivalentes a los sacerdotes paganos."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): Lactantius preserves the text of the edict, Eusebius confirms it, and immediate effects are documented in contemporary sources and archaeology (church construction, legal records showing bishops in courts).",
+        "es": "Alta Confianza (C1): Lactancio preserva el texto del edicto, Eusebio lo confirma, y los efectos inmediatos están documentados en fuentes contemporáneas y arqueología (construcción de iglesias, registros legales mostrando obispos en tribunales)."
+      },
+      "significance": {
+        "en": "The Edict of Milan marks the legal turning point: Christianity went from illegal and persecuted to legal and favored. It enabled massive church construction, clerical exemptions from civic duties, and bishops' involvement in imperial administration. This began the 'Constantinian shift' that fundamentally altered Christianity's relationship to political power.",
+        "es": "El Edicto de Milán marca el punto de inflexión legal: el cristianismo pasó de ilegal y perseguido a legal y favorecido. Permitió construcción masiva de iglesias, exenciones clericales de deberes cívicos e involucramiento de obispos en la administración imperial. Esto inició el 'cambio constantiniano' que alteró fundamentalmente la relación del cristianismo con el poder político."
+      },
+      "people_involved": [
+        {
+          "name_en": "Constantine I",
+          "name_es": "Constantino I",
+          "role_en": "Western Roman Emperor",
+          "role_es": "emperador romano occidental"
+        },
+        {
+          "name_en": "Licinius",
+          "name_es": "Licinio",
+          "role_en": "Eastern Roman Emperor",
+          "role_es": "emperador romano oriental"
+        }
+      ],
+      "region": "Roman Empire",
+      "event_type": "Legal/Political",
+      "highlight": "historical_event",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_LACTANTIUS",
+        "SRC_EUSEBIUS_HE"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RIC_VI_Trier_433_Constantine.jpg/800px-RIC_VI_Trier_433_Constantine.jpg"
+    },
+    {
+      "id": "EVT_0325_NICAEA",
+      "year": 325,
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Council of Nicaea: First Ecumenical Council",
+        "es": "Concilio de Nicea: Primer Concilio Ecuménico"
+      },
+      "description": {
+        "en": "First ecumenical council convened by Constantine to address the Arian controversy. Defines Christ as 'homoousios' (same substance) with the Father. Establishes the Nicene Creed.",
+        "es": "Primer concilio ecuménico convocado por Constantino para abordar la controversia arriana. Define a Cristo como 'homoousios' (misma sustancia) con el Padre. Establece el Credo Niceno."
+      },
+      "context": {
+        "en": "Arius, a presbyter from Alexandria, taught that the Son was created by the Father and therefore not co-eternal or of the same essence—'there was when he was not.' This threatened the divinity of Christ and split the Eastern churches. Constantine, seeking imperial unity, convened ~300 bishops at Nicaea in May-July 325. Led by Athanasius (then a deacon), the orthodox party defeated Arianism, declaring Christ 'homoousios' (ὁμοούσιος, of the same substance) with the Father. The Nicene Creed was formulated, Arius excommunicated, and Easter's date standardized. However, Arianism persisted for decades.",
+        "es": "Arrio, un presbítero de Alejandría, enseñaba que el Hijo fue creado por el Padre y por lo tanto no era co-eterno ni de la misma esencia—'hubo cuando él no era.' Esto amenazaba la divinidad de Cristo y dividió las iglesias orientales. Constantino, buscando unidad imperial, convocó ~300 obispos en Nicea en mayo-julio de 325. Liderado por Atanasio (entonces diácono), el partido ortodoxo derrotó al arrianismo, declarando a Cristo 'homoousios' (ὁμοούσιος, de la misma sustancia) con el Padre. Se formuló el Credo Niceno, Arrio fue excomulgado y se estandarizó la fecha de Pascua. Sin embargo, el arrianismo persistió por décadas."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): Eusebius attended and wrote about the council, Athanasius's works detail the theological debates, conciliar documents survive, and church historians (Socrates, Sozomen) preserve extensive accounts. The Nicene Creed itself is primary evidence.",
+        "es": "Alta Confianza (C1): Eusebio asistió y escribió sobre el concilio, las obras de Atanasio detallan los debates teológicos, sobreviven documentos conciliares, e historiadores eclesiásticos (Sócrates, Sozomeno) preservan extensos relatos. El Credo Niceno mismo es evidencia primaria."
+      },
+      "significance": {
+        "en": "Nicaea established the model of ecumenical councils for resolving doctrinal disputes and defined orthodox Christology for all subsequent Christianity. The doctrine of Christ's full divinity became foundational to Trinitarian theology. Nicaea also demonstrated imperial involvement in theological matters, establishing caesaropapism (emperor as religious authority) in the East.",
+        "es": "Nicea estableció el modelo de concilios ecuménicos para resolver disputas doctrinales y definió la cristología ortodoxa para todo el cristianismo subsecuente. La doctrina de la plena divinidad de Cristo se volvió fundamental para la teología trinitaria. Nicea también demostró involucramiento imperial en asuntos teológicos, estableciendo el cesaropapismo (emperador como autoridad religiosa) en Oriente."
+      },
+      "people_involved": [
+        {
+          "name_en": "Constantine I",
+          "name_es": "Constantino I",
+          "role_en": "Emperor, convened council",
+          "role_es": "emperador, convocó concilio"
+        },
+        {
+          "name_en": "Athanasius",
+          "name_es": "Atanasio",
+          "role_en": "Deacon, defender of orthodoxy",
+          "role_es": "diácono, defensor de la ortodoxia"
+        },
+        {
+          "name_en": "Arius",
+          "name_es": "Arrio",
+          "role_en": "Presbyter, heresiarch",
+          "role_es": "presbítero, heresiarca"
+        },
+        {
+          "name_en": "Eusebius of Caesarea",
+          "name_es": "Eusebio de Cesarea",
+          "role_en": "Bishop, historian, attendee",
+          "role_es": "obispo, historiador, asistente"
+        }
+      ],
+      "region": "Nicaea (modern Turkey)",
+      "event_type": "Council",
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Nicene Christology: Homoousios",
+          "es": "Cristología Nicena: Homoousios"
+        },
+        "summary": {
+          "en": "Christ is of the same substance (homoousios) as the Father, fully divine and co-eternal",
+          "es": "Cristo es de la misma sustancia (homoousios) que el Padre, plenamente divino y co-eterno"
+        }
+      },
+      "heresy_condemned": {
+        "name": {
+          "en": "Arianism",
+          "es": "Arrianismo"
+        },
+        "summary": {
+          "en": "The teaching that Christ was created and subordinate to the Father",
+          "es": "La enseñanza de que Cristo fue creado y subordinado al Padre"
+        }
+      },
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_ATHANASIUS",
+        "SRC_COUNCIL_DOCS"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Constantine_burning_Arian_books.jpg/1024px-Constantine_burning_Arian_books.jpg"
+    },
+    {
+      "id": "EVT_0380_NICENE_STATE",
+      "year": 380,
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Edict of Thessalonica: Christianity as State Religion",
+        "es": "Edicto de Tesalónica: Cristianismo como Religión de Estado"
+      },
+      "description": {
+        "en": "Emperor Theodosius I declares Nicene Christianity the official religion of the Roman Empire, outlawing paganism and heresy.",
+        "es": "El emperador Teodosio I declara al cristianismo niceno la religión oficial del Imperio Romano, prohibiendo el paganismo y la herejía."
+      },
+      "context": {
+        "en": "On February 27, 380, Emperor Theodosius I issued the Edict of Thessalonica (Cunctos populos), declaring that all subjects of the empire must follow 'the religion which the divine Peter the Apostle transmitted to the Romans.' It specifically endorsed Nicene Christianity (Trinity doctrine) and condemned Arians and other heretics. Pagan worship was progressively banned, temples closed or converted, and non-Nicene Christians faced legal penalties. This completed Christianity's transformation from persecuted sect to mandatory state religion in just 70 years.",
+        "es": "El 27 de febrero de 380, el emperador Teodosio I emitió el Edicto de Tesalónica (Cunctos populos), declarando que todos los súbditos del imperio debían seguir 'la religión que el divino Pedro Apóstol transmitió a los romanos.' Específicamente endosó el cristianismo niceno (doctrina trinitaria) y condenó a arrianos y otros herejes. El culto pagano fue progresivamente prohibido, templos cerrados o convertidos, y cristianos no nicenos enfrentaron penas legales. Esto completó la transformación del cristianismo de secta perseguida a religión estatal obligatoria en solo 70 años."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): The text of the edict survives in the Theodosian Code, contemporary historians document its implementation, and archaeological evidence shows temple closures and church construction acceleration.",
+        "es": "Alta Confianza (C1): El texto del edicto sobrevive en el Código Teodosiano, historiadores contemporáneos documentan su implementación, y evidencia arqueológica muestra cierres de templos y aceleración de construcción de iglesias."
+      },
+      "significance": {
+        "en": "This edict established Christendom: the fusion of church and state, Christian and citizen. It initiated the suppression of paganism and heresy by imperial power. The consequences included the end of religious pluralism, forced conversions, and the model of state-enforced orthodoxy that dominated Europe until the Enlightenment. It also raised enduring questions: Can faith be coerced? What happens when church and empire merge?",
+        "es": "Este edicto estableció la Cristiandad: la fusión de iglesia y estado, cristiano y ciudadano. Inició la supresión del paganismo y herejía por poder imperial. Las consecuencias incluyeron el fin del pluralismo religioso, conversiones forzadas, y el modelo de ortodoxia impuesta por el estado que dominó Europa hasta la Ilustración. También planteó preguntas perdurables: ¿Puede la fe ser coercida? ¿Qué sucede cuando iglesia e imperio se fusionan?"
+      },
+      "people_involved": [
+        {
+          "name_en": "Theodosius I",
+          "name_es": "Teodosio I",
+          "role_en": "Roman Emperor",
+          "role_es": "emperador romano"
+        }
+      ],
+      "region": "Roman Empire",
+      "event_type": "Legal/Political",
+      "highlight": "historical_event",
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_THEODOSIAN_CODE"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Theodosius_I%27s_empire.png/1024px-Theodosius_I%27s_empire.png"
+    },
+    {
+      "id": "EVT_0381_CONSTANTINOPLE",
+      "year": 381,
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Council of Constantinople: Trinity Doctrine Finalized",
+        "es": "Concilio de Constantinopla: Doctrina de la Trinidad Finalizada"
+      },
+      "description": {
+        "en": "Second ecumenical council affirms Nicene Creed, defines the Holy Spirit's divinity, and finalizes Trinitarian doctrine. Arianism definitively condemned.",
+        "es": "Segundo concilio ecuménico afirma el Credo Niceno, define la divinidad del Espíritu Santo y finaliza la doctrina trinitaria. Arrianismo definitivamente condenado."
+      },
+      "context": {
+        "en": "Although Nicaea (325) had affirmed Christ's divinity, Arianism remained powerful, especially among Gothic converts. The status of the Holy Spirit also remained unclear. In 381, Emperor Theodosius convened 150 bishops at Constantinople to settle these issues. The council reaffirmed the Nicene Creed with additions clarifying the Holy Spirit's divinity: 'the Lord, the Giver of Life, who proceeds from the Father, who with the Father and Son is worshipped and glorified.' This completed the doctrine of the Trinity: one God in three co-equal, co-eternal persons. The council also condemned Apollinarianism (denying Christ's human soul) and affirmed Constantinople's patriarchal status.",
+        "es": "Aunque Nicea (325) había afirmado la divinidad de Cristo, el arrianismo permanecía poderoso, especialmente entre los conversos godos. El estatus del Espíritu Santo también permanecía poco claro. En 381, el emperador Teodosio convocó 150 obispos en Constantinopla para resolver estos asuntos. El concilio reafirmó el Credo Niceno con adiciones aclarando la divinidad del Espíritu Santo: 'el Señor, el Dador de Vida, que procede del Padre, quien con el Padre y el Hijo es adorado y glorificado.' Esto completó la doctrina de la Trinidad: un Dios en tres personas co-iguales, co-eternas. El concilio también condenó el apolinarismo (negando el alma humana de Cristo) y afirmó el estatus patriarcal de Constantinopla."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): The Niceno-Constantinopolitan Creed survives and is used in liturgy worldwide. Gregory of Nazianzus attended and wrote about it. Conciliar canons and letters are preserved. The immediate effects (Arian decline, creed adoption) are well-documented.",
+        "es": "Alta Confianza (C1): El Credo Niceno-Constantinopolitano sobrevive y se usa en la liturgia mundialmente. Gregorio Nacianceno asistió y escribió sobre él. Cánones y cartas conciliares se preservan. Los efectos inmediatos (declive arriano, adopción del credo) están bien documentados."
+      },
+      "significance": {
+        "en": "Constantinople I finalized the Trinity doctrine that defines orthodox Christianity to this day. The Niceno-Constantinopolitan Creed is recited in Catholic, Orthodox, Anglican, and many Protestant churches. The council's defeat of Arianism ensured that Christ would be worshipped as fully divine, not a created intermediary. It also established the pentarchy model: five patriarchates (Rome, Constantinople, Alexandria, Antioch, Jerusalem) sharing authority.",
+        "es": "Constantinopla I finalizó la doctrina de la Trinidad que define el cristianismo ortodoxo hasta hoy. El Credo Niceno-Constantinopolitano se recita en iglesias católicas, ortodoxas, anglicanas y muchas protestantes. La derrota del arrianismo por el concilio aseguró que Cristo sería adorado como plenamente divino, no un intermediario creado. También estableció el modelo de pentarquía: cinco patriarcados (Roma, Constantinopla, Alejandría, Antioquía, Jerusalén) compartiendo autoridad."
+      },
+      "people_involved": [
+        {
+          "name_en": "Theodosius I",
+          "name_es": "Teodosio I",
+          "role_en": "Emperor, convened council",
+          "role_es": "emperador, convocó concilio"
+        },
+        {
+          "name_en": "Gregory of Nazianzus",
+          "name_es": "Gregorio Nacianceno",
+          "role_en": "Bishop, theologian, president",
+          "role_es": "obispo, teólogo, presidente"
+        },
+        {
+          "name_en": "Gregory of Nyssa",
+          "name_es": "Gregorio de Nisa",
+          "role_en": "Bishop, Cappadocian Father",
+          "role_es": "obispo, Padre Capadocio"
+        }
+      ],
+      "region": "Constantinople",
+      "event_type": "Council",
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Trinity: Three Persons, One Essence",
+          "es": "Trinidad: Tres Personas, Una Esencia"
+        },
+        "summary": {
+          "en": "Father, Son, and Holy Spirit are three distinct persons (hypostases) of one divine essence (ousia), co-equal and co-eternal",
+          "es": "Padre, Hijo y Espíritu Santo son tres personas distintas (hipóstasis) de una esencia divina (ousia), co-iguales y co-eternos"
+        }
+      },
+      "heresy_condemned": {
+        "name": {
+          "en": "Arianism, Apollinarianism, Macedonianism",
+          "es": "Arrianismo, Apolinarismo, Macedonianismo"
+        },
+        "summary": {
+          "en": "Denying the full divinity of Christ or the Holy Spirit, or denying Christ's full humanity",
+          "es": "Negar la plena divinidad de Cristo o del Espíritu Santo, o negar la plena humanidad de Cristo"
+        }
+      },
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_COUNCIL_DOCS",
+        "SRC_GREGORY_NAZIANZUS",
+        "SRC_SOCRATES_HE"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Gregory_of_Nazianzus.jpg/800px-Gregory_of_Nazianzus.jpg"
+    },
+    {
+      "id": "EVT_0386_JEROME_VULGATE",
+      "year": 386,
+      "year_approx": "382-405",
+      "century_id": "CENT_04_CE",
+      "title": {
+        "en": "Jerome Begins the Vulgate Translation",
+        "es": "Jerónimo Comienza la Traducción de la Vulgata"
+      },
+      "description": {
+        "en": "Jerome begins translating the Bible into Latin (the Vulgate), which becomes the standard Bible of Western Christianity for over 1000 years.",
+        "es": "Jerónimo comienza a traducir la Biblia al latín (la Vulgata), que se convierte en la Biblia estándar del cristianismo occidental por más de 1000 años."
+      },
+      "context": {
+        "en": "Previous Latin translations (Old Latin/Vetus Latina) were inconsistent and of varying quality. In 382, Pope Damasus commissioned Jerome, the most learned biblical scholar of the age, to produce an authoritative Latin Bible. Jerome initially revised the Gospels, then translated the entire Old Testament directly from Hebrew (radical at the time—most used the Greek Septuagint). He worked in Bethlehem, consulting Jewish rabbis for Hebrew expertise. The translation was completed around 405. Though initially controversial, the Vulgate became the standard Western Bible, used in liturgy, theology, and scholarship until the Reformation.",
+        "es": "Traducciones latinas previas (Latín Antiguo/Vetus Latina) eran inconsistentes y de calidad variable. En 382, el Papa Dámaso encargó a Jerónimo, el erudito bíblico más docto de la época, producir una Biblia latina autoritativa. Jerónimo inicialmente revisó los Evangelios, luego tradujo todo el Antiguo Testamento directamente del hebreo (radical en ese tiempo—la mayoría usaba la Septuaginta griega). Trabajó en Belén, consultando rabinos judíos para experiencia hebrea. La traducción se completó alrededor del 405. Aunque inicialmente controvertida, la Vulgata se convirtió en la Biblia occidental estándar, usada en liturgia, teología y erudición hasta la Reforma."
+      },
+      "confidence_rationale": {
+        "en": "High Confidence (C1): Jerome's letters document the translation process, the Vulgate manuscripts are extensive and early, and Jerome's prefaces to biblical books explain his methodology. The work is fully attributed and dated.",
+        "es": "Alta Confianza (C1): Las cartas de Jerónimo documentan el proceso de traducción, los manuscritos de la Vulgata son extensos y tempranos, y los prefacios de Jerónimo a libros bíblicos explican su metodología. La obra está completamente atribuida y fechada."
+      },
+      "significance": {
+        "en": "The Vulgate shaped Western theology for over a millennium. Catholic doctrine was formulated using Jerome's Latin, not Hebrew or Greek originals. The Council of Trent (1546) declared it the official Catholic Bible. Medieval theology, scholasticism, and vernacular translations (before the Reformation) all depended on the Vulgate. It also established the principle of translating Scripture into common language, though the Church later restricted vernacular translations.",
+        "es": "La Vulgata moldeó la teología occidental por más de un milenio. La doctrina católica se formuló usando el latín de Jerónimo, no originales hebreos o griegos. El Concilio de Trento (1546) la declaró la Biblia católica oficial. La teología medieval, escolástica y traducciones vernáculas (antes de la Reforma) dependieron de la Vulgata. También estableció el principio de traducir la Escritura a lenguaje común, aunque la Iglesia después restringió traducciones vernáculas."
+      },
+      "people_involved": [
+        {
+          "name_en": "Jerome",
+          "name_es": "Jerónimo",
+          "role_en": "Translator, biblical scholar",
+          "role_es": "traductor, erudito bíblico"
+        },
+        {
+          "name_en": "Pope Damasus I",
+          "name_es": "Papa Dámaso I",
+          "role_en": "Commissioned the translation",
+          "role_es": "encargó la traducción"
+        }
+      ],
+      "region": "Bethlehem, Roman Empire",
+      "event_type": "Literary/Theological",
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Biblical Canon (Latin Vulgate)",
+          "es": "Canon Bíblico (Vulgata Latina)"
+        },
+        "summary": {
+          "en": "Standardized Latin text of the Bible including deuterocanonical books, became the authoritative Western Bible",
+          "es": "Texto latino estandarizado de la Biblia incluyendo libros deuterocanónicos, se convirtió en la Biblia occidental autoritativa"
+        }
+      },
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_JEROME_LETTERS",
+        "SRC_VULGATE_MSS"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Saint_Jerome_by_Caravaggio.jpg/800px-Saint_Jerome_by_Caravaggio.jpg"
+    }
+  ]
+}

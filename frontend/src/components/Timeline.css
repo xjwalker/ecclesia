@@ -78,13 +78,18 @@
   padding-bottom: 100px;
 }
 
+.timeline-end-spacer {
+  height: 100px;
+  width: 100%;
+}
+
 .timeline-vertical .timeline-line {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 4px;
   top: 0;
-  bottom: 0;
+  height: calc(100% - 50px);
   background: linear-gradient(180deg, #3b82f6 0%, #8b5cf6 100%);
   box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 }

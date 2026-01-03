@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from './i18n/LanguageContext';
 import { useTimelineData } from './hooks/useTimelineData';
 import Timeline from './components/Timeline';
 import Filters from './components/Filters';
 import EventSidebar from './components/EventSidebar';
+import CenturyNavigation from './components/CenturyNavigation';
+import apiService from './services/api';
 import './App.css';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
   const [timelineOrientation, setTimelineOrientation] = useState('vertical');
   const [sidebarWidth, setSidebarWidth] = useState(450);
   const [isDragging, setIsDragging] = useState(false);
+  const [centuries, setCenturies] = useState([]);
+  const [activeCentury, setActiveCentury] = useState(null);
 
   const handleEventClick = (event) => {
     setSelectedEvent(event);
@@ -35,6 +39,31 @@ function App() {
     setSidebarOpen(false);
     setTimeout(() => setSelectedEvent(null), 300);
   };
+
+  const handleCenturyClick = (centuryId) => {
+    setActiveCentury(centuryId);
+    const element = document.getElementById(`century-${centuryId}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  // Load centuries
+  useEffect(() => {
+    const loadCenturies = async () => {
+      try {
+        const response = await apiService.getCenturies();
+        // Handle different response structures
+        const centuriesData = response.data?.centuries || response.data || [];
+        console.log('Centuries loaded:', centuriesData);
+        setCenturies(Array.isArray(centuriesData) ? centuriesData : []);
+      } catch (err) {
+        console.error('Failed to load centuries:', err);
+        setCenturies([]);
+      }
+    };
+    loadCenturies();
+  }, []);
 
   const handleMouseDown = (e) => {
     if (timelineOrientation === 'vertical') {
@@ -119,6 +148,12 @@ function App() {
           )}
         </div>
       </header>
+
+      <CenturyNavigation 
+        centuries={centuries}
+        onCenturyClick={handleCenturyClick}
+        activeCentury={activeCentury}
+      />
 
       <Filters
         filters={filters}

@@ -4,7 +4,7 @@
       "id": "EVT_0203_ORIGEN_YOUTH",
       "year": 203,
       "year_approx": "~203",
-      "century_id": "CENT_3",
+      "century_id": "CENT_03_CE",
       "title": {
         "es": "Orígenes Testigo del Martirio de su Padre",
         "en": "Origen Witnesses His Father's Martyrdom"
@@ -48,13 +48,19 @@
       "region": "Alexandria, Egypt",
       "event_type": "Martyrdom",
       "confidence_id": "C2",
-      "sources": ["SRC_EUSEBIUS_HE", "SRC_ORIGEN_WORKS", "SRC_TRIGG_ORIGEN"]
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_ORIGEN_WORKS",
+        "SRC_TRIGG_ORIGEN"
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Origen.jpg/800px-Origen.jpg"
     },
     {
       "id": "EVT_0250_DECIAN_PERSECUTION",
       "year": 250,
       "year_approx": "250-251",
-      "century_id": "CENT_3",
+      "century_id": "CENT_03_CE",
       "title": {
         "es": "Persecución de Decio: Primera Persecución Imperial Sistemática",
         "en": "Decian Persecution: First Systematic Imperial Persecution"
@@ -110,13 +116,21 @@
       "region": "Roman Empire (universal)",
       "event_type": "Persecution",
       "confidence_id": "C1",
-      "sources": ["SRC_CYPRIAN_LETTERS", "SRC_CYPRIAN_LAPSIS", "SRC_EUSEBIUS_HE", "SRC_LIBELLI_PAPYRI", "SRC_FREND_MARTYRDOM"]
+      "sources": [
+        "SRC_CYPRIAN_LETTERS",
+        "SRC_CYPRIAN_LAPSIS",
+        "SRC_EUSEBIUS_HE",
+        "SRC_LIBELLI_PAPYRI",
+        "SRC_FREND_MARTYRDOM"
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Decius_from_Palazzo_Nuovo.jpg/800px-Decius_from_Palazzo_Nuovo.jpg"
     },
     {
       "id": "EVT_0258_CYPRIAN_MARTYRDOM",
       "year": 258,
       "year_approx": "258",
-      "century_id": "CENT_3",
+      "century_id": "CENT_03_CE",
       "title": {
         "es": "Martirio de Cipriano de Cartago",
         "en": "Martyrdom of Cyprian of Carthage"
@@ -166,13 +180,20 @@
       "region": "Carthage, North Africa",
       "event_type": "Martyrdom",
       "confidence_id": "C1",
-      "sources": ["SRC_ACTA_CYPRIANI", "SRC_PONTIUS_VITA", "SRC_CYPRIAN_LETTERS", "SRC_EUSEBIUS_HE"]
+      "sources": [
+        "SRC_ACTA_CYPRIANI",
+        "SRC_PONTIUS_VITA",
+        "SRC_CYPRIAN_LETTERS",
+        "SRC_EUSEBIUS_HE"
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Saint_Cyprian_of_Carthage.jpg/800px-Saint_Cyprian_of_Carthage.jpg"
     },
     {
       "id": "EVT_0270_ANTONY_DESERT",
       "year": 270,
       "year_approx": "~270",
-      "century_id": "CENT_3",
+      "century_id": "CENT_03_CE",
       "title": {
         "es": "Antonio el Grande Se Retira al Desierto: Nacimiento del Monasticismo",
         "en": "Anthony the Great Withdraws to the Desert: Birth of Monasticism"
@@ -210,13 +231,29 @@
       "region": "Egyptian Desert",
       "event_type": "Monasticism",
       "confidence_id": "C2",
-      "sources": ["SRC_ATHANASIUS_VITA", "SRC_JEROME_DESERT", "SRC_PALLADIUS_HISTORIA"]
+      "sources": [
+        "SRC_ATHANASIUS_VITA",
+        "SRC_JEROME_DESERT",
+        "SRC_PALLADIUS_HISTORIA"
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Christian Monasticism: Ascetic Life",
+          "es": "Monasticismo Cristiano: Vida Ascética"
+        },
+        "definition": {
+          "en": "The practice of withdrawing from worldly life to pursue spiritual perfection through prayer, poverty, and obedience. Anthony established the model of the hermit monk (anchorite) who renounces possessions, lives in solitude, and engages in spiritual warfare against demons.",
+          "es": "La práctica de retirarse de la vida mundana para buscar la perfección espiritual a través de la oración, la pobreza y la obediencia. Antonio estableció el modelo del monje ermitaño (anacoreta) que renuncia a las posesiones, vive en soledad y se involucra en guerra espiritual contra los demonios."
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Anthonytheanchorite.jpg/800px-Anthonytheanchorite.jpg"
     },
     {
       "id": "EVT_0303_DIOCLETIAN_PERSECUTION",
       "year": 303,
       "year_approx": "303-311",
-      "century_id": "CENT_3",
+      "century_id": "CENT_03_CE",
       "title": {
         "es": "Gran Persecución de Diocleciano: Última y Más Severa Persecución Imperial",
         "en": "Great Persecution of Diocletian: Last and Most Severe Imperial Persecution"
@@ -272,7 +309,14 @@
       "region": "Roman Empire (especially East)",
       "event_type": "Persecution",
       "confidence_id": "C1",
-      "sources": ["SRC_EUSEBIUS_HE", "SRC_LACTANTIUS_MORT", "SRC_ACTA_MARTYRUM", "SRC_FREND_MARTYRDOM"]
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_LACTANTIUS_MORT",
+        "SRC_ACTA_MARTYRUM",
+        "SRC_FREND_MARTYRDOM"
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/0_Diocl%C3%A9tien_-_Mus%C3%A9e_arch%C3%A9ologique_d%27Istanbul_%281%29.JPG/800px-0_Diocl%C3%A9tien_-_Mus%C3%A9e_arch%C3%A9ologique_d%27Istanbul_%281%29.JPG"
     }
   ]
 }

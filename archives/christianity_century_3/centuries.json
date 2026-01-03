@@ -1,7 +1,7 @@
 {
   "centuries": [
     {
-      "id": "CENT_3",
+      "id": "CENT_03_CE",
       "century_range": [201, 300],
       "number": 3,
       "name": {
@@ -12,7 +12,10 @@
         "es": "El siglo de las persecuciones imperiales sistemáticas y el surgimiento del monasticismo cristiano. Incluye las grandes persecuciones bajo Decio y Diocleciano, el desarrollo de la teología alejandrina con Orígenes y Cipriano, y la crisis donatista sobre los lapsi (cristianos que apostataron bajo persecución).",
         "en": "The century of systematic imperial persecutions and the rise of Christian monasticism. Includes the great persecutions under Decius and Diocletian, the development of Alexandrian theology with Origen and Cyprian, and the Donatist crisis over the lapsi (Christians who apostatized under persecution)."
       },
-      "summary": "Persecuciones de Decio y Diocleciano, surgimiento del monasticismo con Antonio el Grande, teología de Orígenes y Cipriano",
+      "summary": {
+        "en": "Decian and Diocletian persecutions, rise of monasticism with Anthony the Great, theology of Origen and Cyprian",
+        "es": "Persecuciones de Decio y Diocleciano, surgimiento del monasticismo con Antonio el Grande, teología de Orígenes y Cipriano"
+      },
       "year_start": 201,
       "year_end": 300,
       "confidence_id": "C1"

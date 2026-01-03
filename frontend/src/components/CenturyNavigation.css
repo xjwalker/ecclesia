@@ -1,0 +1,109 @@
+/* Century Navigation Styles */
+
+.century-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-bottom: 3px solid #3b82f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 12px 20px;
+}
+
+.century-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.century-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  color: #cbd5e1;
+}
+
+.century-nav-item:hover {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.century-nav-item.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  border-color: #60a5fa;
+  color: white;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.5);
+}
+
+.century-nav-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.century-nav-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+.century-nav-range {
+  font-size: 0.7rem;
+  opacity: 0.75;
+  font-weight: 400;
+}
+
+.century-nav-item.active .century-nav-range,
+.century-nav-item.active .century-nav-label {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .century-navigation {
+    padding: 8px 12px;
+  }
+
+  .century-nav-container {
+    gap: 8px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding: 4px 0;
+  }
+
+  .century-nav-item {
+    min-width: 80px;
+    padding: 8px 12px;
+    flex-shrink: 0;
+  }
+
+  .century-nav-number {
+    font-size: 1.25rem;
+  }
+
+  .century-nav-label {
+    font-size: 0.65rem;
+  }
+
+  .century-nav-range {
+    font-size: 0.6rem;
+  }
+}

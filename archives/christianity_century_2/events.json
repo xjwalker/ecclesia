@@ -52,7 +52,9 @@
         "SRC_EHRMAN_LOST",
         "SRC_FREND",
         "SRC_GRANT"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ignatius_of_Antioch_%28Menologion_of_Basil_II%29.jpg/800px-Ignatius_of_Antioch_%28Menologion_of_Basil_II%29.jpg"
     },
     {
       "id": "EVT_0144_MARCION",
@@ -107,7 +109,19 @@
         "SRC_EHRMAN_LOST",
         "SRC_BAUER",
         "SRC_GRANT"
-      ]
+      ],
+      "highlight": "historical_event",
+      "heresy_condemned": {
+        "name": {
+          "en": "Marcionism",
+          "es": "Marcionismo"
+        },
+        "summary": {
+          "en": "Rejection of the Old Testament and belief in two gods: the inferior creator God and the superior God revealed by Jesus",
+          "es": "Rechazo del Antiguo Testamento y creencia en dos dioses: el Dios creador inferior y el Dios superior revelado por Jesús"
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Marcion_of_Sinope.jpg/800px-Marcion_of_Sinope.jpg"
     },
     {
       "id": "EVT_0155_POLYCARP",
@@ -161,7 +175,9 @@
         "SRC_IRENAEUS",
         "SRC_FREND",
         "SRC_GRANT"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Polycarp_of_Smyrna.jpg/800px-Polycarp_of_Smyrna.jpg"
     },
     {
       "id": "EVT_0165_JUSTIN_MARTYR",
@@ -221,7 +237,9 @@
         "SRC_EHRMAN_LOST",
         "SRC_GRANT",
         "SRC_FREND"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saint_Justin_Martyr.jpg/800px-Saint_Justin_Martyr.jpg"
     },
     {
       "id": "EVT_0180_IRENAEUS",
@@ -275,7 +293,29 @@
         "SRC_EHRMAN_LOST",
         "SRC_BAUER",
         "SRC_GRANT"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Orthodox Canon and Apostolic Succession",
+          "es": "Canon Ortodoxo y Sucesión Apostólica"
+        },
+        "summary": {
+          "en": "Established four canonical gospels, apostolic succession as criterion of authority, and unity of Old and New Testaments",
+          "es": "Estableció cuatro evangelios canónicos, sucesión apostólica como criterio de autoridad, y unidad de Antiguo y Nuevo Testamentos"
+        }
+      },
+      "heresy_condemned": {
+        "name": {
+          "en": "Gnosticism (Valentinianism)",
+          "es": "Gnosticismo (Valentinianismo)"
+        },
+        "summary": {
+          "en": "Rejection of material world as evil, secret knowledge (gnosis) for salvation, and denial of Christ's true humanity",
+          "es": "Rechazo del mundo material como malo, conocimiento secreto (gnosis) para salvación, y negación de verdadera humanidad de Cristo"
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Irenaeus.jpg/800px-Irenaeus.jpg"
     },
     {
       "id": "EVT_0177_LYON_MARTYRS",
@@ -334,7 +374,9 @@
         "SRC_FREND",
         "SRC_GRANT",
         "SRC_IRENAEUS"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Eug%C3%A8ne_Thirion_-_Saint_Blandina_-_1894.jpg/1024px-Eug%C3%A8ne_Thirion_-_Saint_Blandina_-_1894.jpg"
     }
   ]
 }

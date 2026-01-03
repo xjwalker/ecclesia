@@ -30,7 +30,7 @@ class Century(Base):
     
     id = Column(String, primary_key=True)
     century_range = Column(JSON)  # [start, end] as array
-    summary = Column(String)
+    summary = Column(JSON)  # {"en": "...", "es": "..."}
     confidence_id = Column(String, ForeignKey('confidence_levels.id'))
     
     # Relationships
@@ -38,15 +38,36 @@ class Century(Base):
     sources = relationship("Source", secondary=century_sources, back_populates="centuries")
     events = relationship("Event", back_populates="century")
     
-    def to_dict(self):
+    def to_dict(self, language='es'):
         """Convert to dictionary for API responses."""
+        def get_text(field):
+            """Extract text for specified language from JSON field."""
+            if field is None:
+                return None
+            if isinstance(field, dict):
+                return field.get(language, field.get('es', field.get('en', '')))
+            return field  # Fallback for non-JSON data
+        
+        # Extract century range info
+        year_start = self.century_range[0] if self.century_range and len(self.century_range) > 0 else None
+        year_end = self.century_range[1] if self.century_range and len(self.century_range) > 1 else None
+        number = (year_start // 100) + 1 if year_start else None
+        
         return {
             "id": self.id,
             "century_range": self.century_range,
-            "summary": self.summary,
+            "year_start": year_start,
+            "year_end": year_end,
+            "number": number,
+            "name": {
+                "en": f"{number}{'st' if number == 1 else 'nd' if number == 2 else 'rd' if number == 3 else 'th'} Century" if number else "Unknown",
+                "es": f"Siglo {number}" if number else "Desconocido"
+            },
+            "summary": get_text(self.summary),
             "confidence_id": self.confidence_id,
             "sources": [s.id for s in self.sources] if self.sources else []
         }
+
 
 
 class Event(Base):
@@ -67,6 +88,11 @@ class Event(Base):
     region = Column(String, nullable=True, index=True)
     event_type = Column(String, nullable=True, index=True)
     confidence_id = Column(String, ForeignKey('confidence_levels.id'), index=True)
+    
+    # New fields for highlighting doctrines, councils, and major events
+    highlight = Column(String, nullable=True, index=True)  # 'doctrine_established', 'doctrine_condemned', 'council', 'historical_event'
+    doctrine = Column(JSON, nullable=True)  # {"name": {"en": "...", "es": "..."}, "summary": {"en": "...", "es": "..."}}
+    heresy_condemned = Column(JSON, nullable=True)  # {"name": {"en": "...", "es": "..."}, "summary": {"en": "...", "es": "..."}}
     
     # Relationships
     century = relationship("Century", back_populates="events")
@@ -102,6 +128,9 @@ class Event(Base):
             "region": self.region,
             "event_type": self.event_type,
             "confidence_id": self.confidence_id,
+            "highlight": self.highlight,
+            "doctrine": self.doctrine if self.doctrine else None,
+            "heresy_condemned": self.heresy_condemned if self.heresy_condemned else None,
             "sources": [s.id for s in self.sources] if self.sources else []
         }
 

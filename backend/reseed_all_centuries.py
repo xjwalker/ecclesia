@@ -28,7 +28,8 @@ print(f"✓ Database tables created")
 centuries = [
     'christianity_century_1',
     'christianity_century_2',
-    'christianity_century_3'
+    'christianity_century_3',
+    'christianity_century_4'
 ]
 
 for century_dir in centuries:

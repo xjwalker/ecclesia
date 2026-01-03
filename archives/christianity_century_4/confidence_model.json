@@ -1,0 +1,52 @@
+{
+  "confidence_levels": [
+    {
+      "id": "C1",
+      "label": {
+        "en": "High Confidence",
+        "es": "Alta Confianza"
+      },
+      "numeric_range": [80, 100],
+      "criteria": {
+        "en": "Multiple contemporary primary sources, archaeological evidence, cross-referenced accounts",
+        "es": "Múltiples fuentes primarias contemporáneas, evidencia arqueológica, relatos con referencias cruzadas"
+      },
+      "description": {
+        "en": "Events supported by strong historical evidence from multiple independent sources",
+        "es": "Eventos respaldados por evidencia histórica sólida de múltiples fuentes independientes"
+      }
+    },
+    {
+      "id": "C2",
+      "label": {
+        "en": "Medium Confidence",
+        "es": "Confianza Media"
+      },
+      "numeric_range": [50, 79],
+      "criteria": {
+        "en": "Primary sources exist but may be decades later, some cross-reference, general scholarly consensus",
+        "es": "Existen fuentes primarias pero pueden ser décadas posteriores, alguna referencia cruzada, consenso académico general"
+      },
+      "description": {
+        "en": "Events with solid evidence but some uncertainty in specific details",
+        "es": "Eventos con evidencia sólida pero cierta incertidumbre en detalles específicos"
+      }
+    },
+    {
+      "id": "C3",
+      "label": {
+        "en": "Lower Confidence",
+        "es": "Confianza Baja"
+      },
+      "numeric_range": [20, 49],
+      "criteria": {
+        "en": "Late sources, hagiographical accounts, theological interpretation mixed with history",
+        "es": "Fuentes tardías, relatos hagiográficos, interpretación teológica mezclada con historia"
+      },
+      "description": {
+        "en": "Events with weaker evidence, disputed details, or heavily interpreted sources",
+        "es": "Eventos con evidencia más débil, detalles disputados o fuentes fuertemente interpretadas"
+      }
+    }
+  ]
+}

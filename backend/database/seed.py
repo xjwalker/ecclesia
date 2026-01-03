@@ -54,7 +54,7 @@ def seed_confidence_levels(db, confidence_data):
         db.add(confidence)
         added_count += 1
     db.commit()
-    print(f"✓ Added {added_count} confidence levels")
+    print(f"OK Added {added_count} confidence levels")
 
 
 def seed_sources(db, sources_data):
@@ -84,7 +84,7 @@ def seed_sources(db, sources_data):
         sources_map[item["id"]] = source
         added_count += 1
     db.commit()
-    print(f"✓ Added {added_count} sources")
+    print(f"OK Added {added_count} sources")
     return sources_map
 
 
@@ -109,7 +109,7 @@ def seed_centuries(db, centuries_data, sources_map):
         db.add(century)
         centuries_map[item["id"]] = century
     db.commit()
-    print(f"✓ Added {len(centuries_data)} centuries")
+    print(f"OK Added {len(centuries_data)} centuries")
     return centuries_map
 
 
@@ -131,7 +131,11 @@ def seed_events(db, events_data, sources_map):
             image_url=item.get("image_url"),
             region=item.get("region"),
             event_type=item.get("event_type"),
-            confidence_id=item["confidence_id"]
+            confidence_id=item["confidence_id"],
+            # New highlight fields
+            highlight=item.get("highlight"),
+            doctrine=item.get("doctrine"),
+            heresy_condemned=item.get("heresy_condemned")
         )
         
         # Add source relationships
@@ -142,7 +146,7 @@ def seed_events(db, events_data, sources_map):
         
         db.add(event)
     db.commit()
-    print(f"✓ Added {len(events_data)} events")
+    print(f"OK Added {len(events_data)} events")
 
 
 def seed_database(data_directory: str, reset: bool = False):
@@ -168,7 +172,7 @@ def seed_database(data_directory: str, reset: bool = False):
     # Load JSON data
     print("\nLoading JSON data...")
     data = load_json_data(data_directory)
-    print(f"✓ Loaded data from {data_directory}")
+    print(f"OK Loaded data from {data_directory}")
     
     # Get database session
     db = db_config.get_session()
@@ -181,7 +185,7 @@ def seed_database(data_directory: str, reset: bool = False):
         seed_events(db, data["events"], sources_map)
         
         print("\n" + "=" * 50)
-        print("✓ Database seeded successfully!")
+        print("OK Database seeded successfully!")
         print("=" * 50)
         
     except Exception as e:

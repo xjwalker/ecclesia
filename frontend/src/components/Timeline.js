@@ -87,7 +87,10 @@ const Timeline = ({
         return (
           <React.Fragment key={event.id}>
             {isFirstInCentury && (
-              <div className={`century-marker ${orientation}`}>
+              <div 
+                id={`century-${event.century_id}`} 
+                className={`century-marker ${orientation}`}
+              >
                 <div className="century-badge">
                   {century === 1 ? '1st' : century === 2 ? '2nd' : century === 3 ? '3rd' : `${century}th`} Century
                 </div>
@@ -102,6 +105,9 @@ const Timeline = ({
           </React.Fragment>
         );
       })}
+      
+      {/* Extra spacing at the end to ensure line reaches bottom */}
+      <div className="timeline-end-spacer"></div>
     </div>
   );
 };

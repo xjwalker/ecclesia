@@ -54,12 +54,12 @@ class DatabaseConfig:
     def create_tables(self):
         """Create all tables in the database."""
         Base.metadata.create_all(bind=self.engine)
-        print(f"✓ Database tables created using: {self.database_url}")
+        print(f"OK Database tables created using: {self.database_url}")
     
     def drop_tables(self):
         """Drop all tables (use with caution!)."""
         Base.metadata.drop_all(bind=self.engine)
-        print("✓ All tables dropped")
+        print("OK All tables dropped")
     
     def get_session(self):
         """Get a new database session."""

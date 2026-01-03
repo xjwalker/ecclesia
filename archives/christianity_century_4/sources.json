@@ -1,0 +1,176 @@
+{
+  "sources": [
+    {
+      "id": "SRC_EUSEBIUS_HE",
+      "type": "primary",
+      "author": {
+        "en": "Eusebius of Caesarea",
+        "es": "Eusebio de Cesarea"
+      },
+      "work": {
+        "en": "Ecclesiastical History",
+        "es": "Historia Eclesiástica"
+      },
+      "date_written": "~324",
+      "language": "Greek",
+      "notes": {
+        "en": "First comprehensive church history, covers from apostles to Constantine. Eusebius was bishop of Caesarea and attended Council of Nicaea.",
+        "es": "Primera historia eclesiástica integral, cubre desde los apóstoles hasta Constantino. Eusebio fue obispo de Cesarea y asistió al Concilio de Nicea."
+      }
+    },
+    {
+      "id": "SRC_LACTANTIUS",
+      "type": "primary",
+      "author": {
+        "en": "Lactantius",
+        "es": "Lactancio"
+      },
+      "work": {
+        "en": "On the Deaths of the Persecutors",
+        "es": "Sobre la Muerte de los Perseguidores"
+      },
+      "date_written": "~318",
+      "language": "Latin",
+      "notes": {
+        "en": "Account of the Great Persecution and Constantine's rise, written by a Christian apologist who witnessed the events.",
+        "es": "Relato de la Gran Persecución y el ascenso de Constantino, escrito por un apologista cristiano que presenció los eventos."
+      }
+    },
+    {
+      "id": "SRC_ATHANASIUS",
+      "type": "primary",
+      "author": {
+        "en": "Athanasius of Alexandria",
+        "es": "Atanasio de Alejandría"
+      },
+      "work": {
+        "en": "Against the Arians, On the Incarnation, Life of Anthony",
+        "es": "Contra los Arrianos, Sobre la Encarnación, Vida de Antonio"
+      },
+      "date_written": "~328-373",
+      "language": "Greek",
+      "notes": {
+        "en": "Champion of Nicene orthodoxy against Arianism. Attended Nicaea as deacon, later bishop of Alexandria. Exiled five times for defending Nicene faith.",
+        "es": "Campeón de la ortodoxia nicena contra el arrianismo. Asistió a Nicea como diácono, luego obispo de Alejandría. Exiliado cinco veces por defender la fe nicena."
+      }
+    },
+    {
+      "id": "SRC_COUNCIL_DOCS",
+      "type": "primary",
+      "author": {
+        "en": "Various Bishops",
+        "es": "Varios Obispos"
+      },
+      "work": {
+        "en": "Canons and Decrees of Ecumenical Councils",
+        "es": "Cánones y Decretos de Concilios Ecuménicos"
+      },
+      "date_written": "325-787",
+      "language": "Greek/Latin",
+      "notes": {
+        "en": "Official documents from the seven ecumenical councils, including creeds, canons, and condemnations.",
+        "es": "Documentos oficiales de los siete concilios ecuménicos, incluyendo credos, cánones y condenas."
+      }
+    },
+    {
+      "id": "SRC_THEODOSIAN_CODE",
+      "type": "primary",
+      "work": {
+        "en": "Theodosian Code",
+        "es": "Código Teodosiano"
+      },
+      "date_written": "438 (compilation)",
+      "language": "Latin",
+      "notes": {
+        "en": "Compilation of Roman laws from Constantine to Theodosius II, includes religious legislation like the Edict of Thessalonica.",
+        "es": "Compilación de leyes romanas desde Constantino hasta Teodosio II, incluye legislación religiosa como el Edicto de Tesalónica."
+      }
+    },
+    {
+      "id": "SRC_GREGORY_NAZIANZUS",
+      "type": "primary",
+      "author": {
+        "en": "Gregory of Nazianzus",
+        "es": "Gregorio Nacianceno"
+      },
+      "work": {
+        "en": "Five Theological Orations, Letters",
+        "es": "Cinco Oraciones Teológicas, Cartas"
+      },
+      "date_written": "~380-390",
+      "language": "Greek",
+      "notes": {
+        "en": "One of the Cappadocian Fathers, key theologian of the Trinity. Briefly patriarch of Constantinople and president of Council of Constantinople I.",
+        "es": "Uno de los Padres Capadocios, teólogo clave de la Trinidad. Brevemente patriarca de Constantinopla y presidente del Concilio de Constantinopla I."
+      }
+    },
+    {
+      "id": "SRC_SOCRATES_HE",
+      "type": "secondary",
+      "author": {
+        "en": "Socrates Scholasticus",
+        "es": "Sócrates Escolástico"
+      },
+      "work": {
+        "en": "Church History",
+        "es": "Historia de la Iglesia"
+      },
+      "date_written": "~440",
+      "language": "Greek",
+      "notes": {
+        "en": "Continuation of Eusebius's church history, covers 305-439. Important source for 4th-5th century councils and controversies.",
+        "es": "Continuación de la historia eclesiástica de Eusebio, cubre 305-439. Fuente importante para concilios y controversias de los siglos IV-V."
+      }
+    },
+    {
+      "id": "SRC_JEROME_LETTERS",
+      "type": "primary",
+      "author": {
+        "en": "Jerome",
+        "es": "Jerónimo"
+      },
+      "work": {
+        "en": "Letters, Biblical Prefaces",
+        "es": "Cartas, Prefacios Bíblicos"
+      },
+      "date_written": "~370-420",
+      "language": "Latin",
+      "notes": {
+        "en": "Jerome's correspondence and prefaces document his biblical translation work and controversies with contemporaries like Augustine.",
+        "es": "La correspondencia y prefacios de Jerónimo documentan su trabajo de traducción bíblica y controversias con contemporáneos como Agustín."
+      }
+    },
+    {
+      "id": "SRC_VULGATE_MSS",
+      "type": "primary",
+      "work": {
+        "en": "Vulgate Manuscripts",
+        "es": "Manuscritos de la Vulgata"
+      },
+      "date_written": "5th century onwards",
+      "language": "Latin",
+      "notes": {
+        "en": "Extensive manuscript tradition of Jerome's Latin Bible, including Codex Amiatinus (8th c.) and thousands of medieval copies.",
+        "es": "Extensa tradición manuscrita de la Biblia latina de Jerónimo, incluyendo el Códice Amiatino (s. VIII) y miles de copias medievales."
+      }
+    },
+    {
+      "id": "SRC_AUGUSTINE",
+      "type": "primary",
+      "author": {
+        "en": "Augustine of Hippo",
+        "es": "Agustín de Hipona"
+      },
+      "work": {
+        "en": "Confessions, City of God, On Christian Doctrine",
+        "es": "Confesiones, Ciudad de Dios, Sobre la Doctrina Cristiana"
+      },
+      "date_written": "~397-430",
+      "language": "Latin",
+      "notes": {
+        "en": "Most influential Western theologian. His works span theology, philosophy, biblical interpretation, and autobiography.",
+        "es": "Teólogo occidental más influyente. Sus obras abarcan teología, filosofía, interpretación bíblica y autobiografía."
+      }
+    }
+  ]
+}

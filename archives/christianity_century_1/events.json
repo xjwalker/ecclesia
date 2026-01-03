@@ -62,7 +62,8 @@
         "SRC_SANDERS",
         "SRC_BROWN_DEATH",
         "SRC_MEIER"
-      ]
+      ],
+      "highlight": "historical_event"
     },
     {
       "id": "EVT_0048_PAUL_MISSION",
@@ -129,7 +130,9 @@
         "SRC_SANDERS_JUDAISM",
         "SRC_DUNN",
         "SRC_EHRMAN_NT"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Caravaggio_-_St._Paul_the_Apostle.jpg/800px-Caravaggio_-_St._Paul_the_Apostle.jpg"
     },
     {
       "id": "EVT_0050_JERUSALEM_COUNCIL",
@@ -183,14 +186,26 @@
         }
       ],
       "region": "Jerusalem",
-      "event_type": "council",
+      "event_type": "Council",
       "sources": [
         "SRC_PAUL_AUTH",
         "SRC_ACTS",
         "SRC_SANDERS_JUDAISM",
         "SRC_DUNN",
         "SRC_EHRMAN_NT"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Gentile Inclusion: Faith Not Law",
+          "es": "Inclusión de Gentiles: Fe No Ley"
+        },
+        "summary": {
+          "en": "Gentile converts do not need circumcision or full observance of Mosaic law; salvation by faith, not law",
+          "es": "Los conversos gentiles no necesitan circuncisión ni observancia completa de la ley mosaica; salvación por fe, no ley"
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jouvenet%2C_Jean-Baptiste_-_The_Apostles_Peter_and_John_Healing_the_Lame_Man_at_the_Gate_of_the_Temple_-_Google_Art_Project.jpg/800px-Jouvenet%2C_Jean-Baptiste_-_The_Apostles_Peter_and_John_Healing_the_Lame_Man_at_the_Gate_of_the_Temple_-_Google_Art_Project.jpg"
     },
     {
       "id": "EVT_0062_PAUL_DEATH",
@@ -237,7 +252,9 @@
         "SRC_EHRMAN_NT",
         "SRC_DUNN",
         "SRC_ACTS"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Rembrandt_-_The_Apostle_Paul_-_WGA19120.jpg/800px-Rembrandt_-_The_Apostle_Paul_-_WGA19120.jpg"
     },
     {
       "id": "EVT_0070_TEMPLE",
@@ -292,7 +309,9 @@
         "SRC_GOSPELS_SYN",
         "SRC_EHRMAN_NT",
         "SRC_SANDERS"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Francesco_Hayez_017.jpg/1024px-Francesco_Hayez_017.jpg"
     },
     {
       "id": "EVT_0064_NERO_PERSECUTION",
@@ -352,7 +371,9 @@
         "SRC_SUETONIUS",
         "SRC_EHRMAN_NT",
         "SRC_CROSSAN"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Siemiradzki_Fackeln.jpg/1024px-Siemiradzki_Fackeln.jpg"
     },
     {
       "id": "EVT_0049_CLAUDIUS_EXPULSION",
@@ -406,7 +427,9 @@
         "SRC_ACTS",
         "SRC_EHRMAN_NT",
         "SRC_DUNN"
-      ]
+      ],
+      "highlight": "historical_event",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Claudius_Pio-Clementino_Inv243.jpg/800px-Claudius_Pio-Clementino_Inv243.jpg"
     },
     {
       "id": "EVT_0070_GOSPEL_MARK",
@@ -454,7 +477,19 @@
         "SRC_EHRMAN_NT",
         "SRC_BAUCKHAM",
         "SRC_HENGEL"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Gospel Genre and Written Scripture",
+          "es": "Género del Evangelio y Escritura Escrita"
+        },
+        "definition": {
+          "en": "The creation of the gospel as a distinct literary genre, transitioning oral traditions about Jesus into permanent written form. Mark established the pattern of narrating Jesus's life, teachings, death, and resurrection as a coherent story, providing the template for Christian scriptural authority.",
+          "es": "La creación del evangelio como género literario distinto, haciendo la transición de las tradiciones orales sobre Jesús a forma escrita permanente. Marcos estableció el patrón de narrar la vida, enseñanzas, muerte y resurrección de Jesús como una historia coherente, proporcionando la plantilla para la autoridad escritural cristiana."
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Gospel_of_Mark_Chapter_1_Vaticanus.jpg/1024px-Gospel_of_Mark_Chapter_1_Vaticanus.jpg"
     },
     {
       "id": "EVT_0085_GOSPEL_MATTHEW",
@@ -502,7 +537,19 @@
         "SRC_EHRMAN_NT",
         "SRC_DUNN",
         "SRC_ALLISON"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Prophetic Fulfillment and New Law",
+          "es": "Cumplimiento Profético y Nueva Ley"
+        },
+        "definition": {
+          "en": "The doctrine that Jesus fulfills Old Testament prophecies and establishes a new law (Sermon on the Mount). Matthew presents Jesus as the new Moses bringing divine teaching, emphasizing the Great Commission to make disciples of all nations.",
+          "es": "La doctrina de que Jesús cumple las profecías del Antiguo Testamento y establece una nueva ley (Sermón del Monte). Mateo presenta a Jesús como el nuevo Moisés que trae enseñanza divina, enfatizando la Gran Comisión de hacer discípulos de todas las naciones."
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Caravaggio_-_Saint_Matthew_and_the_Angel.jpg/800px-Caravaggio_-_Saint_Matthew_and_the_Angel.jpg"
     },
     {
       "id": "EVT_0085_GOSPEL_LUKE",
@@ -550,7 +597,19 @@
         "SRC_ACTS",
         "SRC_EHRMAN_NT",
         "SRC_DUNN"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "Universal Salvation and Social Gospel",
+          "es": "Salvación Universal y Evangelio Social"
+        },
+        "definition": {
+          "en": "The doctrine that God's salvation extends universally to all people, with special emphasis on the marginalized: women, poor, Gentiles, and social outcasts. Luke presents Christianity as an inclusive movement of divine mercy and social justice.",
+          "es": "La doctrina de que la salvación de Dios se extiende universalmente a todas las personas, con énfasis especial en los marginados: mujeres, pobres, gentiles y excluidos sociales. Lucas presenta el cristianismo como un movimiento inclusivo de misericordia divina y justicia social."
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/St_luke.jpg/800px-St_luke.jpg"
     },
     {
       "id": "EVT_0095_GOSPEL_JOHN",
@@ -598,7 +657,19 @@
         "SRC_EHRMAN_NT",
         "SRC_BAUCKHAM",
         "SRC_HURTADO"
-      ]
+      ],
+      "highlight": "doctrine_established",
+      "doctrine": {
+        "name": {
+          "en": "High Christology: Jesus as Divine Logos",
+          "es": "Alta Cristología: Jesús como Logos Divino"
+        },
+        "definition": {
+          "en": "The explicit doctrine that Jesus is the eternal divine Word (Logos) who became flesh, fully equal with God the Father. John's 'I am' statements and prologue ('In the beginning was the Word, and the Word was with God, and the Word was God') establish the highest Christology in the New Testament, foundational for Trinitarian theology.",
+          "es": "La doctrina explícita de que Jesús es el Verbo divino eterno (Logos) que se hizo carne, completamente igual al Dios Padre. Las declaraciones 'Yo soy' de Juan y el prólogo ('En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios') establecen la cristología más alta del Nuevo Testamento, fundamental para la teología trinitaria."
+        }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Papyrus_52.jpg/1024px-Papyrus_52.jpg"
     }
   ]
 }

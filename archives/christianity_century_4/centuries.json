@@ -1,0 +1,19 @@
+{
+  "centuries": [
+    {
+      "id": "CENT_04_CE",
+      "century_range": [301, 400],
+      "summary": {
+        "en": "The Constantinian Revolution: Christianity transformed from persecuted sect to imperial religion. Major councils defined orthodox Christology (Nicaea 325, Constantinople 381) against Arianism. The Bible was canonized, monasticism emerged, and church-state relations were established.",
+        "es": "La Revolución Constantiniana: El cristianismo se transformó de secta perseguida a religión imperial. Concilios mayores definieron cristología ortodoxa (Nicea 325, Constantinopla 381) contra el arrianismo. Se canonizó la Biblia, surgió el monasticismo y se establecieron las relaciones iglesia-estado."
+      },
+      "confidence_id": "C1",
+      "sources": [
+        "SRC_EUSEBIUS_HE",
+        "SRC_ATHANASIUS",
+        "SRC_COUNCIL_DOCS",
+        "SRC_AUGUSTINE"
+      ]
+    }
+  ]
+}

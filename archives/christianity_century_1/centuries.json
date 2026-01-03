@@ -6,7 +6,10 @@
         1,
         100
       ],
-      "summary": "Origen y primera expansión del movimiento cristiano dentro del judaísmo del Segundo Templo.",
+      "summary": {
+        "en": "Origin and early expansion of the Christian movement within Second Temple Judaism.",
+        "es": "Origen y primera expansión del movimiento cristiano dentro del judaísmo del Segundo Templo."
+      },
       "confidence_id": "C1",
       "sources": [
         "SRC_EHRMAN_NT"

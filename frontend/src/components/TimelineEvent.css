@@ -28,8 +28,8 @@
 }
 
 .timeline-event.horizontal .timeline-content {
-  max-height: 400px;
-  overflow-y: auto;
+  /* Remove scroll - let content flow naturally */
+  overflow: visible;
 }
 
 .timeline-event.horizontal .timeline-content::after {
@@ -48,6 +48,14 @@
 .timeline-content:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.event-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 
 .timeline-event.left .timeline-content::after {
